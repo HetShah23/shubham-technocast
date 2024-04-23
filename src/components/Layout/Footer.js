@@ -286,7 +286,7 @@ function Footer(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="row pb-3">
+                    <div className="row py-3">
                         <div className="col-md-12">
                             <div className="address-section address-sec p-4 border">
                                 <ul className="row align-items-center">

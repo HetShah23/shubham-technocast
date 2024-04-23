@@ -416,7 +416,7 @@ export default function Home() {
 											For Your Business?</h2>
 									</div>
 								</div>
-								<Link href={'/contact-us'} class="btn-2 mt-3">
+								<Link href={'/contact-us'} className="btn-2 mt-3">
 									Contact Us Now
 								</Link>
 							</div>

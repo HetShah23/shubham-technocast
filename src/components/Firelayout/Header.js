@@ -39,7 +39,7 @@ function Header(props) {
                     <div className='row'>
                         <div className='col-12'>
                             <div className='main-header-wraper'>
-                                <div className='logo-div'>
+                                {/* <div className='logo-div'>
                                     <Link href={'/'} className={router.pathname == '/' ? 'active' : ''}>
                                         <Image
                                             src={'/assets/images/firetechlogo.svg'}
@@ -49,6 +49,40 @@ function Header(props) {
                                             alt="logo"
                                         />
                                     </Link>
+                                </div> */}
+                                <div className='logo-div'>
+                                    <div className='position-relative'>
+                                        <div className='d-flex align-items-center'>
+
+                                            <Link href={'/fire-tech'} className={router.pathname == '/' ? 'active' : ''}>
+                                                <Image
+                                                    src={'/assets/images/firetechlogo.svg'}
+                                                    width={150}
+                                                    height={60}
+                                                    quality={100}
+                                                    alt="logo"
+                                                />
+                                            </Link>
+                                            <div className="headr-dropdwon-button">
+                                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.00004 7.33398L13.6667 0.667318L0.333374 0.667318L7.00004 7.33398Z" fill="#fff"></path>
+                                                </svg>
+                                            </div>
+                                            <div className="headr-dropdwon-body-main">
+                                                <div className="headr-dropdwon-body-inner">
+                                                    <Link href={'/'} className={router.pathname == '/' ? 'active d-block' : 'd-block'}>
+                                                        <Image
+                                                            src={'/assets/images/shubham_technocast.svg'}
+                                                            width={150}
+                                                            height={60}
+                                                            quality={100}
+                                                            alt="logo"
+                                                        />
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="menu-wrapper">
                                     <ul>

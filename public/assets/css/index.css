@@ -239,13 +239,17 @@ footer .pages-link ul li {
 	color: #1d4794;
 }
 
-.gray-bg {
-	background-color: #F8F9FB;
-}
-
 .small-title span {
 	color: #1d4794;
 	font-weight: 600;
+}
+
+.text-black-theme {
+	color: #141414 !important;
+}
+
+.border-left-theme {
+	border-left: 3px solid #1d4794;
 }
 
 .small-title p {
@@ -521,6 +525,12 @@ header {
 
 .image-div-hoverable {
 	position: relative;
+	transition: 0.3s all;
+}
+
+.image-div-hoverable:hover .bottom-white-img {
+	background-color: #1d4794;
+	color: #fff;
 }
 
 .glass-effect {
@@ -553,7 +563,7 @@ header {
 	margin-top: -20px;
 	z-index: 1;
 	position: relative;
-	width: fit-content;
+	width: 95%;
 	text-align: center;
 	margin: -20px auto 0 auto;
 }
@@ -589,7 +599,7 @@ header {
 
 .common-title p {
 	color: #fff;
-	letter-spacing: 1.2px;
+	letter-spacing: 1.1px;
 	font-size: 16px;
 }
 
@@ -736,6 +746,60 @@ header {
 	justify-content: center;
 }
 
+.our-client-box img {
+	max-width: 150px;
+}
+
+.bg-blue {
+	background: linear-gradient(97.76deg, #2A519A -0.13%, #154090 99.87%);
+}
+
+.bg-image-firetech {
+	background-image: url("../images/firetech-icon-bg.png"), linear-gradient(97.76deg, rgba(42, 81, 154, 0.95) -0.13%, rgba(21, 64, 144, 0.95) 99.87%);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.top-negative-margin-firetech {
+	margin-top: -100px
+}
+
+.headr-dropdwon-body-main {
+	position: absolute;
+	top: 60px;
+
+	transition: transform .8s cubic-bezier(.645, .045, .355, 1);
+	animation: fadeInAnimation .3s ease;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	display: none;
+	padding-top: 11px;
+
+}
+
+.headr-dropdwon-body-inner {
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.25);
+	-webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(4px);
+
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		transform: translateY(30px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+
+}
+
+.logo-div:hover .headr-dropdwon-body-main,
+.headr-dropdwon-body-main:hover {
+	display: block;
+}
 
 /* -------------------media query -------------------- */
 @media (min-width: 1200px) {
@@ -743,6 +807,11 @@ header {
 	.container,
 	.container-fluid {
 		max-width: 1440px;
+	}
+
+	.our-client-box .col-xl-2 {
+		flex: 0 0 auto;
+		width: calc(100% / 5);
 	}
 }
 
