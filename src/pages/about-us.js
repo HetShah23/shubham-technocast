@@ -102,7 +102,7 @@ export default function aboutus(props) {
             <section className="common-space about-bg-sec">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 top-negative-margin about-margin">
+                        <div className="col-12 top-negative-margin about-margin ">
                             <div className="row">
                                 <div className="col-md-4 mb-3">
                                     <div className="image-div-hoverable">
@@ -158,14 +158,14 @@ export default function aboutus(props) {
                             </div>
                         </div>
 
-                        <div className="col-12">
+                        <div className="col-12 pt-5">
                             <div className="common-title">
                                 <h2 className="text-center">Markets Served</h2>
                             </div>
                         </div>
                         <div className="col-12 mt-3">
                             <div className="row">
-                                <div className="col-md-6 mb-3">
+                                <div className="col-md-6 mb-4">
                                     <div className="image-div-hoverable">
                                         <Image
                                             src={'/assets/images/market-1.png'}
@@ -182,7 +182,7 @@ export default function aboutus(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 mb-3">
+                                <div className="col-md-6 mb-4">
                                     <div className="image-div-hoverable">
                                         <Image
                                             src={'/assets/images/market-2.png'}
@@ -199,7 +199,7 @@ export default function aboutus(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 mb-3">
+                                <div className="col-md-6 mb-4">
                                     <div className="image-div-hoverable">
                                         <Image
                                             src={'/assets/images/market-3.png'}
@@ -216,7 +216,7 @@ export default function aboutus(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 mb-3">
+                                <div className="col-md-6 mb-4">
                                     <div className="image-div-hoverable">
                                         <Image
                                             src={'/assets/images/market-4.png'}

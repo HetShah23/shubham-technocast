@@ -148,7 +148,20 @@ footer .pages-link ul li {
 }
 
 .bg-home {
-	background-image: url('../images/home-bg.png')
+	background-image: url('../images/home-bg.png');
+	height: 100vh;
+}
+
+.bg-home-slide-2 {
+	background-image: url('../images/bg-home-slide-2.png')
+}
+
+.bg-home-slide-3 {
+	background-image: url('../images/bg-home-slide-3.png')
+}
+
+.bg-home-slide-4 {
+	background-image: url('../images/bg-home-slide-4.png')
 }
 
 .top-header-txt h1 {
@@ -523,6 +536,10 @@ header {
 	font-size: 16px;
 }
 
+.qaulity-txt h2 {
+	font-size: 50px;
+}
+
 .image-div-hoverable {
 	position: relative;
 	transition: 0.3s all;
@@ -630,6 +647,8 @@ header {
 	background-image: url("../images/about-bg-se.png"), linear-gradient(97.76deg, rgba(42, 81, 154, 0.95) -0.13%, rgba(21, 64, 144, 0.95) 99.87%);
 	background-blend-mode: overlay;
 	padding-bottom: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .bg-home-blue {
@@ -640,10 +659,11 @@ header {
 }
 
 .bg-home-2 {
-	background-image: url("../images/fire.png"), linear-gradient(97.76deg, rgba(42, 81, 154, 0.95) -0.13%, rgba(21, 64, 144, 0.95) 99.87%);
+	background-image: url("../images/fire.png");
 	background-blend-mode: overlay;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-size: 100% 82%;
 }
 
 .text-blues {
@@ -801,6 +821,23 @@ header {
 	display: block;
 }
 
+.icon-box-major {
+	border: 1px solid #1d4794;
+	padding: 10px;
+
+	width: fit-content;
+	margin: 0 auto;
+	min-width: 100px;
+}
+
+.icon-box-major .inner-icon {
+	background-color: #1d4794;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 /* -------------------media query -------------------- */
 @media (min-width: 1200px) {
 
@@ -876,6 +913,14 @@ header {
 		transform: scaleY(1);
 		overflow-y: auto;
 		overflow-x: hidden;
+	}
+
+	.bg-home.bg-image.no-margin {
+		height: 100vh
+	}
+
+	.bg-home-2 {
+		background-size: cover;
 	}
 
 }
