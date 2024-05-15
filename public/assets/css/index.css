@@ -839,6 +839,12 @@ header {
 }
 
 /* -------------------media query -------------------- */
+@media (min-width: 1200px) and (max-width: 1439px) {
+	.common-space {
+		padding: 45px 60px;
+	}
+}
+
 @media (min-width: 1200px) {
 
 	.container,
