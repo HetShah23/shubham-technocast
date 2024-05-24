@@ -119,7 +119,7 @@ export default function Home() {
 				<section className="common-space">
 					<div className="container">
 						<div className='row'>
-							<div className='col-lg-6 mb-md-0 mb-3 text-lg-start'>
+							<div className='col-lg-8 col-md-6 mb-lg-0 mb-3 text-lg-start'>
 								<button className="btn-1" disabled>Lorem ipsum</button>
 								<div className="gradiant-txt qaulity-txt mt-3">
 									<div className="mb-3">
@@ -146,7 +146,7 @@ export default function Home() {
 									</Tabs>
 								</div>
 							</div>
-							<div className='col-lg-6 mb-md-0 mb-3 text-lg-center text-center'>
+							<div className='col-lg-4 col-md-6 mb-lg-0 mb-3 text-lg-center text-center'>
 								<Image
 									src={'/assets/images/home-img-1.png'}
 									width={300}
@@ -160,8 +160,8 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="common-space text-side position-relative bg-white">
-					<div className="container">
+				<section className="common-space  position-relative bg-white">
+					<div className="container text-side position-relative">
 						<div className='row'>
 							<div className='col-md-12 mb-4'>
 								<div className="gradiant-txt qaulity-txt mt-3">
@@ -484,13 +484,13 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="common-space bg-home-2">
+				<section className="common-space-all bg-home-2">
 					<div className="container">
 						<div className="row">
-							<div className="col-md-6 text-center mb-md-0 mb-3">
-								<img src='/assets/images/wheel.png' className="img-fluid" />
+							<div className="col-lg-6 text-center wheel-img">
+								{/* <img src='/assets/images/wheel.png' className="img-fluid" /> */}
 							</div>
-							<div className="col-md-6 text-md-start text-center pb-md-0 pb-3">
+							<div className="col-lg-6 text-lg-start text-center">
 								<div className="gradiant-txt qaulity-txt  mt-3">
 									<div className="mb-3">
 										<h2 className="text-white">Do You Want <br />

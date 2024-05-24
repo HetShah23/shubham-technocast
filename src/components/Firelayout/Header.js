@@ -116,6 +116,11 @@ function Header(props) {
                                                 Contact us
                                             </Link>
                                         </li>
+                                        <li className="d-block d-lg-none">
+                                            <Link href="/" className="border-top border-bottom py-2">
+                                                Download Brochure
+                                            </Link>
+                                        </li>
                                     </ul>
                                     <div className="hamburger d-lg-none d-block" id="hamburger-icn" onClick={() => humbergeropen()}>
                                         <span className="line"></span>

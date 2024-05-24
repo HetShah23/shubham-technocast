@@ -336,10 +336,9 @@ function Footer(props) {
                     </div>
                     <div className="row ft-under-sec">
                         <div className="col-12 py-3">
-                            <div className="d-sm-flex  align-items-center">
-                                <p className='mb-0'>Copyrights 2018 © All Rights Reserved</p>
-                                <div className="social-ft ms-auto mt-sm-0 mt-3">
-                                    <ul className='d-flex align-items-center'>
+                            <div className="d-sm-flex  align-items-center text-center">
+                                <div className="social-ft ms-auto order-1">
+                                    <ul className='d-flex align-items-center justify-content-center'>
                                         <li className='me-2'>
                                             <Link href="/product">
                                                 Products
@@ -362,6 +361,7 @@ function Footer(props) {
                                         </li>
                                     </ul>
                                 </div>
+                                <p className='mb-0 mt-sm-0 mt-3'>Copyrights 2018 © All Rights Reserved</p>
                             </div>
                         </div>
                     </div>

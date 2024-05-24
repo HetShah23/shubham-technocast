@@ -537,7 +537,7 @@ header {
 }
 
 .qaulity-txt h2 {
-	font-size: 50px;
+	font-size: 45px;
 }
 
 .image-div-hoverable {
@@ -659,11 +659,12 @@ header {
 }
 
 .bg-home-2 {
+	/* background-color: #f8f9fb; */
 	background-image: url("../images/fire.png");
 	background-blend-mode: overlay;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-size: 100% 82%;
+	/* background-size: 100%; */
 }
 
 .text-blues {
@@ -724,7 +725,7 @@ header {
 	content: 'Shubham';
 	position: absolute;
 	bottom: 140px;
-	right: 0;
+	right: -17%;
 	-webkit-text-stroke: 2px #ecedf1a6;
 	color: transparent;
 	font-size: 100px;
@@ -736,7 +737,7 @@ header {
 	content: 'Technocast';
 	position: absolute;
 	top: 270px;
-	left: -61px;
+	left: -20%;
 	-webkit-text-stroke: 2px #ecedf1a6;
 	color: transparent;
 	font-size: 100px;
@@ -838,6 +839,28 @@ header {
 	justify-content: center;
 }
 
+.common-space-all {
+	padding: 45px 0;
+}
+
+.wheel-img {
+	position: relative;
+}
+
+.wheel-img::after {
+	content: '';
+	position: absolute;
+	background-image: url('../images/wheel.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160%;
+	width: 42%;
+	left: 50%;
+	top: -51px;
+	transform: translateX(-50%);
+}
+
+
 /* -------------------media query -------------------- */
 @media (min-width: 1200px) and (max-width: 1439px) {
 	.common-space {
@@ -929,6 +952,18 @@ header {
 		background-size: cover;
 	}
 
+	.bg-home-2 .wheel-img {
+		display: none;
+	}
+
+}
+
+@media(max-width:768px) {
+	.product-top-div svg {
+		display: none
+	}
+
+
 }
 
 
@@ -955,5 +990,14 @@ header {
 
 	.about-margin {
 		margin-top: 0
+	}
+
+	.common-title h1 {
+		font-size: 35px
+	}
+
+	.text-side::before,
+	.text-side::after {
+		font-size: 80px
 	}
 }

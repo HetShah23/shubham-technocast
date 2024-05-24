@@ -43,7 +43,7 @@ export default function pumpcomponents(props) {
         <Layout>
             <section className="bg-image bg-pump-componet no-margin h-auto">
                 <div className="container h-100 ">
-                    <div className="row h-100 align-items-center common-space">
+                    <div className="row h-100 align-items-center common-space-all">
                         <div className="col-lg-6 text-lg-start text-center mb-lg-0 mb-3">
                             <div className="common-title">
                                 <h1>Pump Components</h1>
@@ -58,7 +58,7 @@ export default function pumpcomponents(props) {
                                 height={450}
                                 quality={100}
                                 alt="logo"
-                            // className='img-fluid'
+                                className='img-fluid'
                             />
                         </div>
                     </div>

@@ -1,3 +1,4 @@
+import ClientLogoSlider from '@/components/ClientLogoSlider';
 import Layout from '@/components/Firelayout/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -437,115 +438,123 @@ export default function firetech(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
+                        <div className="col-md-12 pb-3">
+                           
+                                <ClientLogoSlider />
+                        </div>
+                        {/* <div className='col-md-12'>
+                            <div className="row flex-nowrap overflow-x-hidden customer-slider">
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
 
-                                    <img src='/assets/images/client-logo-1.png' className="img-fluid" alt='' />
+                                            <img src='/assets/images/client-logo-1.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-2.png' className="img-fluid" alt='' />
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-2.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
 
-                                    <img src='/assets/images/client-logo-3.png' className="img-fluid" alt='' />
+                                            <img src='/assets/images/client-logo-3.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
 
-                                    <img src='/assets/images/client-logo-4.png' className="img-fluid" alt='' />
+                                            <img src='/assets/images/client-logo-4.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
 
-                                    <img src='/assets/images/client-logo-5.png' className="img-fluid" alt='' />
+                                            <img src='/assets/images/client-logo-5.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-6.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-7.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-8.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-9.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-10.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-11.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-12.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-13.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-14.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
+                                    <div className="white-box p-0 h-100 d-flex align-item-center">
+                                        <div>
+                                            <img src='/assets/images/client-logo-15.png' className="img-fluid" alt='' />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-6.png' className="img-fluid" alt='' />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-7.png' className="img-fluid" alt='' />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-8.png' className="img-fluid" alt='' />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-9.png' className="img-fluid" alt='' />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-10.png' className="img-fluid" alt='' />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-11.png' className="img-fluid" alt='' />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-12.png' className="img-fluid" alt='' />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-13.png' className="img-fluid" alt='' />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-14.png' className="img-fluid" alt='' />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-item-center">
-                                <div>
-                                    <img src='/assets/images/client-logo-15.png' className="img-fluid" alt='' />
-                                </div>
-                            </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
