@@ -1,8 +1,13 @@
 import Layout from '@/components/Layout/Layout';
 import Link from 'next/link';
 import React from 'react';
+import { useRouter } from 'next/router';
 
 function contactus(props) {
+    const router = useRouter();
+
+    console.log(router);
+
     return (
         <Layout>
             <section className="bg-image bg-contact">
@@ -25,7 +30,7 @@ function contactus(props) {
                                 <div className="row">
                                     <div className="col-12">
                                         <div className="bottom-line-txt">
-                                            <span>Lorem ipsum is simple dummy</span>
+                                            <span>Contact Us</span>
                                         </div>
                                     </div>
                                     <div className="col-12 py-2">
@@ -58,7 +63,7 @@ function contactus(props) {
                                                 <textarea className="form-control cust-input" placeholder="Write here"></textarea>
                                             </div>
                                             <div className="col-12 text-center">
-                                                <button className="btn-1">submit</button>
+                                                <button className="btn-1">Inquire</button>
                                             </div>
                                         </form>
                                     </div>
@@ -96,7 +101,11 @@ function contactus(props) {
 
                                                     <span>Address</span>
                                                 </div>
-                                                <p className='mt-2'>Survey Number : 282, Village : Shapar, Taluka : Kotda Sangani, <br /> Dist. Rajkot- 360024, Gujarat (INDIA)</p>
+                                                <p className='mt-2'>
+                                                    G-1951/2, Opp. Jyoti CNC, Gate No 2, <br/>
+                                                    Near SKY Surgical Metoda GIDC, <br/>
+                                                    Kalawad Road, Metoda, Gujarat (India) - 360021
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -131,8 +140,8 @@ function contactus(props) {
                                                             <span>Phone</span>
                                                         </div>
                                                         <p className='mt-2'>
-                                                            Phone no. 1: <Link href='tel:+91 94265 28500'>+91 94265 28500</Link> <br />
-                                                            Phone no. 2: <Link href='tel:+91 89050 96769'>+91 89050 96769</Link>
+                                                            <Link href='tel:+91 94265 28500'>+91 94265 28500</Link> <br />
+                                                            <Link href='tel:+91 89050 96769'>+91 89050 96769</Link>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -173,7 +182,7 @@ function contactus(props) {
                                             <div className="social-icn mt-3">
                                                 <ul className="d-flex align-items-center justify-content-center">
                                                     <li className="me-2">
-                                                        <Link href=''>
+                                                        <Link href='https://www.facebook.com/shubhamtechnocast/' rel="noopener noreferrer" target="_blank">
                                                             <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <rect width="60" height="60" rx="30" fill="white" />
                                                                 <path d="M32.0882 42V31.0524H35.7621L36.3115 26.7862H32.0882V24.063C32.0882 22.828 32.4322 21.9848 34.2023 21.9848H36.462V18.1629C35.3678 18.0488 34.2681 17.9946 33.1679 18.0004C29.9145 18.0004 27.6739 19.9831 27.6739 23.6402V26.7862H24V31.0524H27.6739V42H32.0882Z" fill="#141414" />
@@ -181,7 +190,7 @@ function contactus(props) {
                                                         </Link>
                                                     </li>
                                                     <li className="me-2">
-                                                        <Link href=''>
+                                                        <Link href='' rel="noopener noreferrer" target="_blank">
 
                                                             <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <rect width="60" height="60" rx="30" fill="white" />
@@ -190,16 +199,16 @@ function contactus(props) {
 
                                                         </Link>
                                                     </li>
-                                                    <li className="me-2">
+                                                    {/* <li className="me-2">
                                                         <Link href=''>
                                                             <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <rect width="60" height="60" rx="30" fill="white" />
                                                                 <path d="M40.0935 24.9789C40.1086 25.1959 40.1086 25.4129 40.1086 25.6319C40.1086 32.3045 35.0289 40 25.7405 40V39.9959C22.9965 39.9999 20.3094 39.214 18 37.7322C18.399 37.7801 18.7999 37.8041 19.202 37.805C21.4762 37.8068 23.6851 37.044 25.4736 35.6392C24.4198 35.6193 23.3986 35.2706 22.5528 34.6419C21.7069 34.0131 21.0787 33.1358 20.7559 32.1325C21.5124 32.2783 22.2924 32.2486 23.0356 32.0455C20.6798 31.5695 18.9849 29.4997 18.9849 27.0958V27.0318C19.6872 27.4229 20.4732 27.6397 21.2767 27.6638C19.058 26.1808 18.374 23.229 19.7138 20.9211C20.9815 22.4812 22.5633 23.7571 24.3563 24.666C26.1494 25.5749 28.1135 26.0965 30.1213 26.1968C29.9211 25.3351 29.9507 24.436 30.207 23.5893C30.4634 22.7426 30.9375 21.9781 31.5821 21.3722C33.616 19.4603 36.8147 19.5583 38.7267 21.5911C39.8575 21.3678 40.942 20.9533 41.9334 20.3652C41.5564 21.5345 40.7675 22.5269 39.7135 23.158C40.7145 23.0401 41.6921 22.7721 42.6134 22.3632C41.9357 23.378 41.0824 24.2637 40.0935 24.9789Z" fill="#141414" />
                                                             </svg>
                                                         </Link>
-                                                    </li>
+                                                    </li> */}
                                                     <li className="me-2">
-                                                        <Link href=''>
+                                                        <Link href='https://in.linkedin.com/company/shubhamtechnocast' rel="noopener noreferrer" target="_blank">
                                                             <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <rect width="60" height="60" rx="30" fill="white" />
                                                                 <path d="M40.0329 39.9999H35.8848V33.5036C35.8848 31.9545 35.8571 29.9604 33.7274 29.9604C31.5668 29.9604 31.2363 31.6482 31.2363 33.3909V39.9995H27.0882V26.6405H31.0704V28.4662H31.1261C31.5246 27.7848 32.1005 27.2242 32.7924 26.8442C33.4843 26.4642 34.2663 26.2789 35.0552 26.3082C39.2595 26.3082 40.0347 29.0737 40.0347 32.6714L40.0329 39.9999ZM22.4077 24.8146C21.0782 24.8148 20.0002 23.7371 20 22.4077C19.9998 21.0782 21.0773 20.0002 22.4068 20C23.7363 19.9997 24.8142 21.0773 24.8144 22.4068C24.8146 23.0452 24.5611 23.6576 24.1097 24.1091C23.6583 24.5607 23.0461 24.8144 22.4077 24.8146ZM24.4818 40H20.3293V26.6405H24.4817L24.4818 40Z" fill="#141414" />
@@ -218,7 +227,7 @@ function contactus(props) {
                 </div>
             </section>
             <section className='common-space pb-0'>
-                <iframe src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=G-1951/2,%20Rd%20M,%20jyoti%20cnc,%20gate%20Metoda,%20Metoda,%20Gujarat%20360021&t=&z=14&ie=UTF8&iwloc=B&output=embed" className='w-100' height={400} />
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.3147106086903!2d70.67834531453836!3d22.228135085361146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cce5827f86e3%3A0x871b928c7ee35e6b!2sShubham+Technocast!5e0!3m2!1sen!2sin!4v1527138462696" className='w-100' height={400} />
             </section>
 
         </Layout>

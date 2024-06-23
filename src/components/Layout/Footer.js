@@ -195,7 +195,7 @@ function Footer(props) {
                                 <div className="social-ft ms-auto mt-sm-0 mt-3">
                                     <ul className='d-flex align-items-center'>
                                         <li className='me-2'>
-                                            <Link href="">
+                                            <Link href='https://www.facebook.com/shubhamtechnocast/' rel="noopener noreferrer" target="_blank">
                                                 <svg width="30" height="30" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="34" height="34" rx="17" fill="white" fill-opacity="0.15" />
                                                     <path d="M18.0662 26V17.7893H20.8216L21.2336 14.5896H18.0662V12.5473C18.0662 11.621 18.3242 10.9886 19.6517 10.9886H21.3465V8.12214C20.5258 8.03661 19.7011 7.99594 18.876 8.00032C16.4359 8.00032 14.7554 9.4873 14.7554 12.2302V14.5896H12V17.7893H14.7554V26H18.0662Z" fill="white" />
@@ -210,16 +210,16 @@ function Footer(props) {
                                                 </svg>
                                             </Link>
                                         </li>
-                                        <li className='me-2'>
+                                        {/* <li className='me-2'>
                                             <Link href="">
                                                 <svg width="30" height="30" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="34" height="34" rx="17" fill="white" fill-opacity="0.15" />
                                                     <path d="M24.1474 13.4135C24.1577 13.5623 24.1577 13.7111 24.1577 13.8613C24.1577 18.436 20.6751 23.7121 14.3069 23.7121V23.7092C12.4256 23.712 10.5833 23.1732 9 22.1572C9.27356 22.1901 9.54844 22.2065 9.82406 22.2072C11.3833 22.2084 12.8977 21.6854 14.1239 20.7223C13.4014 20.7086 12.7013 20.4696 12.1214 20.0385C11.5415 19.6074 11.1107 19.0059 10.8894 18.3181C11.4081 18.4181 11.9429 18.3977 12.4524 18.2584C10.8373 17.9321 9.67528 16.513 9.67528 14.8649V14.821C10.1568 15.0892 10.6956 15.2378 11.2465 15.2543C9.72534 14.2376 9.25641 12.2138 10.175 10.6315C11.0442 11.7011 12.1286 12.5759 13.3579 13.199C14.5872 13.8222 15.9339 14.1798 17.3104 14.2486C17.1731 13.6578 17.1934 13.0413 17.3692 12.4608C17.5449 11.8804 17.87 11.3562 18.3119 10.9408C19.7063 9.62996 21.8994 9.69718 23.2103 11.0909C23.9856 10.9378 24.7291 10.6536 25.4088 10.2504C25.1503 11.052 24.6095 11.7325 23.8868 12.1652C24.5732 12.0843 25.2434 11.9006 25.875 11.6202C25.4104 12.316 24.8253 12.9232 24.1474 13.4135Z" fill="white" />
                                                 </svg>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         <li className='me-2'>
-                                            <Link href="">
+                                            <Link href='https://in.linkedin.com/company/shubhamtechnocast' rel="noopener noreferrer" target="_blank">
 
                                                 <svg width="30" height="30" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="34" height="34" rx="17" fill="white" fill-opacity="0.15" />
@@ -297,9 +297,11 @@ function Footer(props) {
                                         </svg>
                                         <div>
                                             <p className="mb-0">ADDRESS:</p>
-                                            <span>Survey Number : 282, Village : Shapar, <br />
-                                                Taluka : Kotda Sangani, Dist. : Rajkot-  <br />
-                                                360024, Gujarat (INDIA)</span>
+                                            <span>
+                                                G-1951/2, Opp. Jyoti CNC, Gate No 2, <br/>
+                                                Near SKY Surgical Metoda GIDC, <br/>
+                                                Kalawad Road, Metoda, Gujarat (India) - 360021
+                                            </span>
                                         </div>
                                     </li>
                                     <li className="col-lg-4 mb-3 border-end px-lg-5 ">

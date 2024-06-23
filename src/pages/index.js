@@ -120,28 +120,30 @@ export default function Home() {
 					<div className="container">
 						<div className='row'>
 							<div className='col-lg-8 col-md-6 mb-lg-0 mb-3 text-lg-start'>
-								<button className="btn-1" disabled>Lorem ipsum</button>
+								<button className="btn-1" disabled>About</button>
 								<div className="gradiant-txt qaulity-txt mt-3">
 									<div className="mb-3">
 										<h2 className="mb-0 fw-bold"><span>Shubham Technocast </span> <br /> Investment Casting Industry</h2>
 									</div>
-									<p>
-										At SHUBHAM TECHNOCAST, we commit to provide you with the best casting & deliver just-in-time. Customer’s requirements are given importance as well quality is maintained. Our team is completely trained & well equipped to meet our customers ‘Requirements’.
-									</p>
-									<p>SHUBHAM TECHNOCAST has started in the year 2014 for manufacture of Ferrous & Non Ferrous Investment Casting as per international standard.</p>
-
+									<p>Founded in 2014 by the Shubham Group, Shubham Technocast has grown to become one of India's largest manufacturers of investment castings. Our in-house precision machining shop is equipped with the latest CNC, VMC, and Lathe machines, along with comprehensive QA/QC instruments, including CMM and Hydro-Pressure Testing Machines. Our success and continuous growth are driven by our commitment to delivering top-quality investment castings with timely deliveries.</p>
 								</div>
 								<div className="cust-tab">
 
 									<Tabs
-										defaultActiveKey="Industrial"
+										defaultActiveKey="Casting"
 										id="uncontrolled-tab-example"
 									>
-										<Tab eventKey="Industrial" title="Industrial">
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+										<Tab eventKey="Casting" title="Investment Casting">
+											At SHUBHAM TECHNOCAST, we commit to provide you with the best casting & deliver just-in-time. Customer’s requirements are given importance as well quality is maintained. Our team is completely trained & well equipped to meet our customers ‘Requirements’.
 										</Tab>
-										<Tab eventKey="Manufacturing" title="Manufacturing">
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+										<Tab eventKey="Firetech" title="Firetech">
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+											<Link href={'/fire-tech'}>
+												<button className="btn-1 cursor-pointer">
+													Know More 
+													<svg width="7" height="12" class="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 11L6 6L1 1" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+												</button>
+											</Link>
 										</Tab>
 									</Tabs>
 								</div>
@@ -175,11 +177,11 @@ export default function Home() {
 									<div className="col-md-4 mb-3">
 										<img src="/assets/images/chhose-2.png" className="img-fluid" />
 									</div>
-									<div className="col-md-8 mb-3">
+									<div className="col-md-4 mb-3">
 										<div className="white-box gray-bg h-100">
-											<h6 className="txt-theme-color fw-bold">Lorem ipsum is simple dummy text</h6>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+											<h6 className="txt-theme-color fw-bold">Excellence in Manufacturing & Client Satisfaction</h6>
+											<p>We are committed to delivering exceptional manufacturing solutions to meet the diverse needs of our clients. Our state-of-the-art facilities, skilled workforce, and unwavering dedication to quality set us apart in the industry.</p>
+											{/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p> */}
 											<ul>
 												<li className="d-flex">
 													<div className="me-2">
@@ -193,7 +195,7 @@ export default function Home() {
 															</defs>
 														</svg>
 													</div>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+													<p><span className="txt-theme-color fw-bold">Comprehensive Manufacturing Capabilities:</span> Our facilities include in-house CNC machining, induction hardening, surface hardening, electroplating, and polishing.</p>
 												</li>
 												<li className="d-flex">
 													<div className="me-2">
@@ -207,7 +209,55 @@ export default function Home() {
 															</defs>
 														</svg>
 													</div>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+													<p><span className="txt-theme-color fw-bold">Client-Centric Approach:</span> We prioritize client satisfaction by offering high-quality standard and customized products tailored to our clients' needs.</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div className="col-md-4 mb-3">
+										<div className="white-box gray-bg h-100">
+											<ul>
+												<li className="d-flex">
+													<div className="me-2">
+														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+															<defs>
+																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2A519A" />
+																	<stop offset="1" stop-color="#154090" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+													<p><span className="txt-theme-color fw-bold">Experienced and Talented Team:</span> Our team of professionals is highly skilled and experienced, ensuring the delivery of a wide range of high-quality products.</p>
+												</li>
+												<li className="d-flex">
+													<div className="me-2">
+														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+															<defs>
+																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2A519A" />
+																	<stop offset="1" stop-color="#154090" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+													<p><span className="txt-theme-color fw-bold">High Volume Production:</span> We are capable of supplying large volumes of fully machined, ready-to-assemble parts for the automotive industry and other sectors.</p>
+												</li>
+												<li className="d-flex">
+													<div className="me-2">
+														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+															<defs>
+																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																	<stop stop-color="#2A519A" />
+																	<stop offset="1" stop-color="#154090" />
+																</linearGradient>
+															</defs>
+														</svg>
+													</div>
+													<p><span className="txt-theme-color fw-bold">Quality Assurance:</span> We adhere to stringent quality control measures, ensuring every product meets the highest standards of excellence.</p>
 												</li>
 											</ul>
 										</div>
@@ -397,7 +447,7 @@ export default function Home() {
 												<path d="M36 0C29.3062 0.883929 22.5964 1.76786 15.9107 2.65179C8.51786 3.65625 2.78839 9.61875 2.33036 17.1161C2.06518 21.5759 3.77679 25.9152 6.975 29.025L0 36C6.69375 35.1161 13.3795 34.2321 20.0732 33.3482C27.45 32.3438 33.1955 26.3732 33.6295 18.9C33.9107 14.4402 32.183 10.1009 28.9929 6.99107L36 0ZM29.5955 18.667C29.258 25.0554 23.6491 29.8527 17.317 29.475C10.9286 29.0973 6.01071 23.7696 6.36429 17.3411C6.72589 10.9768 12.3348 6.14732 18.6589 6.53304C25.0312 6.91071 29.9491 12.2384 29.5955 18.667Z" fill="#00A5D8" />
 											</svg>
 											<h6 className="fw-bold mt-3">Wax Injection</h6>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+											<p>Wax in semi-liquid form is injected into dies using a semi-automatic hydraulic press to produce wax patterns, which are then 100% visually and dimensionally checked.</p>
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-4 mb-3">
@@ -406,8 +456,8 @@ export default function Home() {
 												<path d="M38.6195 13.0908L36.8783 12.5264C36.6459 12.4512 36.4828 12.2773 36.4213 12.0449C36.1616 11.0489 35.7651 10.1075 35.2583 9.23842C35.1362 9.02847 35.1284 8.7902 35.2387 8.57439L36.0717 6.94165C36.2104 6.67018 36.1606 6.35476 35.9448 6.13895L34.2866 4.48082C34.0708 4.26501 33.7554 4.21521 33.4839 4.35387L31.8483 5.18586C31.6325 5.29426 31.3942 5.2884 31.1872 5.16634C30.3181 4.65659 29.3767 4.26403 28.3806 4.00135C28.1453 3.9408 27.9734 3.77675 27.8992 3.54727L27.3319 1.8032C27.2381 1.51513 26.9803 1.32666 26.6727 1.32666H24.3281C24.0234 1.32666 23.7666 1.51513 23.6719 1.8032L23.1045 3.54727C23.0293 3.77675 22.8584 3.9408 22.6231 4.00135C21.639 4.26026 20.6948 4.6522 19.8166 5.16634C19.6066 5.2884 19.3713 5.29328 19.1525 5.18586L17.5198 4.35289C17.2483 4.21423 16.9329 4.26403 16.7171 4.47984L15.059 6.13797C14.8432 6.35378 14.7934 6.6692 14.932 6.94067L15.765 8.57341C15.8753 8.78922 15.8675 9.02749 15.7455 9.23744C15.2387 10.1065 14.8432 11.0479 14.5824 12.044C14.519 12.2764 14.3559 12.4512 14.1254 12.5254L12.3843 13.0898C12.0933 13.1836 11.9058 13.4443 11.9058 13.749V16.0946C11.9058 16.3992 12.0943 16.659 12.3823 16.7537L14.1264 17.3181C14.3588 17.3953 14.5199 17.5672 14.5834 17.8025C14.8432 18.7966 15.2396 19.7399 15.7464 20.6061C15.8685 20.816 15.8763 21.0543 15.766 21.2701L14.933 22.9029C14.7943 23.1743 14.8441 23.4927 15.06 23.7056L16.7181 25.3637C16.9339 25.5795 17.2493 25.6293 17.5208 25.4906L19.1565 24.6606C19.3723 24.5502 19.6076 24.5551 19.8176 24.6801C20.6867 25.1869 21.628 25.5795 22.6241 25.8431C22.8594 25.9037 23.0313 26.0678 23.1055 26.2972L23.6729 28.0413C23.7666 28.3323 24.0244 28.5198 24.3291 28.5198H26.6737C26.9813 28.5198 27.2381 28.3313 27.3328 28.0413L27.9002 26.2972C27.9754 26.0678 28.1463 25.9037 28.3816 25.8431C29.3777 25.5805 30.319 25.1869 31.1881 24.6801C31.3961 24.5551 31.6334 24.5502 31.8492 24.6606L33.4849 25.4906C33.7564 25.6293 34.0718 25.5795 34.2876 25.3637L35.9457 23.7056C36.1616 23.4927 36.2114 23.1743 36.0727 22.9029L35.2397 21.2701C35.1294 21.0543 35.1372 20.816 35.2593 20.6061C35.7661 19.7399 36.1586 18.7956 36.4223 17.8025C36.4828 17.5672 36.6469 17.3953 36.8764 17.3181L38.6204 16.7537C38.9114 16.66 39.0989 16.3992 39.0989 16.0946V13.7499C39.0979 13.4453 38.9095 13.1855 38.6195 13.0908ZM25.5009 22.2173C21.4708 22.2173 18.2073 18.9509 18.2073 14.9237C18.2073 10.8936 21.4708 7.62716 25.5009 7.62716C29.5281 7.62716 32.7945 10.8936 32.7945 14.9237C32.7955 18.9509 29.529 22.2173 25.5009 22.2173ZM10.8355 8.01679C10.8765 8.17499 10.8248 8.33221 10.6939 8.43182C10.5641 8.53142 10.3981 8.54216 10.2565 8.45916L8.18331 7.26292C8.08956 7.21019 7.98996 7.19652 7.88449 7.22386C7.77903 7.2512 7.69895 7.31565 7.64329 7.4094C5.56135 11.0303 5.61701 15.4647 7.72337 19.0017C7.93332 19.3561 7.52416 19.7575 7.17554 19.5417C2.20115 16.4715 0.254948 10.0333 2.93452 4.66343C3.02826 4.47496 2.96186 4.24841 2.77925 4.14294L0.697311 2.94182C0.555716 2.86175 0.481501 2.70941 0.503961 2.54829C0.526421 2.38521 0.636767 2.26021 0.794963 2.21627L8.32978 0.198782C8.53974 0.143121 8.75848 0.268115 8.81414 0.478067L10.8355 8.01679ZM50.4969 27.2943C50.4744 27.4573 50.364 27.5823 50.2059 27.6263L42.6681 29.6438C42.4581 29.7024 42.2414 29.5744 42.1837 29.3645L40.1663 21.8297C40.1223 21.6715 40.177 21.5113 40.3079 21.4117C40.4377 21.3121 40.6037 21.3014 40.7453 21.3844L42.8156 22.5806C42.9093 22.6333 43.0118 22.647 43.1173 22.6197C43.2228 22.5923 43.3028 22.5279 43.3585 22.4341C45.4404 18.8132 45.3848 14.3788 43.2784 10.8409C43.0685 10.4864 43.4747 10.0851 43.8263 10.3009C48.8006 13.373 50.7468 19.8092 48.0643 25.1791C47.9726 25.3676 48.039 25.5941 48.2225 25.6996L50.3016 26.9007C50.4441 26.9837 50.5164 27.1341 50.4969 27.2943ZM25.5009 10.254C22.9297 10.254 20.8312 12.3525 20.8312 14.9237C20.8312 17.4949 22.9297 19.5905 25.5009 19.5905C28.0721 19.5905 30.1677 17.4949 30.1677 14.9237C30.1687 12.3525 28.073 10.254 25.5009 10.254ZM28.2391 14.2148L25.6845 16.7693C25.6096 16.8443 25.5208 16.9038 25.4229 16.9444C25.325 16.985 25.2201 17.0059 25.1142 17.0059C25.0082 17.0059 24.9033 16.985 24.8055 16.9444C24.7076 16.9038 24.6187 16.8443 24.5439 16.7693L22.7608 14.9862C22.4483 14.6737 22.4483 14.1611 22.7608 13.8486C23.0762 13.5332 23.5889 13.5332 23.9014 13.8486L25.1142 15.0585L27.0985 13.0742C27.4139 12.7588 27.9266 12.7588 28.2391 13.0742C28.3141 13.149 28.3736 13.2379 28.4142 13.3358C28.4547 13.4336 28.4756 13.5385 28.4756 13.6445C28.4756 13.7504 28.4547 13.8553 28.4142 13.9532C28.3736 14.051 28.3141 14.1399 28.2391 14.2148Z" fill="#00A5D8" />
 											</svg>
 
-											<h6 className="fw-bold mt-3">Processing</h6>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+											<h6 className="fw-bold mt-3">Wax Pattern Processing</h6>
+											<p>Wax patterns are assembled to wax runner using wax gates and then wax runner is attached to wax pouring cup to make a cluster or tree.</p>
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-4 mb-3">
@@ -423,8 +473,8 @@ export default function Home() {
 												<path d="M12.8574 2.85719H2.85719C2.4783 2.85719 2.11494 2.70668 1.84702 2.43876C1.57911 2.17085 1.4286 1.80748 1.4286 1.42859C1.4286 1.04971 1.57911 0.686339 1.84702 0.418426C2.11494 0.150512 2.4783 0 2.85719 0H12.8574C13.2362 0 13.5996 0.150512 13.8675 0.418426C14.1354 0.686339 14.286 1.04971 14.286 1.42859C14.286 1.80748 14.1354 2.17085 13.8675 2.43876C13.5996 2.70668 13.2362 2.85719 12.8574 2.85719ZM37.1435 2.85719H27.1433C26.7644 2.85719 26.4011 2.70668 26.1331 2.43876C25.8652 2.17085 25.7147 1.80748 25.7147 1.42859C25.7147 1.04971 25.8652 0.686339 26.1331 0.418426C26.4011 0.150512 26.7644 0 27.1433 0H37.1435C37.5224 0 37.8857 0.150512 38.1536 0.418426C38.4216 0.686339 38.5721 1.04971 38.5721 1.42859C38.5721 1.80748 38.4216 2.17085 38.1536 2.43876C37.8857 2.70668 37.5224 2.85719 37.1435 2.85719Z" fill="#00A5D8" />
 											</svg>
 
-											<h6 className="fw-bold mt-3">Assembly</h6>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+											<h6 className="fw-bold mt-3">Wax Assembly</h6>
+											<p>Wax patterns are assembled to wax runner using wax gates and then wax runner is attached to wax pouring cup to make a cluster or tree.</p>
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-4 mb-3">
@@ -433,8 +483,8 @@ export default function Home() {
 												<path d="M0.5 0V2.34375H4.09375V10.7031C4.09375 11.9952 5.14547 13.0469 6.4375 13.0469H8.78125V20.0781C8.78125 21.3702 9.83297 22.4219 11.125 22.4219C12.417 22.4219 13.4688 21.3702 13.4688 20.0781V8.35938C13.4688 7.06734 14.5205 6.01562 15.8125 6.01562C17.1045 6.01562 18.1562 7.06734 18.1562 8.35938V13.0469C18.1562 14.3389 19.208 15.3906 20.5 15.3906C21.792 15.3906 22.8438 14.3389 22.8438 13.0469V8.35938C22.8438 7.06734 23.8955 6.01562 25.1875 6.01562C26.4795 6.01562 27.5312 7.06734 27.5312 8.35938V24.7656C27.5312 26.0577 28.583 27.1094 29.875 27.1094C31.167 27.1094 32.2188 26.0577 32.2188 24.7656V13.0469H34.5625C35.8545 13.0469 36.9062 11.9952 36.9062 10.7031V2.34375H40.5V0H0.5ZM29.875 29.7347C29.2184 30.7154 26.3594 34.5465 26.3594 36.4844C26.3594 38.423 27.9364 40 29.875 40C31.8136 40 33.3906 38.423 33.3906 36.4844C33.3906 34.5234 30.4507 30.5946 29.875 29.7347Z" fill="#00A5D8" />
 											</svg>
 
-											<h6 className="fw-bold mt-3">Melting</h6>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+											<h6 className="fw-bold mt-3">Shelling</h6>
+											<p>The wax assembly is dipped in ceramic slurries and sand, with extra coatings for strength, then heated to remove the wax, leaving a hollow ceramic shell.</p>
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-4 mb-3">
@@ -442,8 +492,8 @@ export default function Home() {
 											<svg width="31" height="40" viewBox="0 0 31 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M8.91039 0C7.37914 1.76813 7.47648 4.52414 9.13242 6.18008C9.96781 7.01547 9.96781 8.37508 9.13242 9.21047L10.7895 10.8676C12.5393 9.11891 12.5393 6.27164 10.7895 4.52297C9.99875 3.73219 9.9518 2.37805 10.682 1.53344L8.91039 0ZM14.1838 0C12.6526 1.76813 12.7499 4.52414 14.4059 6.18008C15.2413 7.01547 15.2413 8.37508 14.4059 9.21047L16.063 10.8676C17.8127 9.11891 17.8127 6.27164 16.063 4.52297C15.2722 3.73219 15.2252 2.37805 15.9554 1.53344L14.1838 0ZM19.4573 0C17.926 1.76813 18.0234 4.52414 19.6793 6.18008C20.5147 7.01547 20.5147 8.37508 19.6793 9.21047L21.3364 10.8676C23.0862 9.11891 23.0862 6.27164 21.3364 4.52297C20.5456 3.73219 20.4987 2.37805 21.2288 1.53344L19.4573 0ZM0.0672656 23.5156C0.395703 27.7175 2.45133 31.7073 5.77242 34.3466L4.35789 40H11.2712L12.5655 37.4091C14.3691 37.7387 16.0995 37.7387 17.903 37.4091L19.1975 40H26.1109L24.6964 34.3466C28.0175 31.7073 30.0731 27.7175 30.4016 23.5156H0.0672656ZM16.9325 14.3716C18.3459 14.7254 19.5777 15.5058 20.5078 16.5703C21.6684 15.242 23.3072 14.368 25.1634 14.2031C24.3595 12.7749 22.8467 11.7969 21.0938 11.7969C19.2724 11.7969 17.7081 12.851 16.9325 14.3716ZM5.30531 14.2031C7.16156 14.368 8.80031 15.242 9.96094 16.5703C10.8911 15.5057 12.123 14.7254 13.5363 14.3716C12.7606 12.851 11.1963 11.7969 9.375 11.7969C7.62203 11.7969 6.1093 12.7749 5.30531 14.2031ZM25.7812 16.4844C24.0955 16.4844 22.6278 17.3862 21.8017 18.7248C22.0878 19.4898 22.2656 20.3081 22.2656 21.1719H30.4688C30.4688 18.5866 28.3665 16.4844 25.7812 16.4844ZM0 21.1719H8.20312C8.20312 20.3081 8.38109 19.49 8.66719 18.725C7.84109 17.3863 6.3732 16.4844 4.6875 16.4844C2.10227 16.4844 0 18.5866 0 21.1719ZM10.5469 21.1719H19.9219C19.9219 18.5866 17.8196 16.4844 15.2344 16.4844C12.6491 16.4844 10.5469 18.5866 10.5469 21.1719Z" fill="#00A5D8" />
 											</svg>
-											<h6 className="fw-bold mt-3">Heat Treatment</h6>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+											<h6 className="fw-bold mt-3">De Waxing</h6>
+											<p>The wax is then removed by de-waxing process, which is done by putting the ceramic mould in the hot bath of wax.</p>
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-4 mb-3">
@@ -454,8 +504,8 @@ export default function Home() {
 												<path d="M6.73867 10.4421L3.93166 13.2491C3.81712 13.3655 3.74674 13.5181 3.73265 13.6808C3.71856 13.8435 3.76164 14.006 3.85447 14.1403L5.80534 16.9473C6.9367 15.0229 8.54053 13.419 10.465 12.2877L7.65797 10.3368C7.51804 10.2399 7.34764 10.1971 7.17852 10.2165C7.00939 10.2358 6.85307 10.316 6.73867 10.4421ZM0.500093 21.5228V25.4947C0.497383 25.6608 0.553733 25.8226 0.65911 25.9511C0.764487 26.0796 0.912052 26.1665 1.07553 26.1964L4.44394 26.807C3.8622 24.6514 3.8622 22.3801 4.44394 20.2245L1.07553 20.835C0.914441 20.8645 0.768733 20.9494 0.663641 21.075C0.55855 21.2006 0.500694 21.359 0.500093 21.5228Z" fill="#00A5D8" />
 											</svg>
 
-											<h6 className="fw-bold mt-3">Machining</h6>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+											<h6 className="fw-bold mt-3">Shell Pre Heating</h6>
+											<p>The ceramic shell molds are fired at 800 to 1100 °C to remove pattern material and preheat for casting, using Amtech's rotary hearth furnace with precise temperature control.</p>
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-4 mb-3">
@@ -465,8 +515,54 @@ export default function Home() {
 											</svg>
 
 
-											<h6 className="fw-bold mt-3">Molding</h6>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+											<h6 className="fw-bold mt-3">Melting</h6>
+											<p>The shell is preheated to remove moisture and residual wax, and to sinter the ceramic. The specified alloy, melted in an induction furnace, is poured into the sintered shells to solidify.</p>
+										</div>
+									</div>
+									<div className="col-lg-3 col-md-4 mb-3">
+										<div className="white-box">
+											<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M36 0C29.3062 0.883929 22.5964 1.76786 15.9107 2.65179C8.51786 3.65625 2.78839 9.61875 2.33036 17.1161C2.06518 21.5759 3.77679 25.9152 6.975 29.025L0 36C6.69375 35.1161 13.3795 34.2321 20.0732 33.3482C27.45 32.3438 33.1955 26.3732 33.6295 18.9C33.9107 14.4402 32.183 10.1009 28.9929 6.99107L36 0ZM29.5955 18.667C29.258 25.0554 23.6491 29.8527 17.317 29.475C10.9286 29.0973 6.01071 23.7696 6.36429 17.3411C6.72589 10.9768 12.3348 6.14732 18.6589 6.53304C25.0312 6.91071 29.9491 12.2384 29.5955 18.667Z" fill="#00A5D8" />
+											</svg>
+											<h6 className="fw-bold mt-3">Gate/Riser Cutting</h6>
+											<p>After the metal solidifies and cools, the ceramic shell is then removed by vibratory methods or water blasting.</p>
+										</div>
+									</div>
+									<div className="col-lg-3 col-md-4 mb-3">
+										<div className="white-box">
+											<svg width="51" height="30" viewBox="0 0 51 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M38.6195 13.0908L36.8783 12.5264C36.6459 12.4512 36.4828 12.2773 36.4213 12.0449C36.1616 11.0489 35.7651 10.1075 35.2583 9.23842C35.1362 9.02847 35.1284 8.7902 35.2387 8.57439L36.0717 6.94165C36.2104 6.67018 36.1606 6.35476 35.9448 6.13895L34.2866 4.48082C34.0708 4.26501 33.7554 4.21521 33.4839 4.35387L31.8483 5.18586C31.6325 5.29426 31.3942 5.2884 31.1872 5.16634C30.3181 4.65659 29.3767 4.26403 28.3806 4.00135C28.1453 3.9408 27.9734 3.77675 27.8992 3.54727L27.3319 1.8032C27.2381 1.51513 26.9803 1.32666 26.6727 1.32666H24.3281C24.0234 1.32666 23.7666 1.51513 23.6719 1.8032L23.1045 3.54727C23.0293 3.77675 22.8584 3.9408 22.6231 4.00135C21.639 4.26026 20.6948 4.6522 19.8166 5.16634C19.6066 5.2884 19.3713 5.29328 19.1525 5.18586L17.5198 4.35289C17.2483 4.21423 16.9329 4.26403 16.7171 4.47984L15.059 6.13797C14.8432 6.35378 14.7934 6.6692 14.932 6.94067L15.765 8.57341C15.8753 8.78922 15.8675 9.02749 15.7455 9.23744C15.2387 10.1065 14.8432 11.0479 14.5824 12.044C14.519 12.2764 14.3559 12.4512 14.1254 12.5254L12.3843 13.0898C12.0933 13.1836 11.9058 13.4443 11.9058 13.749V16.0946C11.9058 16.3992 12.0943 16.659 12.3823 16.7537L14.1264 17.3181C14.3588 17.3953 14.5199 17.5672 14.5834 17.8025C14.8432 18.7966 15.2396 19.7399 15.7464 20.6061C15.8685 20.816 15.8763 21.0543 15.766 21.2701L14.933 22.9029C14.7943 23.1743 14.8441 23.4927 15.06 23.7056L16.7181 25.3637C16.9339 25.5795 17.2493 25.6293 17.5208 25.4906L19.1565 24.6606C19.3723 24.5502 19.6076 24.5551 19.8176 24.6801C20.6867 25.1869 21.628 25.5795 22.6241 25.8431C22.8594 25.9037 23.0313 26.0678 23.1055 26.2972L23.6729 28.0413C23.7666 28.3323 24.0244 28.5198 24.3291 28.5198H26.6737C26.9813 28.5198 27.2381 28.3313 27.3328 28.0413L27.9002 26.2972C27.9754 26.0678 28.1463 25.9037 28.3816 25.8431C29.3777 25.5805 30.319 25.1869 31.1881 24.6801C31.3961 24.5551 31.6334 24.5502 31.8492 24.6606L33.4849 25.4906C33.7564 25.6293 34.0718 25.5795 34.2876 25.3637L35.9457 23.7056C36.1616 23.4927 36.2114 23.1743 36.0727 22.9029L35.2397 21.2701C35.1294 21.0543 35.1372 20.816 35.2593 20.6061C35.7661 19.7399 36.1586 18.7956 36.4223 17.8025C36.4828 17.5672 36.6469 17.3953 36.8764 17.3181L38.6204 16.7537C38.9114 16.66 39.0989 16.3992 39.0989 16.0946V13.7499C39.0979 13.4453 38.9095 13.1855 38.6195 13.0908ZM25.5009 22.2173C21.4708 22.2173 18.2073 18.9509 18.2073 14.9237C18.2073 10.8936 21.4708 7.62716 25.5009 7.62716C29.5281 7.62716 32.7945 10.8936 32.7945 14.9237C32.7955 18.9509 29.529 22.2173 25.5009 22.2173ZM10.8355 8.01679C10.8765 8.17499 10.8248 8.33221 10.6939 8.43182C10.5641 8.53142 10.3981 8.54216 10.2565 8.45916L8.18331 7.26292C8.08956 7.21019 7.98996 7.19652 7.88449 7.22386C7.77903 7.2512 7.69895 7.31565 7.64329 7.4094C5.56135 11.0303 5.61701 15.4647 7.72337 19.0017C7.93332 19.3561 7.52416 19.7575 7.17554 19.5417C2.20115 16.4715 0.254948 10.0333 2.93452 4.66343C3.02826 4.47496 2.96186 4.24841 2.77925 4.14294L0.697311 2.94182C0.555716 2.86175 0.481501 2.70941 0.503961 2.54829C0.526421 2.38521 0.636767 2.26021 0.794963 2.21627L8.32978 0.198782C8.53974 0.143121 8.75848 0.268115 8.81414 0.478067L10.8355 8.01679ZM50.4969 27.2943C50.4744 27.4573 50.364 27.5823 50.2059 27.6263L42.6681 29.6438C42.4581 29.7024 42.2414 29.5744 42.1837 29.3645L40.1663 21.8297C40.1223 21.6715 40.177 21.5113 40.3079 21.4117C40.4377 21.3121 40.6037 21.3014 40.7453 21.3844L42.8156 22.5806C42.9093 22.6333 43.0118 22.647 43.1173 22.6197C43.2228 22.5923 43.3028 22.5279 43.3585 22.4341C45.4404 18.8132 45.3848 14.3788 43.2784 10.8409C43.0685 10.4864 43.4747 10.0851 43.8263 10.3009C48.8006 13.373 50.7468 19.8092 48.0643 25.1791C47.9726 25.3676 48.039 25.5941 48.2225 25.6996L50.3016 26.9007C50.4441 26.9837 50.5164 27.1341 50.4969 27.2943ZM25.5009 10.254C22.9297 10.254 20.8312 12.3525 20.8312 14.9237C20.8312 17.4949 22.9297 19.5905 25.5009 19.5905C28.0721 19.5905 30.1677 17.4949 30.1677 14.9237C30.1687 12.3525 28.073 10.254 25.5009 10.254ZM28.2391 14.2148L25.6845 16.7693C25.6096 16.8443 25.5208 16.9038 25.4229 16.9444C25.325 16.985 25.2201 17.0059 25.1142 17.0059C25.0082 17.0059 24.9033 16.985 24.8055 16.9444C24.7076 16.9038 24.6187 16.8443 24.5439 16.7693L22.7608 14.9862C22.4483 14.6737 22.4483 14.1611 22.7608 13.8486C23.0762 13.5332 23.5889 13.5332 23.9014 13.8486L25.1142 15.0585L27.0985 13.0742C27.4139 12.7588 27.9266 12.7588 28.2391 13.0742C28.3141 13.149 28.3736 13.2379 28.4142 13.3358C28.4547 13.4336 28.4756 13.5385 28.4756 13.6445C28.4756 13.7504 28.4547 13.8553 28.4142 13.9532C28.3736 14.051 28.3141 14.1399 28.2391 14.2148Z" fill="#00A5D8" />
+											</svg>
+
+											<h6 className="fw-bold mt-3">Heat Treatment</h6>
+											<p>Castings are shot blasted to remove ceramic particles. Amtech also offers glass bead blasting or sand blasting upon customer request.</p>
+										</div>
+									</div>
+									<div className="col-lg-3 col-md-4 mb-3">
+										<div className="white-box">
+											<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0.5 0V2.34375H4.09375V10.7031C4.09375 11.9952 5.14547 13.0469 6.4375 13.0469H8.78125V20.0781C8.78125 21.3702 9.83297 22.4219 11.125 22.4219C12.417 22.4219 13.4688 21.3702 13.4688 20.0781V8.35938C13.4688 7.06734 14.5205 6.01562 15.8125 6.01562C17.1045 6.01562 18.1562 7.06734 18.1562 8.35938V13.0469C18.1562 14.3389 19.208 15.3906 20.5 15.3906C21.792 15.3906 22.8438 14.3389 22.8438 13.0469V8.35938C22.8438 7.06734 23.8955 6.01562 25.1875 6.01562C26.4795 6.01562 27.5312 7.06734 27.5312 8.35938V24.7656C27.5312 26.0577 28.583 27.1094 29.875 27.1094C31.167 27.1094 32.2188 26.0577 32.2188 24.7656V13.0469H34.5625C35.8545 13.0469 36.9062 11.9952 36.9062 10.7031V2.34375H40.5V0H0.5ZM29.875 29.7347C29.2184 30.7154 26.3594 34.5465 26.3594 36.4844C26.3594 38.423 27.9364 40 29.875 40C31.8136 40 33.3906 38.423 33.3906 36.4844C33.3906 34.5234 30.4507 30.5946 29.875 29.7347Z" fill="#00A5D8" />
+											</svg>
+
+											<h6 className="fw-bold mt-3">Finishing Operation (Gate Grinding)</h6>
+											<p>Remaining gate protrusions are removed by belt grinding.</p>
+										</div>
+									</div>
+									<div className="col-lg-3 col-md-4 mb-3">
+										<div className="white-box">
+											<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M21.2789 33.6472L19.8503 30.79C19.7317 30.5526 19.5492 30.3529 19.3233 30.2133C19.0975 30.0738 18.8372 29.9999 18.5717 30H15.7146C15.3357 30.0001 14.9724 30.1507 14.7045 30.4186L14.286 30.8372L12.4388 28.99L12.4259 28.9814C12.0036 29.8631 11.293 30.5742 10.4116 30.9972C10.4145 31.0015 10.4145 31.0058 10.4188 31.0101L12.2659 32.8572L11.8474 33.2758C11.5794 33.5437 11.4289 33.907 11.4288 34.2858V37.143C11.4286 37.4085 11.5025 37.6687 11.642 37.8946C11.7816 38.1204 11.9813 38.3029 12.2188 38.4216L15.076 39.8502C15.4152 40.0186 15.8074 40.0457 16.1666 39.9258C16.5259 39.8059 16.8231 39.5486 16.9932 39.2102C17.0771 39.0423 17.1271 38.8595 17.1404 38.6723C17.1536 38.485 17.1299 38.297 17.0704 38.119C17.011 37.9409 16.9171 37.7763 16.794 37.6346C16.6709 37.4929 16.5211 37.3768 16.3531 37.293L14.286 36.2601V34.8773L16.306 32.8572H17.6889L18.7218 34.9244C18.8056 35.0923 18.9217 35.2421 19.0635 35.3651C19.2052 35.4881 19.3698 35.582 19.5478 35.6415C19.7258 35.7009 19.9138 35.7247 20.101 35.7115C20.2882 35.6982 20.471 35.6483 20.6389 35.5644C20.8068 35.4806 20.9566 35.3644 21.0796 35.2227C21.2026 35.081 21.2966 34.9164 21.356 34.7384C21.4154 34.5603 21.4392 34.3724 21.426 34.1851C21.4128 33.9979 21.3628 33.8151 21.2789 33.6472Z" fill="#00A5D8" />
+												<path d="M8.57157 30.0005C10.1496 30.0005 11.4288 28.7213 11.4288 27.1433C11.4288 25.5653 10.1496 24.2861 8.57157 24.2861C6.99359 24.2861 5.71438 25.5653 5.71438 27.1433C5.71438 28.7213 6.99359 30.0005 8.57157 30.0005Z" fill="#00A5D8" />
+												<path d="M28.2148 31.375L23.1718 37.6794C22.9489 37.9761 22.8502 38.348 22.8967 38.7163C22.9431 39.0845 23.1311 39.4202 23.4207 39.6523C23.7104 39.8844 24.079 39.9946 24.4485 39.9597C24.818 39.9248 25.1594 39.7474 25.4004 39.4651L30.7434 32.7879C29.7613 32.627 28.8666 32.127 28.2148 31.375Z" fill="#00A5D8" />
+												<path d="M31.4291 31.4292C33.0071 31.4292 34.2863 30.15 34.2863 28.572C34.2863 26.9941 33.0071 25.7148 31.4291 25.7148C29.8511 25.7148 28.5719 26.9941 28.5719 28.572C28.5719 30.15 29.8511 31.4292 31.4291 31.4292Z" fill="#00A5D8" />
+												<path d="M35.7149 20.0003C38.0819 20.0003 40.0007 18.0815 40.0007 15.7145C40.0007 13.3475 38.0819 11.4287 35.7149 11.4287C33.3479 11.4287 31.4291 13.3475 31.4291 15.7145C31.4291 18.0815 33.3479 20.0003 35.7149 20.0003Z" fill="#00A5D8" />
+												<path d="M4.28579 20.0007C3.66578 20.0007 3.08006 19.8764 2.52148 19.6935L4.83437 25.0893C5.20009 24.4165 5.73994 23.8544 6.39742 23.4619C7.0549 23.0693 7.80582 22.8607 8.57158 22.8579C9.37588 22.8579 10.1187 23.0936 10.763 23.4807L9.50874 16.5849C9.06289 17.5992 8.33186 18.4621 7.40458 19.0685C6.4773 19.6749 5.39376 19.9988 4.28579 20.0007ZM35.7149 21.4293C34.6069 21.4274 33.5234 21.1035 32.5961 20.4971C31.6688 19.8907 30.9378 19.0278 30.4919 18.0135L29.2376 24.9093C29.8805 24.5236 30.6248 24.2865 31.4291 24.2865C32.1718 24.2888 32.9011 24.4848 33.545 24.8551C34.1888 25.2254 34.725 25.7572 35.1006 26.3979L37.0278 21.2621C36.6035 21.3621 36.1678 21.4293 35.7149 21.4293ZM35.7149 10.0005C37.4578 10.0005 38.9521 10.8005 40.0007 12.0334L37.1435 4.28613H28.5719L30.7405 12.9591C31.7148 11.2048 33.5691 10.0005 35.7149 10.0005ZM4.28579 8.57192C6.48011 8.57192 8.36872 9.82908 9.32445 11.6491L11.4288 4.28613H2.8572L0.33287 10.1762C1.39235 9.14868 2.80987 8.57337 4.28579 8.57192Z" fill="#00A5D8" />
+												<path d="M4.28579 18.5716C6.65276 18.5716 8.57157 16.6528 8.57157 14.2858C8.57157 11.9188 6.65276 10 4.28579 10C1.91881 10 0 11.9188 0 14.2858C0 16.6528 1.91881 18.5716 4.28579 18.5716Z" fill="#00A5D8" />
+												<path d="M12.8574 2.85719H2.85719C2.4783 2.85719 2.11494 2.70668 1.84702 2.43876C1.57911 2.17085 1.4286 1.80748 1.4286 1.42859C1.4286 1.04971 1.57911 0.686339 1.84702 0.418426C2.11494 0.150512 2.4783 0 2.85719 0H12.8574C13.2362 0 13.5996 0.150512 13.8675 0.418426C14.1354 0.686339 14.286 1.04971 14.286 1.42859C14.286 1.80748 14.1354 2.17085 13.8675 2.43876C13.5996 2.70668 13.2362 2.85719 12.8574 2.85719ZM37.1435 2.85719H27.1433C26.7644 2.85719 26.4011 2.70668 26.1331 2.43876C25.8652 2.17085 25.7147 1.80748 25.7147 1.42859C25.7147 1.04971 25.8652 0.686339 26.1331 0.418426C26.4011 0.150512 26.7644 0 27.1433 0H37.1435C37.5224 0 37.8857 0.150512 38.1536 0.418426C38.4216 0.686339 38.5721 1.04971 38.5721 1.42859C38.5721 1.80748 38.4216 2.17085 38.1536 2.43876C37.8857 2.70668 37.5224 2.85719 37.1435 2.85719Z" fill="#00A5D8" />
+											</svg>
+
+											<h6 className="fw-bold mt-3">Final Casting Inspection</h6>
+											<p>Castings are heat treated according to specifications in a 1-ton capacity furnace calibrated to APA 6A standards.</p>
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-4 mb-3">
@@ -476,7 +572,7 @@ export default function Home() {
 												<path d="M50.1154 11.9233L43.1304 3.77617C42.9805 3.60134 42.7945 3.461 42.5853 3.36478C42.376 3.26857 42.1485 3.21875 41.9182 3.21875L36.5299 3.21914V17.0521C36.5299 17.9339 35.8149 18.6487 34.9333 18.6487H12.1817V23.4385C12.1817 24.3202 12.8965 25.0351 13.7783 25.0351H18.4326C19.1238 27.387 21.3006 29.1097 23.8735 29.1097C26.4465 29.1097 28.6229 27.387 29.3145 25.0351H33.567C34.2582 27.387 36.435 29.1097 39.0079 29.1097C41.5809 29.1097 43.7573 27.387 44.4488 25.0351H48.9035C49.7852 25.0351 50.5001 24.3202 50.5001 23.4385V12.9625C50.5 12.5813 50.3636 12.2127 50.1154 11.9233ZM23.8735 25.9165C22.507 25.9165 21.3955 24.805 21.3955 23.4387C21.3955 22.0722 22.507 20.9604 23.8735 20.9604C25.2397 20.9604 26.3516 22.0722 26.3516 23.4387C26.3516 24.8051 25.2397 25.9165 23.8735 25.9165ZM41.4859 23.44C41.4851 24.8058 40.3737 25.9166 39.0079 25.9166C37.6414 25.9166 36.5299 24.8051 36.5299 23.4388C36.5299 22.0723 37.6414 20.9605 39.0079 20.9605C40.3737 20.9605 41.4851 22.0716 41.4859 23.4373L41.4857 23.4386C41.4856 23.4391 41.4859 23.4395 41.4859 23.44ZM2.09678 11.3662C1.21514 11.3661 0.5 12.0811 0.5 12.9627C0.500195 13.8444 1.21494 14.5594 2.09658 14.5594L8.98838 14.5595V11.3663L2.09678 11.3662ZM8.98838 4.97988H7.41875C6.53711 4.97998 5.82217 5.69473 5.82217 6.57637C5.82217 7.4582 6.53711 8.17305 7.41875 8.17305H8.98848L8.98838 4.97988ZM8.98838 17.7528H5.29004C4.4084 17.7528 3.69346 18.4676 3.69346 19.3494C3.69346 20.2311 4.4084 20.9459 5.29004 20.9459H8.98857L8.98838 17.7528Z" fill="#00A5D8" />
 											</svg>
 											<h6 className="fw-bold mt-3">Dispatch</h6>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+											<p>The final casting is dimensionally and visually inspected, tested as per customer specifications, packed, and dispatched.</p>
 										</div>
 									</div>
 								</div>
@@ -832,7 +928,7 @@ export default function Home() {
 										quality={100}
 										alt="logo"
 										loading='lazy'
-										className='img-fluid w-100'
+										className='img-fluid w-100 image-animation-zoom'
 									/>
 									<div className="glass-effect text-center">
 										<h2>Investment Casting Services</h2>
@@ -849,7 +945,7 @@ export default function Home() {
 										quality={100}
 										alt="logo"
 										loading='lazy'
-										className='w-100'
+										className='w-100 image-animation-zoom'
 									/>
 									<div className="glass-effect text-center">
 										<h2>Casting Machining Services</h2>
@@ -866,7 +962,7 @@ export default function Home() {
 										quality={100}
 										alt="logo"
 										loading='lazy'
-										className='w-100'
+										className='w-100 image-animation-zoom'
 									/>
 									<div className="glass-effect text-center">
 										<h2>Mold Castings Services</h2>

@@ -71,7 +71,7 @@ function index(props) {
                     <div className="row">
                         <div className="col-12 mb-2">
                             <div className="bottom-line-txt">
-                                <span>OUR BEST QUALITY PRODUCTS</span>
+                                <span>High-Quality Components for Diverse Industries</span>
                             </div>
                         </div>
                         <div className="col-12 py-2">
@@ -87,9 +87,7 @@ function index(props) {
                                         </Link>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                </p>
+                                <p>Shubham Technocast is proud to offer a wide range of high-quality products, catering to various industries. Our expertise and advanced manufacturing capabilities ensure that each product meets the highest standards of excellence.</p>
                             </div>
                         </div>
                         <div className="col-12">
@@ -103,7 +101,7 @@ function index(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='img-fluid image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/pump-components'} className='d-flex align-items-center'>
@@ -126,7 +124,7 @@ function index(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='img-fluid image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/valve-componets'} className='d-flex align-items-center'>
@@ -150,7 +148,7 @@ function index(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='img-fluid image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/fire-equipment'} className='d-flex align-items-center'>
@@ -174,7 +172,7 @@ function index(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='img-fluid image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/hardware'} className='d-flex align-items-center'>
@@ -197,7 +195,7 @@ function index(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='img-fluid image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/machined-casting'} className='d-flex align-items-center'>
@@ -220,7 +218,7 @@ function index(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='img-fluid image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/automotive'} className='d-flex align-items-center'>
@@ -243,7 +241,7 @@ function index(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='img-fluid image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/general-engineering'} className='d-flex align-items-center'>
@@ -266,7 +264,7 @@ function index(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='img-fluid image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/others'} className='d-flex align-items-center'>

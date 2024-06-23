@@ -84,7 +84,7 @@ footer {
 }
 
 .common-space {
-	padding: 45px 0;
+	padding: 45px 7%;
 }
 
 .address-sec li {
@@ -543,7 +543,22 @@ header {
 .image-div-hoverable {
 	position: relative;
 	transition: 0.3s all;
+	overflow: hidden;
 }
+
+.image-div-hoverable img {
+	object-fit: cover;
+}
+
+.image-animation-zoom {
+	transition: all 0.3s;
+    transform: scale(1);
+}
+
+.image-animation-zoom:hover {
+    transform: scale(1.2);
+}
+
 
 .image-div-hoverable:hover .bottom-white-img {
 	background-color: #1d4794;
@@ -782,7 +797,7 @@ header {
 }
 
 .top-negative-margin-firetech {
-	margin-top: -100px
+	margin-top: -80px
 }
 
 .headr-dropdwon-body-main {

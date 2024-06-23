@@ -258,7 +258,9 @@ export default function aboutus(props) {
                                 </div>
                                 <div className='col-md-7'>
                                     <div className="gradiant-txt qaulity-txt">
-                                        <p className=' txt-theme-color'>We are waiting for you</p>
+                                        <div className="bottom-line-txt">
+                                            <span>We are waiting for you</span>
+                                        </div>
                                         <h2 ><span className='text-black'> Request a Quote</span></h2>
                                     </div>
                                     <div className='row'>

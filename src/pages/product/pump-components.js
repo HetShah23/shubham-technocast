@@ -2,9 +2,6 @@ import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { Gallery } from 'react-grid-gallery';
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
 
 
 
@@ -85,25 +82,6 @@ export default function pumpcomponents(props) {
                         <div className="col-12">
                             <div className="row">
                                 <div className="col-md-12">
-                                    {/* <Gallery
-                                        images={images}
-                                        onClick={handleClick}
-                                        enableImageSelection={false}
-                                    />
-                                    {!!currentImage && (
-                                        <Lightbox
-                                            mainSrc={currentImage.original}
-                                            imageTitle={currentImage.caption}
-                                            mainSrcThumbnail={currentImage.src}
-                                            nextSrc={nextImage.original}
-                                            nextSrcThumbnail={nextImage.src}
-                                            prevSrc={prevImage.original}
-                                            prevSrcThumbnail={prevImage.src}
-                                            onCloseRequest={handleClose}
-                                            onMovePrevRequest={handleMovePrev}
-                                            onMoveNextRequest={handleMoveNext}
-                                        />
-                                    )} */}
                                     <div className='row'>
                                         <div className='col-lg-8 col-8 mb-3'>
                                             <img src="/assets/images/gallery-1.png" className='img-fluid w-100' alt="Image 1" />

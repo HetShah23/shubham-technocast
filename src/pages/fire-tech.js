@@ -27,8 +27,8 @@ export default function firetech(props) {
                     </div>
                 </div>
             </section>
-            <section className="common-space bg-white">
-                <div className="container ">
+            <section className="common-space bg-white" id="firetech-products">
+                <div className="container">
                     <div className='row'>
                         <div className='col-md-12 text-center mb-3'>
                             <div className="gradiant-txt qaulity-txt mt-3">
@@ -193,8 +193,7 @@ export default function firetech(props) {
                     </div>
                 </div>
             </section>
-            <section className="common-space">
-
+            <section className="common-space" id="firetech-aboutus">
                 <div className='row'>
                     <div className='col-lg-6 bg-blue pe-lg-0 bg-image-firetech'>
                         <div className='container h-100'>
@@ -219,7 +218,7 @@ export default function firetech(props) {
                 </div>
 
             </section>
-            <section className="top-negative-margin-firetech ">
+            <section className="top-negative-margin-firetech">
                 <div className="container ">
                     <div className='row'>
                         <div className='col-md-4 mb-md-0 mb-3'>
@@ -334,7 +333,7 @@ export default function firetech(props) {
                     </div>
                 </div>
             </section>
-            <section className="common-space">
+            <section className="common-space" id="firetech-quality">
                 <div className="container ">
                     <div className='row'>
                         <div className='col-md-12 text-center mb-3'>
@@ -428,7 +427,7 @@ export default function firetech(props) {
                     </div>
                 </div>
             </section>
-            <section className="common-space ">
+            <section className="common-space" id="firetech-customers">
                 <div className="container">
                     <div className='row our-client-box'>
                         <div className='col-md-12 text-center mb-3'>
