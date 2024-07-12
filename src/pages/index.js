@@ -120,23 +120,23 @@ export default function Home() {
 					<div className="container">
 						<div className='row'>
 							<div className='col-lg-8 col-md-6 mb-lg-0 mb-3 text-lg-start'>
-								<button className="btn-1" disabled>About</button>
+								<button className="btn-1 text-uppercase" disabled>About</button>
 								<div className="gradiant-txt qaulity-txt mt-3">
 									<div className="mb-3">
-										<h2 className="mb-0 fw-bold"><span>Shubham Technocast </span> <br /> Investment Casting Industry</h2>
+										<h2 className="mb-0 fw-bold text-uppercase"><span>Shubham Group of Industries </span> <br /> Investment Casting Industry</h2>
 									</div>
 									<p>Founded in 2014 by the Shubham Group, Shubham Technocast has grown to become one of India's largest manufacturers of investment castings. Our in-house precision machining shop is equipped with the latest CNC, VMC, and Lathe machines, along with comprehensive QA/QC instruments, including CMM and Hydro-Pressure Testing Machines. Our success and continuous growth are driven by our commitment to delivering top-quality investment castings with timely deliveries.</p>
 								</div>
 								<div className="cust-tab">
 
 									<Tabs
-										defaultActiveKey="Casting"
+										defaultActiveKey="shubham-technocast"
 										id="uncontrolled-tab-example"
 									>
-										<Tab eventKey="Casting" title="Investment Casting">
+										<Tab eventKey="shubham-technocast" title="Shubham Technocast">
 											At SHUBHAM TECHNOCAST, we commit to provide you with the best casting & deliver just-in-time. Customer’s requirements are given importance as well quality is maintained. Our team is completely trained & well equipped to meet our customers ‘Requirements’.
 										</Tab>
-										<Tab eventKey="Firetech" title="Firetech">
+										<Tab eventKey="shubham-firetech" title="Shubham Firetech">
 											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 											<Link href={'/fire-tech'}>
 												<button className="btn-1 cursor-pointer">
@@ -168,7 +168,7 @@ export default function Home() {
 							<div className='col-md-12 mb-4'>
 								<div className="gradiant-txt qaulity-txt mt-3">
 									<div className="mb-3">
-										<h2 className="mb-0 ">Why Choose<span> Shubham Technocast </span></h2>
+										<h2 className="mb-0 text-uppercase">Why Choose<span> Shubham Technocast </span></h2>
 									</div>
 								</div>
 							</div>
@@ -179,7 +179,7 @@ export default function Home() {
 									</div>
 									<div className="col-md-4 mb-3">
 										<div className="white-box gray-bg h-100">
-											<h6 className="txt-theme-color fw-bold">Excellence in Manufacturing & Client Satisfaction</h6>
+											<h6 className="txt-theme-color fw-bold text-uppercase">Excellence in Manufacturing & Client Satisfaction</h6>
 											<p>We are committed to delivering exceptional manufacturing solutions to meet the diverse needs of our clients. Our state-of-the-art facilities, skilled workforce, and unwavering dedication to quality set us apart in the industry.</p>
 											{/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p> */}
 											<ul>
@@ -358,9 +358,6 @@ export default function Home() {
 										</div>
 									</div>
 									<div className='col-md-4 mb-md-0 mb-3'>
-										<img src={'/assets/images/choose-3.png'} className='img-fluid' />
-									</div>
-									<div className='col-md-4 mb-md-0 mb-3'>
 										<div className="white-box gray-bg h-100">
 											<h6 className="txt-theme-color fw-bold">Advantages</h6>
 											<ul>
@@ -424,6 +421,9 @@ export default function Home() {
 											</ul>
 										</div>
 									</div>
+									<div className='col-md-4 mb-md-0 mb-3'>
+										<img src={'/assets/images/choose-3.png'} className='img-fluid' />
+									</div>
 								</div>
 							</div>
 						</div>
@@ -435,7 +435,7 @@ export default function Home() {
 							<div className='col-md-12'>
 								<div className="gradiant-txt qaulity-txt mt-3 text-center">
 									<div className="mb-3">
-										<h2>We are critical about <span> quality throughout the process </span></h2>
+										<h2 className="text-uppercase">We are critical about <span> quality</span> <br/>throughout <span>the process </span></h2>
 									</div>
 								</div>
 							</div>
@@ -446,7 +446,7 @@ export default function Home() {
 											<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M36 0C29.3062 0.883929 22.5964 1.76786 15.9107 2.65179C8.51786 3.65625 2.78839 9.61875 2.33036 17.1161C2.06518 21.5759 3.77679 25.9152 6.975 29.025L0 36C6.69375 35.1161 13.3795 34.2321 20.0732 33.3482C27.45 32.3438 33.1955 26.3732 33.6295 18.9C33.9107 14.4402 32.183 10.1009 28.9929 6.99107L36 0ZM29.5955 18.667C29.258 25.0554 23.6491 29.8527 17.317 29.475C10.9286 29.0973 6.01071 23.7696 6.36429 17.3411C6.72589 10.9768 12.3348 6.14732 18.6589 6.53304C25.0312 6.91071 29.9491 12.2384 29.5955 18.667Z" fill="#00A5D8" />
 											</svg>
-											<h6 className="fw-bold mt-3">Wax Injection</h6>
+											<h6 className="fw-bold mt-3 text-uppercase">Wax Injection</h6>
 											<p>Wax in semi-liquid form is injected into dies using a semi-automatic hydraulic press to produce wax patterns, which are then 100% visually and dimensionally checked.</p>
 										</div>
 									</div>
@@ -456,7 +456,7 @@ export default function Home() {
 												<path d="M38.6195 13.0908L36.8783 12.5264C36.6459 12.4512 36.4828 12.2773 36.4213 12.0449C36.1616 11.0489 35.7651 10.1075 35.2583 9.23842C35.1362 9.02847 35.1284 8.7902 35.2387 8.57439L36.0717 6.94165C36.2104 6.67018 36.1606 6.35476 35.9448 6.13895L34.2866 4.48082C34.0708 4.26501 33.7554 4.21521 33.4839 4.35387L31.8483 5.18586C31.6325 5.29426 31.3942 5.2884 31.1872 5.16634C30.3181 4.65659 29.3767 4.26403 28.3806 4.00135C28.1453 3.9408 27.9734 3.77675 27.8992 3.54727L27.3319 1.8032C27.2381 1.51513 26.9803 1.32666 26.6727 1.32666H24.3281C24.0234 1.32666 23.7666 1.51513 23.6719 1.8032L23.1045 3.54727C23.0293 3.77675 22.8584 3.9408 22.6231 4.00135C21.639 4.26026 20.6948 4.6522 19.8166 5.16634C19.6066 5.2884 19.3713 5.29328 19.1525 5.18586L17.5198 4.35289C17.2483 4.21423 16.9329 4.26403 16.7171 4.47984L15.059 6.13797C14.8432 6.35378 14.7934 6.6692 14.932 6.94067L15.765 8.57341C15.8753 8.78922 15.8675 9.02749 15.7455 9.23744C15.2387 10.1065 14.8432 11.0479 14.5824 12.044C14.519 12.2764 14.3559 12.4512 14.1254 12.5254L12.3843 13.0898C12.0933 13.1836 11.9058 13.4443 11.9058 13.749V16.0946C11.9058 16.3992 12.0943 16.659 12.3823 16.7537L14.1264 17.3181C14.3588 17.3953 14.5199 17.5672 14.5834 17.8025C14.8432 18.7966 15.2396 19.7399 15.7464 20.6061C15.8685 20.816 15.8763 21.0543 15.766 21.2701L14.933 22.9029C14.7943 23.1743 14.8441 23.4927 15.06 23.7056L16.7181 25.3637C16.9339 25.5795 17.2493 25.6293 17.5208 25.4906L19.1565 24.6606C19.3723 24.5502 19.6076 24.5551 19.8176 24.6801C20.6867 25.1869 21.628 25.5795 22.6241 25.8431C22.8594 25.9037 23.0313 26.0678 23.1055 26.2972L23.6729 28.0413C23.7666 28.3323 24.0244 28.5198 24.3291 28.5198H26.6737C26.9813 28.5198 27.2381 28.3313 27.3328 28.0413L27.9002 26.2972C27.9754 26.0678 28.1463 25.9037 28.3816 25.8431C29.3777 25.5805 30.319 25.1869 31.1881 24.6801C31.3961 24.5551 31.6334 24.5502 31.8492 24.6606L33.4849 25.4906C33.7564 25.6293 34.0718 25.5795 34.2876 25.3637L35.9457 23.7056C36.1616 23.4927 36.2114 23.1743 36.0727 22.9029L35.2397 21.2701C35.1294 21.0543 35.1372 20.816 35.2593 20.6061C35.7661 19.7399 36.1586 18.7956 36.4223 17.8025C36.4828 17.5672 36.6469 17.3953 36.8764 17.3181L38.6204 16.7537C38.9114 16.66 39.0989 16.3992 39.0989 16.0946V13.7499C39.0979 13.4453 38.9095 13.1855 38.6195 13.0908ZM25.5009 22.2173C21.4708 22.2173 18.2073 18.9509 18.2073 14.9237C18.2073 10.8936 21.4708 7.62716 25.5009 7.62716C29.5281 7.62716 32.7945 10.8936 32.7945 14.9237C32.7955 18.9509 29.529 22.2173 25.5009 22.2173ZM10.8355 8.01679C10.8765 8.17499 10.8248 8.33221 10.6939 8.43182C10.5641 8.53142 10.3981 8.54216 10.2565 8.45916L8.18331 7.26292C8.08956 7.21019 7.98996 7.19652 7.88449 7.22386C7.77903 7.2512 7.69895 7.31565 7.64329 7.4094C5.56135 11.0303 5.61701 15.4647 7.72337 19.0017C7.93332 19.3561 7.52416 19.7575 7.17554 19.5417C2.20115 16.4715 0.254948 10.0333 2.93452 4.66343C3.02826 4.47496 2.96186 4.24841 2.77925 4.14294L0.697311 2.94182C0.555716 2.86175 0.481501 2.70941 0.503961 2.54829C0.526421 2.38521 0.636767 2.26021 0.794963 2.21627L8.32978 0.198782C8.53974 0.143121 8.75848 0.268115 8.81414 0.478067L10.8355 8.01679ZM50.4969 27.2943C50.4744 27.4573 50.364 27.5823 50.2059 27.6263L42.6681 29.6438C42.4581 29.7024 42.2414 29.5744 42.1837 29.3645L40.1663 21.8297C40.1223 21.6715 40.177 21.5113 40.3079 21.4117C40.4377 21.3121 40.6037 21.3014 40.7453 21.3844L42.8156 22.5806C42.9093 22.6333 43.0118 22.647 43.1173 22.6197C43.2228 22.5923 43.3028 22.5279 43.3585 22.4341C45.4404 18.8132 45.3848 14.3788 43.2784 10.8409C43.0685 10.4864 43.4747 10.0851 43.8263 10.3009C48.8006 13.373 50.7468 19.8092 48.0643 25.1791C47.9726 25.3676 48.039 25.5941 48.2225 25.6996L50.3016 26.9007C50.4441 26.9837 50.5164 27.1341 50.4969 27.2943ZM25.5009 10.254C22.9297 10.254 20.8312 12.3525 20.8312 14.9237C20.8312 17.4949 22.9297 19.5905 25.5009 19.5905C28.0721 19.5905 30.1677 17.4949 30.1677 14.9237C30.1687 12.3525 28.073 10.254 25.5009 10.254ZM28.2391 14.2148L25.6845 16.7693C25.6096 16.8443 25.5208 16.9038 25.4229 16.9444C25.325 16.985 25.2201 17.0059 25.1142 17.0059C25.0082 17.0059 24.9033 16.985 24.8055 16.9444C24.7076 16.9038 24.6187 16.8443 24.5439 16.7693L22.7608 14.9862C22.4483 14.6737 22.4483 14.1611 22.7608 13.8486C23.0762 13.5332 23.5889 13.5332 23.9014 13.8486L25.1142 15.0585L27.0985 13.0742C27.4139 12.7588 27.9266 12.7588 28.2391 13.0742C28.3141 13.149 28.3736 13.2379 28.4142 13.3358C28.4547 13.4336 28.4756 13.5385 28.4756 13.6445C28.4756 13.7504 28.4547 13.8553 28.4142 13.9532C28.3736 14.051 28.3141 14.1399 28.2391 14.2148Z" fill="#00A5D8" />
 											</svg>
 
-											<h6 className="fw-bold mt-3">Wax Pattern Processing</h6>
+											<h6 className="fw-bold mt-3 text-uppercase">Wax Pattern Processing</h6>
 											<p>Wax patterns are assembled to wax runner using wax gates and then wax runner is attached to wax pouring cup to make a cluster or tree.</p>
 										</div>
 									</div>
@@ -473,7 +473,7 @@ export default function Home() {
 												<path d="M12.8574 2.85719H2.85719C2.4783 2.85719 2.11494 2.70668 1.84702 2.43876C1.57911 2.17085 1.4286 1.80748 1.4286 1.42859C1.4286 1.04971 1.57911 0.686339 1.84702 0.418426C2.11494 0.150512 2.4783 0 2.85719 0H12.8574C13.2362 0 13.5996 0.150512 13.8675 0.418426C14.1354 0.686339 14.286 1.04971 14.286 1.42859C14.286 1.80748 14.1354 2.17085 13.8675 2.43876C13.5996 2.70668 13.2362 2.85719 12.8574 2.85719ZM37.1435 2.85719H27.1433C26.7644 2.85719 26.4011 2.70668 26.1331 2.43876C25.8652 2.17085 25.7147 1.80748 25.7147 1.42859C25.7147 1.04971 25.8652 0.686339 26.1331 0.418426C26.4011 0.150512 26.7644 0 27.1433 0H37.1435C37.5224 0 37.8857 0.150512 38.1536 0.418426C38.4216 0.686339 38.5721 1.04971 38.5721 1.42859C38.5721 1.80748 38.4216 2.17085 38.1536 2.43876C37.8857 2.70668 37.5224 2.85719 37.1435 2.85719Z" fill="#00A5D8" />
 											</svg>
 
-											<h6 className="fw-bold mt-3">Wax Assembly</h6>
+											<h6 className="fw-bold mt-3 text-uppercase">Wax Assembly</h6>
 											<p>Wax patterns are assembled to wax runner using wax gates and then wax runner is attached to wax pouring cup to make a cluster or tree.</p>
 										</div>
 									</div>
@@ -608,7 +608,7 @@ export default function Home() {
 							<div className='col-md-12'>
 								<div className="gradiant-txt qaulity-txt mt-3 text-center">
 									<div className="mb-3">
-										<h2>Proud to cater <span> major sectors </span></h2>
+										<h2 className="text-uppercase">Proud to cater <span> major sectors </span></h2>
 									</div>
 								</div>
 							</div>
@@ -624,7 +624,7 @@ export default function Home() {
 
 											</div>
 										</div>
-										<h5 className="fw-bold">Auto Parts</h5>
+										<h5 className="fw-bold text-uppercase">Auto Parts</h5>
 									</div>
 									<div className="col-xl col-lg-3 col-md-3 col-sm-3 col-6 mb-xl-0 mb-3 text-center">
 										<div className="icon-box-major mb-3">
@@ -634,7 +634,7 @@ export default function Home() {
 												</svg>
 											</div>
 										</div>
-										<h5 className="fw-bold">Marine</h5>
+										<h5 className="fw-bold text-uppercase">Marine</h5>
 									</div>
 									<div className="col-xl col-lg-3 col-md-3 col-sm-3 col-6 mb-xl-0 mb-3 text-center">
 										<div className="icon-box-major mb-3">
@@ -644,7 +644,7 @@ export default function Home() {
 												</svg>
 											</div>
 										</div>
-										<h5 className="fw-bold">Petro Chemicals</h5>
+										<h5 className="fw-bold text-uppercase">Petro Chemicals</h5>
 									</div>
 									<div className="col-xl col-lg-3 col-md-3 col-sm-3 col-6 mb-xl-0 mb-3 text-center">
 										<div className="icon-box-major mb-3">
@@ -654,7 +654,7 @@ export default function Home() {
 												</svg>
 											</div>
 										</div>
-										<h5 className="fw-bold">Oil & Gas</h5>
+										<h5 className="fw-bold text-uppercase">Oil & Gas</h5>
 									</div>
 									<div className="col-xl col-lg-3 col-md-3 col-sm-3 col-6 mb-xl-0 mb-3 text-center">
 										<div className="icon-box-major mb-3">
@@ -665,7 +665,7 @@ export default function Home() {
 												</svg>
 											</div>
 										</div>
-										<h5 className="fw-bold">Defence</h5>
+										<h5 className="fw-bold text-uppercase">Defence</h5>
 									</div>
 									<div className="col-xl col-lg-3 col-md-3 col-sm-3 col-6 mb-xl-0 mb-3 text-center">
 										<div className="icon-box-major mb-3">
@@ -676,7 +676,7 @@ export default function Home() {
 												</svg>
 											</div>
 										</div>
-										<h5 className="fw-bold">Engineering</h5>
+										<h5 className="fw-bold text-uppercase">Engineering</h5>
 									</div>
 									<div className="col-xl col-lg-3 col-md-3 col-sm-3 col-6 mb-xl-0 mb-3 text-center">
 										<div className="icon-box-major mb-3">
@@ -688,7 +688,7 @@ export default function Home() {
 
 											</div>
 										</div>
-										<h5 className="fw-bold">Hardware Industries</h5>
+										<h5 className="fw-bold text-uppercase">Hardware Industries</h5>
 									</div>
 								</div>
 							</div>
@@ -705,7 +705,7 @@ export default function Home() {
 							<div className='col-md-12'>
 								<div className="gradiant-txt qaulity-txt mt-3 text-center">
 									<div className="mb-3">
-										<h2>Our<span> Products </span></h2>
+										<h2 className="text-uppercase">Our<span> Products </span></h2>
 									</div>
 								</div>
 							</div>
@@ -719,7 +719,7 @@ export default function Home() {
 													<img className="img-fluid" src="/assets/images/prod-home-3.png" />
 												</div>
 												<div className="ms-3">
-													<span>Pump Components</span>
+													<span className="text-uppercase">Pump Components</span>
 													<bdi className="d-block mt-2">View
 														<svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path d="M1 11L6 6L1 1" stroke="#4E4E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -736,7 +736,7 @@ export default function Home() {
 													<img className="img-fluid" src="/assets/images/prod-home-1.png " />
 												</div>
 												<div className="ms-3">
-													<span>Valve Components</span>
+													<span className="text-uppercase">Valve Components</span>
 													<bdi className="d-block mt-2">View
 														<svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path d="M1 11L6 6L1 1" stroke="#4E4E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -753,7 +753,7 @@ export default function Home() {
 													<img className="img-fluid" src="/assets/images/prod-home-2.png " />
 												</div>
 												<div className="ms-3">
-													<span>Fire Equipment</span>
+													<span className="text-uppercase">Fire Equipment</span>
 													<bdi className="d-block mt-2">View
 														<svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path d="M1 11L6 6L1 1" stroke="#4E4E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -770,7 +770,7 @@ export default function Home() {
 													<img className="img-fluid" src="/assets/images/prod-home-2.png " />
 												</div>
 												<div className="ms-3">
-													<span>Automotive</span>
+													<span className="text-uppercase">Automotive</span>
 													<bdi className="d-block mt-2">View
 														<svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path d="M1 11L6 6L1 1" stroke="#4E4E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -788,7 +788,7 @@ export default function Home() {
 													<img className="img-fluid" src="/assets/images/prod-home-3.png" />
 												</div>
 												<div className="ms-3">
-													<span>Machined Casting</span>
+													<span className="text-uppercase">Machined Casting</span>
 													<bdi className="d-block mt-2">View
 														<svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path d="M1 11L6 6L1 1" stroke="#4E4E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -805,7 +805,7 @@ export default function Home() {
 													<img className="img-fluid" src="/assets/images/prod-home-1.png " />
 												</div>
 												<div className="ms-3">
-													<span>Hardware</span>
+													<span className="text-uppercase">Hardware</span>
 													<bdi className="d-block mt-2">View
 														<svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path d="M1 11L6 6L1 1" stroke="#4E4E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -832,7 +832,7 @@ export default function Home() {
 									</svg>
 									<div className='ms-3'>
 										<h1 className="text-white fw-bold">2014</h1>
-										<h3 className='mb-0'>Years of Establishment</h3>
+										<h3 className='mb-0'>Year of Establishment</h3>
 									</div>
 								</div>
 							</div>
@@ -854,8 +854,8 @@ export default function Home() {
 										<path d="M68.2246 36.939V42.9541" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
 									</svg>
 									<div className='ms-3'>
-										<h1 className="text-white fw-bold">100 +</h1>
-										<h3 className='mb-0'>Casting Capacity (Kg.)</h3>
+										<h1 className="text-white fw-bold">850 +</h1>
+										<h3 className='mb-0'>Casting Capacity (Tons)</h3>
 									</div>
 								</div>
 							</div>
@@ -869,7 +869,7 @@ export default function Home() {
 										<path d="M70.1656 43.282C70.1656 44.9827 68.4384 46.3612 66.3078 46.3612C64.1772 46.3612 62.45 44.9827 62.45 43.282M55.8952 29.548H76.7203M66.3078 24.9961V17.9648M17.1727 39.5127L17.55 43.282M17.55 43.282L20.592 44.9203C21.8128 45.5778 23.0695 46.1547 24.0844 46.8702M17.55 43.282L13.6922 47.5331M10.2119 39.5127L9.83453 43.282L13.6922 47.5331M19.2125 62.9848H1.17188V50.5409C1.17188 47.45 4.07156 46.3858 6.79234 44.9205L9.83453 43.2822M13.6922 47.5331V61.813M24.1048 29.548H3.27969M13.6922 24.9961V17.9648M19.2127 57.187H1.17188M1.17188 52.4995H19.2127M40.0002 77.0472V45.3892L45.575 49.4273L50.4709 44.0795M56.1002 54.8433V52.4995M56.1002 59.5308V57.187M73.7003 28.2567C73.7003 24.1908 70.3736 20.8641 66.3078 20.8641C62.242 20.8641 58.9152 24.1908 58.9152 28.2567V32.9966C58.9152 37.0625 62.2419 40.3892 66.3078 40.3892C70.3736 40.3892 73.7003 37.0625 73.7003 32.9966V28.2567ZM6.29969 28.2567C6.29969 24.1908 9.62641 20.8641 13.6922 20.8641C17.758 20.8641 21.0848 24.1908 21.0848 28.2567V32.9966C21.0848 37.0625 17.7581 40.3892 13.6922 40.3892C9.62641 40.3892 6.29969 37.0625 6.29969 32.9966V28.2567Z" stroke="white" stroke-width="2" stroke-miterlimit="22.9256" />
 									</svg>
 									<div className='ms-3'>
-										<h1 className="text-white fw-bold">220 +</h1>
+										<h1 className="text-white fw-bold">200 +</h1>
 										<h3 className='mb-0'>No. of Employees</h3>
 									</div>
 								</div>
@@ -896,7 +896,7 @@ export default function Home() {
 										<path d="M70.4839 12.7742C70.4839 14.0213 69.4729 15.0322 68.2258 15.0322C66.9788 15.0322 65.9678 14.0213 65.9678 12.7742C65.9678 11.527 66.9788 10.5161 68.2258 10.5161C69.4729 10.5161 70.4839 11.527 70.4839 12.7742Z" stroke="white" stroke-width="2" stroke-miterlimit="10" />
 									</svg>
 									<div className='ms-3'>
-										<h1 className="text-white fw-bold">36 +</h1>
+										<h1 className="text-white fw-bold">30 +</h1>
 										<h3 className='mb-0'>Export Country</h3>
 									</div>
 								</div>

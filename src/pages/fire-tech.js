@@ -256,7 +256,7 @@ export default function firetech(props) {
                                 </div>
                                 <div className="common-title ms-3">
                                     <h6 className="fw-bold">Experience</h6>
-                                    <p className="text-black-theme mb-0">10 years of establishment</p>
+                                    <p className="text-black-theme mb-0">10 year of establishment</p>
                                 </div>
                             </div>
                         </div>
