@@ -177,248 +177,250 @@ export default function Home() {
 									<div className="col-md-4 mb-3">
 										<img src="/assets/images/chhose-2.png" className="img-fluid" />
 									</div>
-									<div className="col-md-4 mb-3">
-										<div className="white-box gray-bg h-100">
+									<div className="col-md-8 mb-3">
+										<div className="gray-bg h-100 pt-3 px-3">
 											<h6 className="txt-theme-color fw-bold text-uppercase">Excellence in Manufacturing & Client Satisfaction</h6>
 											<p>We are committed to delivering exceptional manufacturing solutions to meet the diverse needs of our clients. Our state-of-the-art facilities, skilled workforce, and unwavering dedication to quality set us apart in the industry.</p>
-											{/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p> */}
-											<ul>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
+											<div className="col-12">
+												<div className="row">
+													<div className="col-md-6 mb-3">
+														<div className="white-box gray-bg h-100">
+															<ul>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Comprehensive Manufacturing Capabilities</span> <br/>Our facilities include in-house CNC machining, induction hardening, surface hardening, electroplating, and polishing.</p>
+																</li>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Client-Centric Approach</span> <br/>We prioritize client satisfaction by offering high-quality standard and customized products tailored to our clients' needs.</p>
+																</li>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Experienced and Talented Team</span> <br/>Our team of professionals is highly skilled and experienced, ensuring the delivery of a wide range of high-quality products.</p>
+																</li>
+															</ul>
+														</div>
 													</div>
-													<p><span className="txt-theme-color fw-bold">Comprehensive Manufacturing Capabilities:</span> Our facilities include in-house CNC machining, induction hardening, surface hardening, electroplating, and polishing.</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
+													<div className="col-md-6 mb-3">
+														<div className="white-box gray-bg h-100">
+															<ul>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">High Volume Production</span> <br/>We are capable of supplying large volumes of fully machined, ready-to-assemble parts for the automotive industry and other sectors.</p>
+																</li>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Quality Assurance</span> <br/>We adhere to stringent quality control measures, ensuring every product meets the highest standards of excellence.</p>
+																</li>
+															</ul>
+														</div>
 													</div>
-													<p><span className="txt-theme-color fw-bold">Client-Centric Approach:</span> We prioritize client satisfaction by offering high-quality standard and customized products tailored to our clients' needs.</p>
-												</li>
-											</ul>
+												</div>
+											</div>
 										</div>
 									</div>
-									<div className="col-md-4 mb-3">
-										<div className="white-box gray-bg h-100">
-											<ul>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p><span className="txt-theme-color fw-bold">Experienced and Talented Team:</span> Our team of professionals is highly skilled and experienced, ensuring the delivery of a wide range of high-quality products.</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p><span className="txt-theme-color fw-bold">High Volume Production:</span> We are capable of supplying large volumes of fully machined, ready-to-assemble parts for the automotive industry and other sectors.</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p><span className="txt-theme-color fw-bold">Quality Assurance:</span> We adhere to stringent quality control measures, ensuring every product meets the highest standards of excellence.</p>
-												</li>
-											</ul>
-										</div>
-									</div>
+									
 								</div>
 							</div>
+
 							<div className='col-12'>
 								<div className='row'>
-									<div className='col-md-4 mb-md-0 mb-3'>
-										<div className="white-box gray-bg h-100">
-											<h6 className="txt-theme-color fw-bold">Materials Used</h6>
-											<ul>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
+									<div className="col-md-8 mb-3">
+										<div className="gray-bg h-100 pt-3 px-3">
+											<h6 className="txt-theme-color fw-bold text-uppercase">Our Strengths</h6>
+											<p>We are committed to delivering exceptional manufacturing solutions to meet the diverse needs of our clients. Our state-of-the-art facilities, skilled workforce, and unwavering dedication to quality set us apart in the industry.</p>
+											<div className="col-12">
+												<div className="row">
+													<div className="col-md-6 mb-3">
+														<div className="white-box gray-bg h-100">
+															<ul>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Manufacturing Process</span> <br/>Lost wax</p>
+																</li>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Simulation Software</span> <br/>Softcast</p>
+																</li>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Type of Furnace</span> <br/>Medium frequency induction furnace (Inductotherm Make)</p>
+																</li>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Weight Range</span> <br/>Few grams to 100 Kg/Pc.</p>
+																</li>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Monthly Capacity</span> <br/>60 Tons</p>
+																</li>
+															</ul>
+														</div>
 													</div>
-													<p>Corrugated Composite Boards</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
+													<div className="col-md-6 mb-3">
+														<div className="white-box gray-bg h-100">
+															<ul>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Grades Manufactured</span> <br/>CS, LAS, SS, Duplex, Super Duplex, Heat Resistant, Customi</p>
+																</li>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">NDT Facilities</span> <br/>In house UT/MPT/DPT/RT (Ir - 192 & Co - 60)</p>
+																</li>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Testing Facilities</span> <br/>In house chemical & mechanical testing lab</p>
+																</li>
+																<li className="d-flex">
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stop-color="#2A519A" />
+																					<stop offset="1" stop-color="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Machine Shop</span> <br/>In house VMC, TC, HMC, Boring & VCT Facilities</p>
+																</li>
+															</ul>
+														</div>
 													</div>
-													<p>Polyester Fabric</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p>Coated Textiles</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p>PVC & Acrylics</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p>Laminated & Pressure-Sensitive</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p>Parous Flexibles</p>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<div className='col-md-4 mb-md-0 mb-3'>
-										<div className="white-box gray-bg h-100">
-											<h6 className="txt-theme-color fw-bold">Advantages</h6>
-											<ul>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p>Precision and High Speed Cutting</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p>Innovative Software that Aids Design</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p>Avoid Expensive Dies</p>
-												</li>
-												<li className="d-flex">
-													<div className="me-2">
-														<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
-															<defs>
-																<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
-																	<stop stop-color="#2A519A" />
-																	<stop offset="1" stop-color="#154090" />
-																</linearGradient>
-															</defs>
-														</svg>
-													</div>
-													<p>Efficient Processing of Fabric Substations</p>
-												</li>
-
-											</ul>
+												</div>
+											</div>
 										</div>
 									</div>
 									<div className='col-md-4 mb-md-0 mb-3'>
