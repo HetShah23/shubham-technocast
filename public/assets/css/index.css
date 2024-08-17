@@ -148,20 +148,20 @@ footer .pages-link ul li {
 }
 
 .bg-home {
-	background-image: url('../images/home-bg.png');
+	background-image: url('../images/hero-page-1.jpg');
 	height: 100vh;
 }
 
 .bg-home-slide-2 {
-	background-image: url('../images/bg-home-slide-2.png')
+	background-image: url('../images/hero-page-2.jpg')
 }
 
 .bg-home-slide-3 {
-	background-image: url('../images/bg-home-slide-3.png')
+	background-image: url('../images/hero-page-3.jpg')
 }
 
 .bg-home-slide-4 {
-	background-image: url('../images/bg-home-slide-4.png')
+	background-image: url('../images/hero-page-4.jpg')
 }
 
 .top-header-txt h1 {
@@ -203,6 +203,10 @@ footer .pages-link ul li {
 	font-size: 31px;
 	color: #141414;
 	text-transform: capitalize;
+}
+
+.gradiant-txt-light {
+	color: #44AAE0;
 }
 
 .gradiant-txt h2 span {
@@ -694,19 +698,23 @@ header {
 	color: #141414;
 	font-size: 16px;
 	border-radius: 0;
+	text-transform: uppercase;
 }
 
 .cust-tab .tab-content {
 	padding: 10px;
 	border: 1px solid #4E4E4E4D;
+	font-size: 16px;
 }
 
 .cust-tab .nav-tabs .nav-link.active {
+	font-weight: bold;
 	border: 1px solid #4E4E4E4D;
 	border-bottom: 0;
 	bottom: -2px;
 	position: relative;
 	background-color: #f8f9fb;
+	color: #1d4794;
 }
 
 .home-prod span {
@@ -770,7 +778,7 @@ header {
 }
 
 .bg-fire {
-	background: url('../images/firetech-bg.png');
+	background: url('../images/firetech-cover.jpg');
 }
 
 .our-client-box .white-box div {

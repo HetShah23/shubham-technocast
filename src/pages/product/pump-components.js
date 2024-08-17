@@ -148,8 +148,7 @@ export default function pumpcomponents(props) {
                                 height={350}
                                 quality={100}
                                 alt="logo"
-                                objectFit={'cover'}
-                                className='img-fluid h-auto w-75'
+                                className='img-fluid h-auto w-75 object-fit-cover'
                             />
                         </div>
                         <div className='col-md-6 mb-3'>
