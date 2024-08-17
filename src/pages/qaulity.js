@@ -32,7 +32,7 @@ function qaulity(props) {
                     <div className="row">
                         <div className="col-12 mb-2">
                             <div className="bottom-line-txt">
-                                <span>Lorem ipsum is simple dummy</span>
+                                <span>Ensuring Excellence in Every Component</span>
                             </div>
                         </div>
                         <div className="col-12 py-2">
@@ -71,7 +71,7 @@ function qaulity(props) {
                                                         <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <rect width="10" height="10" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0 7.5)" fill="white" />
                                                         </svg>
-                                                        <p className="ms-2 mb-0">Show up to work on time</p>
+                                                        <p className="ms-2 mb-0">In house Spectrometer</p>
                                                     </div>
                                                 </li>
                                                 <li>

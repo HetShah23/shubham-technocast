@@ -767,29 +767,12 @@ export default function Home() {
 									<div className="col-md-4 col-sm-6 mb-3">
 										<div className="white-box p-0 home-prod">
 											<Link href={'/'} className="d-flex align-items-center h-100">
-												<div className="img-div d-flex flex-column h-100 justify-content-end">
-													<img className="img-fluid" src="/assets/images/prod-home-2.png " />
-												</div>
-												<div className="ms-3">
-													<span className="text-uppercase">Automotive</span>
-													<bdi className="d-block mt-2">View
-														<svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 11L6 6L1 1" stroke="#4E4E4E" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-														</svg>
-													</bdi>
-												</div>
-											</Link>
-										</div>
-									</div>
-									<div className="col-md-4 col-sm-6 mb-3">
-										<div className="white-box p-0 home-prod">
-											<Link href={'/'} className="d-flex align-items-center h-100">
 
 												<div className="img-div d-flex flex-column h-100 justify-content-end">
 													<img className="img-fluid" src="/assets/images/prod-home-3.png" />
 												</div>
 												<div className="ms-3">
-													<span className="text-uppercase">Machined Casting</span>
+													<span className="text-uppercase">General Engineering</span>
 													<bdi className="d-block mt-2">View
 														<svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path d="M1 11L6 6L1 1" stroke="#4E4E4E" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

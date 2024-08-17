@@ -269,11 +269,6 @@ function Footer(props) {
                                             </li>
                                             <li>
                                                 <Link href="">
-                                                    Automotive
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="">
                                                     General Engineering
                                                 </Link>
                                             </li>

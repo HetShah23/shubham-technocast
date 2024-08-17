@@ -30,18 +30,18 @@ export default function aboutus(props) {
                     <div className="row">
                         <div className="col-md-4 mb-md-0 mb-3 text-ms-start text-center">
                             <Image
-                                src={'/assets/images/about-client.png'}
-                                width={450}
-                                height={450}
+                                src={'/assets/images/infra-1.jpeg'}
+                                width={400}
+                                height={430}
                                 quality={100}
                                 alt="logo"
                                 loading='lazy'
-                                className='img-fluid'
+                                className='object-fit-cover'
                             />
                         </div>
                         <div className='col-md-8'>
                             <div className="gradiant-txt qaulity-txt">
-                                <h2>Welcome... <br />   <span> To Shubham Technocast</span></h2>
+                                <h2 className='text-uppercase'>Investment Casting Industry <br />   <span> Shubham Technocast</span></h2>
                                 <p>At SHUBHAM TECHNOCAST, we commit to provide you with the best casting & deliver just-in-time. Customer’s requirements are given importance as well quality is maintained. Our team is completely trained & well equipped to meet our customers ‘Requirements’.</p>
                                 <p>SHUBHAM TECHNOCAST has started in the year 2014 for manufacture of Ferrous & Non Ferrous Investment Casting as per international standard.</p>
                             </div>
@@ -57,13 +57,16 @@ export default function aboutus(props) {
                                 <span>Who we are and What we can</span>
                             </div>
                             <div className="gradiant-txt qaulity-txt mt-3">
-                                <h2>We are the best always <br />  <span>in this Industry</span></h2>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
-                                </p>
-                                <p>
-                                    Printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                </p>
+                                <h2 className='text-uppercase'>We are the best always <br />  <span>in this Industry</span></h2>
+                                <p>Shubham Technocast commenced its journey in 1992,
+                                pioneering India's lost wax investment casting sector. The company expanded steadily, offering a
+                                portfolio of over 6,000 investment castings for various industrial applications. In 2005 , the
+                                organization further expanded its capabilities with a modern production facility in Rajkot,
+                                Gujarat.</p>
+                                <p>Spanning across a vast expanse of 65,000 square feet, our state-of-the-art production facility is a
+                                testament to our commitment to excellence. It boasts an impressive installed production capacity
+                                of 1500 metric tons per annum, reflecting our dedication to meeting the diverse and evolving
+                                needs of our clients.</p>
                                 <ul >
                                     <li className='d-flex align-items-center mb-3'>
                                         <div className='me-2'>
@@ -116,8 +119,8 @@ export default function aboutus(props) {
                                             className='img-fluid'
                                         />
                                         <div className="glass-effect text-center">
-                                            <h2>Mission</h2>
-                                            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                            <h2 className='text-uppercase'>Mission</h2>
+                                            <p>To develop long-term business relations with its customer & poised to be Global Investment casting manufacturer with steady growth</p>
                                         </div>
                                     </div>
                                 </div>
@@ -133,8 +136,8 @@ export default function aboutus(props) {
                                             className='img-fluid'
                                         />
                                         <div className="glass-effect text-center">
-                                            <h2>Vision</h2>
-                                            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                            <h2 className='text-uppercase'>Vision</h2>
+                                            <p>We strive to lead through world-class quality & constant innovation, focused on meeting customer needs.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -150,8 +153,8 @@ export default function aboutus(props) {
                                             className='img-fluid'
                                         />
                                         <div className="glass-effect text-center">
-                                            <h2>Core Value</h2>
-                                            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                            <h2 className='text-uppercase'>Core Value</h2>
+                                            <p>The organization prioritizes quality, customer focus, sustainability, & employee welfare, fostering a culture of empowerment & dedication.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -295,7 +298,7 @@ export default function aboutus(props) {
                 </div>
             </section>
 
-            <section className="common-space">
+            {/* <section className="common-space">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 mb-2">
@@ -412,7 +415,7 @@ export default function aboutus(props) {
 
                     </div>
                 </div>
-            </section>
+            </section> */}
         </Layout>
     );
 }

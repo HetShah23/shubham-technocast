@@ -127,7 +127,7 @@ function index(props) {
                                             className='img-fluid image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
-                                            <Link href={'/product/valve-componets'} className='d-flex align-items-center'>
+                                            <Link href={'/product/valve-components'} className='d-flex align-items-center'>
 
                                                 <h2 className='mb-0'>Valve Components</h2>
                                                 <div className='ms-auto'>
@@ -151,7 +151,7 @@ function index(props) {
                                             className='img-fluid image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
-                                            <Link href={'/product/fire-equipment'} className='d-flex align-items-center'>
+                                            <Link href={'/product/fire-equipments'} className='d-flex align-items-center'>
 
                                                 <h2 className='mb-0'>Fire Equipment</h2>
                                                 <div className='ms-auto'>
