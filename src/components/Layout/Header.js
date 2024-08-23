@@ -81,13 +81,13 @@ function Header(props) {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href={'/product'} className={router.pathname == '/product' ? 'active' : ''}>
-                                                Products
+                                            <Link href={'/about-us'} className={router.pathname == '/about-us' ? 'active' : ''}>
+                                                About us
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href={'/about-us'} className={router.pathname == '/about-us' ? 'active' : ''}>
-                                                About us
+                                            <Link href={'/product'} className={router.pathname == '/product' ? 'active' : ''}>
+                                                Products
                                             </Link>
                                         </li>
                                         <li>

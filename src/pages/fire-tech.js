@@ -4,10 +4,36 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
+
 export default function firetech(props) {
+    
+    const customers_logo = [
+        '/assets/images/client-logo-1.png',
+        '/assets/images/client-logo-2.png',
+        '/assets/images/client-logo-3.png',
+        '/assets/images/client-logo-4.png',
+        '/assets/images/client-logo-5.png',
+        '/assets/images/client-logo-6.png',
+        '/assets/images/client-logo-7.png',
+        '/assets/images/client-logo-8.png',
+        '/assets/images/client-logo-9.png',
+        '/assets/images/client-logo-10.png',
+        '/assets/images/client-logo-11.png',
+        '/assets/images/client-logo-12.png',
+        '/assets/images/client-logo-13.png',
+        '/assets/images/client-logo-14.png',
+        '/assets/images/client-logo-15.png',
+    ];
+
+    const mark_logos = [
+        "/assets/images/iso-logo-1.png",
+        "/assets/images/iso-logo-2.png",
+        "/assets/images/iso-logo-3.png",
+    ]
+
     return (
         <Layout>
-            <section className="bg-image bg-fire no-margin">
+            <section className="bg-fire no-margin">
                 <div className="container h-100">
                     <div className="row h-100 align-items-end">
                         <div className="col-12 mx-auto">
@@ -37,156 +63,87 @@ export default function firetech(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3">
-                            <div className="image-div-hoverable">
-                                <Image
-                                    src={'/assets/images/fire-prod-9.png'}
-                                    width={695}
-                                    height={458}
-                                    quality={100}
+                        <div className="col-lg-4 col-6 mb-3 p-3">
+                            <div className="image-div-hoverable h-100 w-100">
+                                <img
+                                    src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724181999/DSCF6966_alsiyh.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='img-fluid'
+                                    className='mw-100 h-100'
                                 />
-                                <div className="bottom-white-img">
-                                    <h2>Valves & Risers</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div className="bottom-white-img-firetech bottom-white-img">
+                                    <h2 className='text-uppercase'>Hydrant Valves</h2>
+                                    {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3">
-                            <div className="image-div-hoverable">
-                                <Image
-                                    src={'/assets/images/fire-prod-6.png'}
-                                    width={695}
-                                    height={458}
-                                    quality={100}
+                        <div className="col-lg-4 col-6 mb-3 p-3">
+                            <div className="image-div-hoverable h-100 w-100">
+                                <img
+                                    src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724181993/DSCF6981_ap4th7.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='img-fluid'
+                                    className='mw-100 h-100'
                                 />
-                                <div className="bottom-white-img">
-                                    <h2>Nozzles</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div className="bottom-white-img-firetech bottom-white-img">
+                                    <h2>COUPLINGS & HOSE</h2>
+                                    {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3">
-                            <div className="image-div-hoverable">
-                                <Image
-                                    src={'/assets/images/fire-prod-4.png'}
-                                    width={695}
-                                    height={458}
-                                    quality={100}
+                        <div className="col-lg-4 col-6 mb-3 p-3">
+                            <div className="image-div-hoverable h-100 w-100">
+                                <img
+                                    src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724181992/DSCF6962_wgi6iq.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='img-fluid'
+                                    className='mw-100 h-100'
                                 />
-                                <div className="bottom-white-img">
-                                    <h2>Monitor Nozzles</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div className="bottom-white-img-firetech bottom-white-img">
+                                    <h2>NOZZLES</h2>
+                                    {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3">
-                            <div className="image-div-hoverable">
-                                <Image
-                                    src={'/assets/images/fire-prod-1.png'}
-                                    width={695}
-                                    height={458}
-                                    quality={100}
+                        <div className="col-lg-4 col-6 mb-3 p-3">
+                            <div className="image-div-hoverable h-100 w-100">
+                                <img
+                                    src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724183292/IMG_7765_rgadmp.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='img-fluid'
+                                    className='mw-100 h-100'
                                 />
-                                <div className="bottom-white-img">
-                                    <h2>Hydrants & Accessories</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div className="bottom-white-img-firetech bottom-white-img">
+                                    <h2>HOSE REELS AND CABINET</h2>
+                                    {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3">
-                            <div className="image-div-hoverable">
-                                <Image
-                                    src={'/assets/images/fire-prod-8.png'}
-                                    width={695}
-                                    height={458}
-                                    quality={100}
+                        <div className="col-lg-4 col-6 mb-3 p-3">
+                            <div className="image-div-hoverable h-100 w-100">
+                                <img
+                                    src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724182002/DSCF6992_jfzsf6.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='img-fluid'
+                                    className='mw-100 h-100'
                                 />
-                                <div className="bottom-white-img">
-                                    <h2>Fire Hoses & Accessories</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div className="bottom-white-img-firetech bottom-white-img">
+                                    <h2>INLETS</h2>
+                                    {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3">
-                            <div className="image-div-hoverable">
-                                <Image
-                                    src={'/assets/images/fire-prod-7.png'}
-                                    width={695}
-                                    height={458}
-                                    quality={100}
+                        <div className="col-lg-4 col-6 mb-3 p-3">
+                            <div className="image-div-hoverable h-100 w-100">
+                                <img
+                                    src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724183537/Fire-Water-Monitor-1200x1200_ggcoog.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='img-fluid'
+                                    className='mw-100 h-100'
                                 />
-                                <div className="bottom-white-img">
-                                    <h2>Foam Equipment's</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-6 mb-3">
-                            <div className="image-div-hoverable">
-                                <Image
-                                    src={'/assets/images/fire-prod-5.png'}
-                                    width={695}
-                                    height={458}
-                                    quality={100}
-                                    alt="logo"
-                                    loading='lazy'
-                                    className='img-fluid'
-                                />
-                                <div className="bottom-white-img">
-                                    <h2>Fire Vehicle Accessories</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-6 mb-3">
-                            <div className="image-div-hoverable">
-                                <Image
-                                    src={'/assets/images/fire-prod-3.png'}
-                                    width={695}
-                                    height={458}
-                                    quality={100}
-                                    alt="logo"
-                                    loading='lazy'
-                                    className='img-fluid'
-                                />
-                                <div className="bottom-white-img">
-                                    <h2>Trailers & Pumps</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-6 mb-3">
-                            <div className="image-div-hoverable">
-                                <Image
-                                    src={'/assets/images/fire-prod-2.png'}
-                                    width={695}
-                                    height={458}
-                                    quality={100}
-                                    alt="logo"
-                                    loading='lazy'
-                                    className='img-fluid'
-                                />
-                                <div className="bottom-white-img">
-                                    <h2>Fire Vehicle</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div className="bottom-white-img-firetech bottom-white-img">
+                                    <h2>FIRE MONITORS</h2>
+                                    {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                                 </div>
                             </div>
                         </div>
@@ -198,12 +155,12 @@ export default function firetech(props) {
                     <div className='col-lg-6 bg-blue pe-lg-0 bg-image-firetech'>
                         <div className='container h-100'>
                             <div className='row common-space h-100 align-items-center'>
-                                <div className='col-lg-9 ms-auto'>
+                                <div className='col-lg-12 ms-auto'>
                                     <div className='common-title'>
-                                        <h1>Shubham Firetech</h1>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                                        <Link href={'/contact-us'} className='btn-2'>Contact Us Now</Link>
+                                        <h1 className="text-uppercase">Shubham Firetech</h1>
+                                        <p>Shubham Firetech, a subsidiary of Shubham Technocast, is a globally recognized brand in the fire-fighting equipment industry. Committed to quality and innovation, Shubham Firetech offers a comprehensive range of fire safety solutions, including fire hydrant valves, hose reels, branch pipes, and hose boxes. </p><p>Leveraging Shubham Technocast's precision engineering, the company produces durable stainless steel investment casted valves, setting industry benchmarks for safety and reliability. Focused on protecting lives and properties, Shubham Firetech is a trusted name in fire safety worldwide.</p>
+                                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p> */}
+                                        <Link href={'/contact-us'} className='btn-2 mb-3'>Contact Us Now</Link>
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +168,7 @@ export default function firetech(props) {
 
                     </div>
                     <div className='col-lg-6 ps-lg-0'>
-                        <img src='/assets/images/firetechright-bg.png' className='img-fluid' alt='img' />
+                        <img src='/assets/images/firetechright-bg.png' className='mw-100 h-100' alt='img' />
                     </div>
 
 
@@ -225,11 +182,11 @@ export default function firetech(props) {
                             <div className='white-box h-100 d-flex align-items-center'>
                                 <div>
                                     <svg width="66" height="80" viewBox="0 0 66 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M57.4043 62.037L53.5914 52.832M33.0588 68.5902L36.101 75.9348C37.5099 79.3362 42.1103 79.8603 44.248 76.8627C45.342 75.3286 46.8451 74.1329 48.5858 73.4119C50.3265 72.6909 52.2349 72.4735 54.0932 72.7847C57.7244 73.3927 60.6069 69.7692 59.198 66.3677M35.053 63.4917L29.8989 75.9348C28.49 79.3362 23.8896 79.8603 21.7519 76.8627C20.6579 75.3287 19.1549 74.133 17.4142 73.4119C15.6735 72.6909 13.7652 72.4736 11.9069 72.7847C8.27565 73.3927 5.39315 69.7692 6.80206 66.3677L12.4086 52.832" stroke="url(#paint0_linear_759_883)" strokeWidth="2.5" stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
-                                        <path d="M64.25 32.4219C64.25 30.6158 63.5603 28.9712 62.43 27.7367C60.9577 26.1284 60.368 23.8775 60.8336 21.7472C61.1897 20.1177 60.9633 18.3556 60.0633 16.7969C59.1622 15.2361 57.7467 14.158 56.1547 13.6525C54.0747 12.9922 52.4297 11.3472 51.7694 9.26719C51.2639 7.67516 50.1858 6.25969 48.625 5.35859C47.0664 4.45875 45.3044 4.23219 43.6747 4.58828C41.5444 5.05391 39.2934 4.46422 37.6852 2.99188C36.4506 1.86156 34.8061 1.17188 33 1.17188C31.1939 1.17188 29.5494 1.86156 28.3148 2.99188C26.7066 4.46422 24.4556 5.05391 22.3253 4.58828C20.6958 4.23219 18.9337 4.45859 17.375 5.35859C15.8142 6.25969 14.7361 7.67516 14.2306 9.26719C13.5703 11.3472 11.9253 12.9922 9.84531 13.6525C8.25328 14.158 6.83781 15.2361 5.93672 16.7969C5.03687 18.3555 4.81031 20.1175 5.16641 21.747C5.63203 23.8773 5.04234 26.1283 3.57 27.7366C2.43969 28.9713 1.75 30.6158 1.75 32.4219C1.75 34.228 2.43969 35.8725 3.57 37.107C5.04234 38.7153 5.63203 40.9664 5.16641 43.0966C4.81031 44.7261 5.03672 46.4881 5.93672 48.0467C6.83781 49.6075 8.25328 50.6856 9.84531 51.1911C11.9253 51.8514 13.5703 53.4964 14.2306 55.5764C14.7361 57.1684 15.8141 58.5839 17.375 59.485C18.9336 60.3848 20.6956 60.6114 22.3253 60.2553C24.4556 59.7897 26.7066 60.3794 28.3148 61.8517C29.5495 62.982 31.1939 63.6717 33 63.6717C34.8061 63.6717 36.4506 62.982 37.6852 61.8517C39.2934 60.3794 41.5444 59.7897 43.6747 60.2553C45.3042 60.6114 47.0663 60.385 48.625 59.485C50.1858 58.5839 51.2639 57.1684 51.7694 55.5764C52.4297 53.4964 54.0747 51.8514 56.1547 51.1911C57.7467 50.6856 59.1622 49.6077 60.0633 48.0467C60.9631 46.4881 61.1897 44.7261 60.8336 43.0964C60.368 40.9661 60.9577 38.7152 62.43 37.1069C63.5603 35.8725 64.25 34.228 64.25 32.4219Z" stroke="url(#paint1_linear_759_883)" strokeWidth="2.5" stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
-                                        <path d="M20.0255 16.1321C23.5875 13.2891 28.0988 11.5879 33 11.5879C44.4877 11.5879 53.8333 20.9337 53.8333 32.4212C53.8333 43.9087 44.4877 53.2545 33 53.2545C21.5125 53.2545 12.1667 43.9087 12.1667 32.4212C12.1667 27.5199 13.868 23.0087 16.711 19.4466" stroke="url(#paint2_linear_759_883)" strokeWidth="2.5" stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
-                                        <path d="M28.7744 40.8402C29.166 41.2329 29.6314 41.5443 30.1438 41.7565C30.6562 41.9688 31.2055 42.0776 31.7601 42.0769H41.2775C43.6095 42.0769 45.5 40.1865 45.5 37.8544V30.333C45.5 28.001 43.6095 26.1105 41.2775 26.1105H37.1122L39.4209 22.7791C39.9626 21.9976 39.9315 20.9302 39.2933 20.2254C39.1153 20.0279 38.9001 19.8675 38.6601 19.7532C38.4201 19.6389 38.1599 19.573 37.8944 19.5593C37.629 19.5456 37.3634 19.5844 37.1129 19.6733C36.8624 19.7623 36.6319 19.8998 36.4345 20.0779L28.9312 26.8487" stroke="url(#paint3_linear_759_883)" strokeWidth="2.5" stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
-                                        <path d="M23.0022 42.0777H26.4428C27.8248 42.0777 28.945 40.9573 28.945 39.5755V27.6897C28.945 26.3077 27.8247 25.1875 26.4428 25.1875H23.0022C21.6202 25.1875 20.5 26.3078 20.5 27.6897V39.5755C20.5 40.9573 21.6203 42.0777 23.0022 42.0777Z" stroke="url(#paint4_linear_759_883)" strokeWidth="2.5" stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                        <path d="M57.4043 62.037L53.5914 52.832M33.0588 68.5902L36.101 75.9348C37.5099 79.3362 42.1103 79.8603 44.248 76.8627C45.342 75.3286 46.8451 74.1329 48.5858 73.4119C50.3265 72.6909 52.2349 72.4735 54.0932 72.7847C57.7244 73.3927 60.6069 69.7692 59.198 66.3677M35.053 63.4917L29.8989 75.9348C28.49 79.3362 23.8896 79.8603 21.7519 76.8627C20.6579 75.3287 19.1549 74.133 17.4142 73.4119C15.6735 72.6909 13.7652 72.4736 11.9069 72.7847C8.27565 73.3927 5.39315 69.7692 6.80206 66.3677L12.4086 52.832" stroke="url(#paint0_linear_759_883)" strokeWidth="2.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                        <path d="M64.25 32.4219C64.25 30.6158 63.5603 28.9712 62.43 27.7367C60.9577 26.1284 60.368 23.8775 60.8336 21.7472C61.1897 20.1177 60.9633 18.3556 60.0633 16.7969C59.1622 15.2361 57.7467 14.158 56.1547 13.6525C54.0747 12.9922 52.4297 11.3472 51.7694 9.26719C51.2639 7.67516 50.1858 6.25969 48.625 5.35859C47.0664 4.45875 45.3044 4.23219 43.6747 4.58828C41.5444 5.05391 39.2934 4.46422 37.6852 2.99188C36.4506 1.86156 34.8061 1.17188 33 1.17188C31.1939 1.17188 29.5494 1.86156 28.3148 2.99188C26.7066 4.46422 24.4556 5.05391 22.3253 4.58828C20.6958 4.23219 18.9337 4.45859 17.375 5.35859C15.8142 6.25969 14.7361 7.67516 14.2306 9.26719C13.5703 11.3472 11.9253 12.9922 9.84531 13.6525C8.25328 14.158 6.83781 15.2361 5.93672 16.7969C5.03687 18.3555 4.81031 20.1175 5.16641 21.747C5.63203 23.8773 5.04234 26.1283 3.57 27.7366C2.43969 28.9713 1.75 30.6158 1.75 32.4219C1.75 34.228 2.43969 35.8725 3.57 37.107C5.04234 38.7153 5.63203 40.9664 5.16641 43.0966C4.81031 44.7261 5.03672 46.4881 5.93672 48.0467C6.83781 49.6075 8.25328 50.6856 9.84531 51.1911C11.9253 51.8514 13.5703 53.4964 14.2306 55.5764C14.7361 57.1684 15.8141 58.5839 17.375 59.485C18.9336 60.3848 20.6956 60.6114 22.3253 60.2553C24.4556 59.7897 26.7066 60.3794 28.3148 61.8517C29.5495 62.982 31.1939 63.6717 33 63.6717C34.8061 63.6717 36.4506 62.982 37.6852 61.8517C39.2934 60.3794 41.5444 59.7897 43.6747 60.2553C45.3042 60.6114 47.0663 60.385 48.625 59.485C50.1858 58.5839 51.2639 57.1684 51.7694 55.5764C52.4297 53.4964 54.0747 51.8514 56.1547 51.1911C57.7467 50.6856 59.1622 49.6077 60.0633 48.0467C60.9631 46.4881 61.1897 44.7261 60.8336 43.0964C60.368 40.9661 60.9577 38.7152 62.43 37.1069C63.5603 35.8725 64.25 34.228 64.25 32.4219Z" stroke="url(#paint1_linear_759_883)" strokeWidth="2.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                        <path d="M20.0255 16.1321C23.5875 13.2891 28.0988 11.5879 33 11.5879C44.4877 11.5879 53.8333 20.9337 53.8333 32.4212C53.8333 43.9087 44.4877 53.2545 33 53.2545C21.5125 53.2545 12.1667 43.9087 12.1667 32.4212C12.1667 27.5199 13.868 23.0087 16.711 19.4466" stroke="url(#paint2_linear_759_883)" strokeWidth="2.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                        <path d="M28.7744 40.8402C29.166 41.2329 29.6314 41.5443 30.1438 41.7565C30.6562 41.9688 31.2055 42.0776 31.7601 42.0769H41.2775C43.6095 42.0769 45.5 40.1865 45.5 37.8544V30.333C45.5 28.001 43.6095 26.1105 41.2775 26.1105H37.1122L39.4209 22.7791C39.9626 21.9976 39.9315 20.9302 39.2933 20.2254C39.1153 20.0279 38.9001 19.8675 38.6601 19.7532C38.4201 19.6389 38.1599 19.573 37.8944 19.5593C37.629 19.5456 37.3634 19.5844 37.1129 19.6733C36.8624 19.7623 36.6319 19.8998 36.4345 20.0779L28.9312 26.8487" stroke="url(#paint3_linear_759_883)" strokeWidth="2.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                        <path d="M23.0022 42.0777H26.4428C27.8248 42.0777 28.945 40.9573 28.945 39.5755V27.6897C28.945 26.3077 27.8247 25.1875 26.4428 25.1875H23.0022C21.6202 25.1875 20.5 26.3078 20.5 27.6897V39.5755C20.5 40.9573 21.6203 42.0777 23.0022 42.0777Z" stroke="url(#paint4_linear_759_883)" strokeWidth="2.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                                         <defs>
                                             <linearGradient id="paint0_linear_759_883" x1="6.43762" y1="52.5432" x2="62.4572" y2="68.1497" gradientUnits="userSpaceOnUse">
                                                 <stop stopColor="#2A519A" />
@@ -255,8 +212,8 @@ export default function firetech(props) {
                                     </svg>
                                 </div>
                                 <div className="common-title ms-3">
-                                    <h6 className="fw-bold">Experience</h6>
-                                    <p className="text-black-theme mb-0">10 year of establishment</p>
+                                    <h6 className="fw-bold text-uppercase">Experience</h6>
+                                    <p className="text-black-theme mb-0">10 year in the industry</p>
                                 </div>
                             </div>
                         </div>
@@ -275,7 +232,7 @@ export default function firetech(props) {
                                     </svg>
                                 </div>
                                 <div className="common-title ms-3">
-                                    <h6 className="fw-bold">Team</h6>
+                                    <h6 className="fw-bold text-uppercase">Team</h6>
                                     <p className="text-black-theme mb-0">Professionals in the industry</p>
                                 </div>
                             </div>
@@ -325,8 +282,8 @@ export default function firetech(props) {
 
                                 </div>
                                 <div className="common-title ms-3">
-                                    <h6 className="fw-bold">State of the art</h6>
-                                    <p className="text-black-theme mb-0">Equipment</p>
+                                    <h6 className="fw-bold text-uppercase">State of the art</h6>
+                                    <p className="text-black-theme mb-0">Equipments</p>
                                 </div>
                             </div>
                         </div>
@@ -345,10 +302,11 @@ export default function firetech(props) {
                             </div>
                         </div>
                         <div className='col-12 text-center'>
-                            <div>
-                                <img src='/assets/images/iso-logo-1.png' className='img-fluid me-2 mb-3' />
-                                <img src='/assets/images/iso-logo-2.png' className='img-fluid me-2 mb-3' />
-
+                            <div className='d-flex flex-row flex-sm-column justify-content-center align-items-center'>   
+                                <img alt="" src='/assets/images/iso-logo-1.png' height={120} className='mw-100 w-auto mx-4 mb-3' />
+                                <img alt="" src='/assets/images/iso-logo-2.png' height={130} className='mw-100 w-auto mx-4 mb-3' />
+                                <img alt="" src='/assets/images/iso-logo-3.png' height={130} className='mw-100 w-auto mx-4 mb-3' />
+        
                             </div>
                         </div>
                     </div>
@@ -360,7 +318,7 @@ export default function firetech(props) {
                         <div className='col-md-12 text-center'>
                             <div className='common-title'>
                                 <h1 className="text-white fw-bold">Credibility Through Quality</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p>At Shubham Firetech, our credibility is built on an unwavering commitment to quality. We set industry benchmarks by consistently delivering fire-fighting equipment that excels in durability, reliability, and performance. Our meticulous attention to detail, from material selection to final inspection, ensures that every product meets the highest standards of safety. This dedication to quality has earned us the trust of clients worldwide, reinforcing our reputation as a dependable leader in the fire safety industry.</p>
                             </div>
                         </div>
                     </div>
@@ -379,48 +337,40 @@ export default function firetech(props) {
                         <div className="col-md-6 mb-4">
                             <div className="white-box gray-bg border-left-theme">
                                 <div className="common-title">
-                                    <h6 className="fw-bold">End to End Solution</h6>
-                                    <p className="text-black-theme mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                                    <h6 className="fw-bold text-uppercase">Unmatched Quality</h6>
+                                    <p className="text-black-theme mb-0">Pioneers in SS investment-cast fire-fighting equipment, offering rust resistance & withstanding up to 30 kgs/lpm of line pressure, far exceeding the 9-10 kgs/lpm capacity of traditional sand-cast valves.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 mb-4">
                             <div className="white-box gray-bg border-left-theme">
                                 <div className="common-title">
-                                    <h6 className="fw-bold">Robust QMS Solution</h6>
-                                    <p className="text-black-theme mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                                    <h6 className="fw-bold text-uppercase">Cost-Effectiveness</h6>
+                                    <p className="text-black-theme mb-0">Controls the entire production process in-house, from metal castings to rubber hose manufacturing. This integration ensures superior quality, tighter control & cost savings, which we pass on to our customers.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 mb-4">
                             <div className="white-box gray-bg border-left-theme">
                                 <div className="common-title">
-                                    <h6 className="fw-bold">Technical Expertise</h6>
-                                    <p className="text-black-theme mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                                    <h6 className="fw-bold text-uppercase">Comprehensive In-House Capabilities</h6>
+                                    <p className="text-black-theme mb-0">Our advanced facility features a 720MT/year investment casting foundry, in-house pressure testing, a full machining shop, & cutting-edge quality assurance instruments, ensuring top-quality products.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 mb-4">
                             <div className="white-box gray-bg border-left-theme">
                                 <div className="common-title">
-                                    <h6 className="fw-bold">Flexibility in weight & volume</h6>
-                                    <p className="text-black-theme mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                                    <h6 className="fw-bold text-uppercase">Innovation and Reliability</h6>
+                                    <p className="text-black-theme mb-0">With a strong focus on innovation and precision engineering, we consistently delivers reliable fire safety solutions that you can trust to perform when it matters most.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 mb-4">
+                        <div className="col-md-6 align-self-center mb-4 mx-auto">
                             <div className="white-box gray-bg border-left-theme">
                                 <div className="common-title">
-                                    <h6 className="fw-bold">Skilled Manpower</h6>
-                                    <p className="text-black-theme mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 mb-4">
-                            <div className="white-box gray-bg border-left-theme">
-                                <div className="common-title">
-                                    <h6 className="fw-bold">End to End Solution</h6>
-                                    <p className="text-black-theme mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                                    <h6 className="fw-bold text-uppercase">Skilled Manpower</h6>
+                                    <p className="text-black-theme mb-0">With expert team ensures top-quality fire-fighting components through continuous training and precision in engineering and design. Their dedication guarantees reliable performance and high standards.</p>
                                 </div>
                             </div>
                         </div>
@@ -438,8 +388,7 @@ export default function firetech(props) {
                             </div>
                         </div>
                         <div className="col-md-12 pb-3">
-                           
-                                <ClientLogoSlider />
+                            <ClientLogoSlider logos={customers_logo} />
                         </div>
                         {/* <div className='col-md-12'>
                             <div className="row flex-nowrap overflow-x-hidden customer-slider">

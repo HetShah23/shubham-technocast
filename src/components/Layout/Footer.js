@@ -191,7 +191,7 @@ function Footer(props) {
                                     quality={100}
                                     alt="logo"
                                 />
-                                <p className="mt-3">At SHUBHAM TECHNOCAST, we commit to provide you with the best casting & deliver just-in-time. Customer’s requirements are given importance as well quality is maintained. Our team is completely trained & well equipped to meet our customers ‘Requirements’.</p>
+                                <p className="mt-3">At Shubham Technocast, we are dedicated to delivering top-quality castings on time, every time. We prioritize our customers' requirements, ensuring that quality is never compromised. Our fully trained and equipped team is committed to meeting and exceeding your expectations.</p>
                                 <div className="social-ft ms-auto mt-sm-0 mt-3">
                                     <ul className='d-flex align-items-center'>
                                         <li className='me-2'>

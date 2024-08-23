@@ -63,7 +63,7 @@ function Header(props) {
                                                     alt="logo"
                                                 />
                                             </Link>
-                                            {/* <div className="headr-dropdwon-button">
+                                            <div className="headr-dropdwon-button">
                                                 <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M7.00004 7.33398L13.6667 0.667318L0.333374 0.667318L7.00004 7.33398Z" fill="#fff"></path>
                                                 </svg>
@@ -80,7 +80,7 @@ function Header(props) {
                                                         />
                                                     </Link>
                                                 </div>
-                                            </div> */}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -92,13 +92,13 @@ function Header(props) {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href={'#firetech-products'} className={router.pathname == '/product' ? 'active' : ''}>
-                                                Products
+                                            <Link href={'#firetech-aboutus'}>
+                                                About us
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href={'#firetech-aboutus'} className={router.pathname == '/about-us' ? 'active' : ''}>
-                                                About us
+                                            <Link href={'#firetech-products'} className={router.pathname == '/product' ? 'active' : ''}>
+                                                Products
                                             </Link>
                                         </li>
                                         <li>

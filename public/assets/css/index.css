@@ -611,6 +611,13 @@ header {
 	margin: -20px auto 0 auto;
 }
 
+.bottom-white-img-firetech {
+	width: 100%;
+	margin: -39px auto 0 auto;
+	background-color: #154090;
+	color: #fff;
+}
+
 .bottom-white-img h2 {
 	font-size: 16px;
 	font-weight: 700;
@@ -786,6 +793,11 @@ header {
 
 .bg-fire {
 	background: url('../images/firetech-cover.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	background-position: center;
+	padding: 85px 0 0 0;
 }
 
 .our-client-box .white-box div {
@@ -812,7 +824,7 @@ header {
 }
 
 .top-negative-margin-firetech {
-	margin-top: -80px
+	margin-top: -75px
 }
 
 .headr-dropdwon-body-main {

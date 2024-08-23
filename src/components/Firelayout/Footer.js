@@ -191,7 +191,7 @@ function Footer(props) {
                                     quality={100}
                                     alt="logo"
                                 />
-                                <p className="mt-3">At SHUBHAM TECHNOCAST, we commit to provide you with the best casting & deliver just-in-time. Customer’s requirements are given importance as well quality is maintained. Our team is completely trained & well equipped to meet our customers ‘Requirements’.</p>
+                                <p className="mt-3">At Shubham Firetech, we are committed to delivering the highest quality fire-fighting equipment with prompt, reliable service. We prioritize your safety needs, ensuring that every product meets the strictest standards. Our expert team is equipped and ready to exceed your expectations, providing innovative and dependable solutions</p>
                                 <div className="social-ft ms-auto mt-sm-0 mt-3">
                                     <ul className='d-flex align-items-center'>
                                         <li className='me-2'>
@@ -242,17 +242,17 @@ function Footer(props) {
                                         <ul>
                                             <li>
                                                 <Link href="">
-                                                    Pump Components
+                                                    Hydrant Valves
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="">
-                                                    Valve Components
+                                                    Couplings & Hose
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="">
-                                                    Fire Equipment
+                                                    Nozzles
                                                 </Link>
                                             </li>
                                         </ul>
@@ -264,19 +264,21 @@ function Footer(props) {
                                         <ul>
                                             <li>
                                                 <Link href="">
-                                                    Hardware
+                                                    Hose Reels & Cabinet
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="">
-                                                    General Engineering
+                                                    Inlets
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="">
+                                                    Fire Monitors
                                                 </Link>
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div className="col-12 mt-3">
-                                    <img src='/assets/images/ft-img.png' className="img-fluid" />
                                 </div>
                             </div>
                         </div>
@@ -335,17 +337,17 @@ function Footer(props) {
                                 <div className="social-ft ms-auto order-1">
                                     <ul className='d-flex align-items-center justify-content-center'>
                                         <li className='me-2'>
-                                            <Link href="/product">
-                                                Products
-                                            </Link>
-                                        </li>
-                                        <li className='me-2'>
-                                            <Link href="/about-us">
+                                            <Link href="#firetech-aboutus">
                                                 About us
                                             </Link>
                                         </li>
                                         <li className='me-2'>
-                                            <Link href="/qaulity">
+                                            <Link href="#firetech-products">
+                                                Products
+                                            </Link>
+                                        </li>
+                                        <li className='me-2'>
+                                            <Link href="#firetech-quality">
                                                 Quality
                                             </Link>
                                         </li>

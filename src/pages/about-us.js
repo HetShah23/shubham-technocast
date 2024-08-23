@@ -42,8 +42,8 @@ export default function aboutus(props) {
                         <div className='col-md-8'>
                             <div className="gradiant-txt qaulity-txt">
                                 <h2 className='text-uppercase'>Investment Casting Industry <br />   <span> Shubham Technocast</span></h2>
-                                <p>At SHUBHAM TECHNOCAST, we commit to provide you with the best casting & deliver just-in-time. Customer’s requirements are given importance as well quality is maintained. Our team is completely trained & well equipped to meet our customers ‘Requirements’.</p>
-                                <p>SHUBHAM TECHNOCAST has started in the year 2014 for manufacture of Ferrous & Non Ferrous Investment Casting as per international standard.</p>
+                                <p>Shubham Technocast, founded in 2014 under the visionary leadership of Shubham Group is a pioneering force in India's investment casting industry. With a state-of-the-art 65,000 sq. ft. production facility in Rajkot, Gujarat, the company specializes in producing over 6,000 precision investment castings for industries such as oil and gas, chemical processing, automotive, aerospace, and defense.</p>
+                                <p>Renowned for its commitment to quality, precision, and innovation, Shubham Technocast remains a trusted partner for clients worldwide, delivering intricate components with unmatched accuracy and reliability.</p>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ export default function aboutus(props) {
                                         />
                                         <div className="glass-effect text-center">
                                             <h2 className='text-uppercase'>Vision</h2>
-                                            <p>We strive to lead through world-class quality & constant innovation, focused on meeting customer needs.</p>
+                                            <p>We shall strive to be leaders in this business by offering products of a world class quality, and through constant technoloqical innovation.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -154,7 +154,7 @@ export default function aboutus(props) {
                                         />
                                         <div className="glass-effect text-center">
                                             <h2 className='text-uppercase'>Core Value</h2>
-                                            <p>The organization prioritizes quality, customer focus, sustainability, & employee welfare, fostering a culture of empowerment & dedication.</p>
+                                            <p>We prioritize quality, innovation, and customer satisfaction, driven by integrity and a commitment to sustainable practices in all aspects of our business.</p>
                                         </div>
                                     </div>
                                 </div>

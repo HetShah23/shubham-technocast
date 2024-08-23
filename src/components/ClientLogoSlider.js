@@ -8,26 +8,8 @@ import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
-const ClientLogoSlider = () => {
+const ClientLogoSlider = ({logos}) => {
     const [isMobile, setIsMobile] = useState(false);
-
-    const logos = [
-        '/assets/images/client-logo-1.png',
-        '/assets/images/client-logo-2.png',
-        '/assets/images/client-logo-3.png',
-        '/assets/images/client-logo-4.png',
-        '/assets/images/client-logo-5.png',
-        '/assets/images/client-logo-6.png',
-        '/assets/images/client-logo-7.png',
-        '/assets/images/client-logo-8.png',
-        '/assets/images/client-logo-9.png',
-        '/assets/images/client-logo-10.png',
-        '/assets/images/client-logo-11.png',
-        '/assets/images/client-logo-12.png',
-        '/assets/images/client-logo-13.png',
-        '/assets/images/client-logo-14.png',
-        '/assets/images/client-logo-15.png',
-    ];
 
     useEffect(() => {
         const handleResize = () => {
