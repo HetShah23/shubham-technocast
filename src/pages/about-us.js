@@ -28,7 +28,7 @@ export default function aboutus(props) {
             <section className="top-circle-bg common-space">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4 mb-md-0 mb-3 text-ms-start text-center">
+                        <div className="col-sm-6 col-md-4 mb-md-0 mb-3 text-ms-start text-center">
                             <Image
                                 src={'/assets/images/infra-1.jpeg'}
                                 width={400}
@@ -36,10 +36,10 @@ export default function aboutus(props) {
                                 quality={100}
                                 alt="logo"
                                 loading='lazy'
-                                className='object-fit-cover'
+                                className='mw-100 object-fit-cover'
                             />
                         </div>
-                        <div className='col-md-8'>
+                        <div className='col-sm-6 col-md-8'>
                             <div className="gradiant-txt qaulity-txt">
                                 <h2 className='text-uppercase'>Investment Casting Industry <br />   <span> Shubham Technocast</span></h2>
                                 <p>Shubham Technocast, founded in 2014 under the visionary leadership of Shubham Group is a pioneering force in India's investment casting industry. With a state-of-the-art 65,000 sq. ft. production facility in Rajkot, Gujarat, the company specializes in producing over 6,000 precision investment castings for industries such as oil and gas, chemical processing, automotive, aerospace, and defense.</p>

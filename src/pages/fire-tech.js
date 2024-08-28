@@ -168,7 +168,7 @@ export default function firetech(props) {
 
                     </div>
                     <div className='col-lg-6 ps-lg-0'>
-                        <img src='/assets/images/firetechright-bg.png' className='mw-100 h-100' alt='img' />
+                        <img src='/assets/images/firetechright-bg.png' className='mw-100 h-100 object-fit-cover' alt='img' />
                     </div>
 
 
