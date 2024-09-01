@@ -169,7 +169,7 @@ export default function firetech(props) {
                     </div>
                     <div className='col-lg-6 ps-lg-0'>
                         {/* <img src='/assets/images/firetechright-bg.png' className='mw-100 h-100 object-fit-cover' alt='img' /> */}
-                        <video autoPlay loop muted controls="false" className='mw-100 h-100 object-fit-cover' controls>
+                        <video autoPlay loop muted controls="false" className='mw-100 h-100 object-fit-cover'>
                             <source src="/assets/images/engraving_video.mp4" type="video/mp4"></source>
                         </video>
                     </div>
