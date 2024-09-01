@@ -56,7 +56,7 @@ function qaulity(props) {
                                         <Image
                                             src={'/assets/images/quality-1.png'}
                                             width={695}
-                                            height={458}
+                                            height={300}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
@@ -108,9 +108,9 @@ function qaulity(props) {
                                 <div className="col-md-6 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
-                                            src={'/assets/images/quality-3.png'}
+                                            src={'/assets/images/quality-3.jpg'}
                                             width={695}
-                                            height={458}
+                                            height={300}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
@@ -159,62 +159,6 @@ function qaulity(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 mb-3">
-                                    <div className="image-div-hoverable">
-                                        <Image
-                                            src={'/assets/images/quality-2.png'}
-                                            width={695}
-                                            height={458}
-                                            quality={100}
-                                            alt="logo"
-                                            loading='lazy'
-                                            className='img-fluid'
-                                        />
-                                        <div className="glass-effect">
-                                            <h2>Ferrous</h2>
-                                            <ul>
-                                                <li>
-                                                    <div className="d-flex align-items-center">
-                                                        <div>
-                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect width="10" height="10" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0 7.5)" fill="white" />
-                                                            </svg>
-                                                        </div>
-                                                        <p className="ms-2 mb-0">Austenitic Stainless Steel, Carbon Steel, Low Alloy Steel, Nickle Based Super Alloy, Heat Resisting Steel, Martensitic Stainless Steel, Duplex Steel, Precipitation Hardened Steel.</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 mb-3">
-                                    <div className="image-div-hoverable">
-                                        <Image
-                                            src={'/assets/images/quality-4.png'}
-                                            width={695}
-                                            height={458}
-                                            quality={100}
-                                            alt="logo"
-                                            loading='lazy'
-                                            className='img-fluid'
-                                        />
-                                        <div className="glass-effect">
-                                            <h2>Non Ferrous</h2>
-                                            <ul>
-                                                <li>
-                                                    <div className="d-flex align-items-center">
-                                                        <div>
-                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect width="10" height="10" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0 7.5)" fill="white" />
-                                                            </svg>
-                                                        </div>
-                                                        <p className="ms-2 mb-0">Phosphor Bronze 1, Phosphor Bronze 2, Aluminum Bronze, Brass, Copper, Aluminum.</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div className="col-12 py-2">
@@ -226,14 +170,13 @@ function qaulity(props) {
                             <div className="row">
                                 <div className="col-lg-4 col-6 mb-3">
                                     <div className="image-div-hoverable">
-                                        <Image
-                                            src={'/assets/images/quality-5.png'}
-                                            width={695}
-                                            height={458}
+                                        <img
+                                            src="https://res.cloudinary.com/deeytogqr/image/upload/v1725215134/iStock-1278661229_xxvoj4.jpg"
+                                            height={300}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='mw-100'
                                         />
                                         <div className="bottom-white-img">
                                             <h2>Dimension Checking</h2>
@@ -242,14 +185,30 @@ function qaulity(props) {
                                 </div>
                                 <div className="col-lg-4 col-6 mb-3">
                                     <div className="image-div-hoverable">
-                                        <Image
-                                            src={'/assets/images/quality-6.png'}
+                                        <img
+                                            src="https://res.cloudinary.com/deeytogqr/image/upload/v1725216295/74c4866d-449d-4312-b78a-9cd122890f2c.png"
                                             width={695}
-                                            height={458}
+                                            height={300}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='mw-100'
+                                        />
+                                        <div className="bottom-white-img">
+                                            <h2>Spectro Machine</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-6 mb-3">
+                                    <div className="image-div-hoverable">
+                                        <img
+                                            src="https://res.cloudinary.com/deeytogqr/image/upload/v1725216497/Screenshot_2024-08-23_at_12.00.55_AM_qgkywv.png"
+                                            width={695}
+                                            height={300}
+                                            quality={100}
+                                            alt="logo"
+                                            loading='lazy'
+                                            className='mw-100'
                                         />
                                         <div className="bottom-white-img">
                                             <h2>Carbon Sulfur Analyzer</h2>
@@ -258,30 +217,14 @@ function qaulity(props) {
                                 </div>
                                 <div className="col-lg-4 col-6 mb-3">
                                     <div className="image-div-hoverable">
-                                        <Image
-                                            src={'/assets/images/quality-7.png'}
+                                        <img
+                                            src="https://res.cloudinary.com/deeytogqr/image/upload/v1725216488/Screenshot_2024-08-23_at_12.01.04_AM_yujwej.png"
                                             width={695}
-                                            height={458}
+                                            height={300}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
-                                        />
-                                        <div className="bottom-white-img">
-                                            <h2>Carbon Sulfur Analyzer</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-6 mb-3">
-                                    <div className="image-div-hoverable">
-                                        <Image
-                                            src={'/assets/images/quality-8.png'}
-                                            width={695}
-                                            height={458}
-                                            quality={100}
-                                            alt="logo"
-                                            loading='lazy'
-                                            className='img-fluid'
+                                            className='mw-100'
                                         />
                                         <div className="bottom-white-img">
                                             <h2>Hardness Tester</h2>
@@ -290,17 +233,17 @@ function qaulity(props) {
                                 </div>
                                 <div className="col-lg-4 col-6 mb-3">
                                     <div className="image-div-hoverable">
-                                        <Image
-                                            src={'/assets/images/quality-9.png'}
+                                        <img
+                                            src="https://res.cloudinary.com/deeytogqr/image/upload/v1725217191/quality-2_nuy9jw.jpg"
                                             width={695}
-                                            height={458}
+                                            height={300}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='mw-100'
                                         />
                                         <div className="bottom-white-img">
-                                            <h2>Dimension Testing</h2>
+                                            <h2>Hydro Testing</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -309,11 +252,11 @@ function qaulity(props) {
                                         <Image
                                             src={'/assets/images/quality-10.png'}
                                             width={695}
-                                            height={458}
+                                            height={300}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='mw-100'
                                         />
                                         <div className="bottom-white-img">
                                             <h2>Inspection Lab</h2>
