@@ -30,8 +30,7 @@ const ClientLogoSlider = ({logos}) => {
                 <Swiper
                     slidesPerView={2}
                     spaceBetween={10}
-                    // navigation
-
+                    navigation
                     pagination={{ clickable: true }}
                     scrollbar={{ draggable: true }}
                     autoplay={{ delay: 3000 }}

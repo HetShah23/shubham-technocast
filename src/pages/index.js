@@ -690,10 +690,10 @@ export default function Home() {
 								<div className="row">
 									<div className="col-md-4 col-sm-6 mb-3">
 										<div className="white-box p-0 home-prod">
-											<Link href={'/'} className="d-flex align-items-center h-100">
+											<Link href={'/product/pump-components'} className="d-flex align-items-center h-100">
 
 												<div className="img-div d-flex flex-column h-100 justify-content-end">
-													<img className="img-fluid" src="/assets/images/prod-home-3.png" />
+													<img alt="" className="img-fluid" src="/assets/images/prod-home-3.png" />
 												</div>
 												<div className="ms-3">
 													<span className="text-uppercase">Pump Components</span>
@@ -708,9 +708,9 @@ export default function Home() {
 									</div>
 									<div className="col-md-4 col-sm-6 mb-3">
 										<div className="white-box p-0 home-prod">
-											<Link href={'/'} className="d-flex align-items-center h-100">
+											<Link href={'/product/valve-components'} className="d-flex align-items-center h-100">
 												<div className="img-div d-flex flex-column h-100 justify-content-end">
-													<img className="img-fluid" src="/assets/images/prod-home-1.png " />
+													<img alt="" className="img-fluid" src="/assets/images/prod-home-1.png " />
 												</div>
 												<div className="ms-3">
 													<span className="text-uppercase">Valve Components</span>
@@ -725,9 +725,9 @@ export default function Home() {
 									</div>
 									<div className="col-md-4 col-sm-6 mb-3">
 										<div className="white-box p-0 home-prod">
-											<Link href={'/'} className="d-flex align-items-center h-100">
+											<Link href={'/product/fire-equipments'} className="d-flex align-items-center h-100">
 												<div className="img-div d-flex flex-column h-100 justify-content-end">
-													<img className="img-fluid" src="/assets/images/prod-home-2.png " />
+													<img alt="" className="img-fluid" src="/assets/images/prod-home-4.png " />
 												</div>
 												<div className="ms-3">
 													<span className="text-uppercase">Fire Equipment</span>
@@ -742,10 +742,10 @@ export default function Home() {
 									</div>
 									<div className="col-md-4 col-sm-6 mb-3">
 										<div className="white-box p-0 home-prod">
-											<Link href={'/'} className="d-flex align-items-center h-100">
+											<Link href={'/product/hardware'} className="d-flex align-items-center h-100">
 
 												<div className="img-div d-flex flex-column h-100 justify-content-end">
-													<img className="img-fluid" src="/assets/images/prod-home-3.png" />
+													<img alt="" className="img-fluid" src="/assets/images/prod-home-5.png" />
 												</div>
 												<div className="ms-3">
 													<span className="text-uppercase">General Engineering</span>
@@ -760,9 +760,9 @@ export default function Home() {
 									</div>
 									<div className="col-md-4 col-sm-6 mb-3">
 										<div className="white-box p-0 home-prod">
-											<Link href={'/'} className="d-flex align-items-center h-100">
+											<Link href={'/product/general-engineering'} className="d-flex align-items-center h-100">
 												<div className="img-div d-flex flex-column h-100 justify-content-end">
-													<img className="img-fluid" src="/assets/images/prod-home-1.png " />
+													<img alt="" className="img-fluid" src="/assets/images/prod-home-6.png " />
 												</div>
 												<div className="ms-3">
 													<span className="text-uppercase">Hardware</span>

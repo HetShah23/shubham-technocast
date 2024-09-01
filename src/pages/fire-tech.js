@@ -168,7 +168,10 @@ export default function firetech(props) {
 
                     </div>
                     <div className='col-lg-6 ps-lg-0'>
-                        <img src='/assets/images/firetechright-bg.png' className='mw-100 h-100 object-fit-cover' alt='img' />
+                        {/* <img src='/assets/images/firetechright-bg.png' className='mw-100 h-100 object-fit-cover' alt='img' /> */}
+                        <video autoPlay loop muted controls="false" className='mw-100 h-100 object-fit-cover' controls>
+                            <source src="/assets/images/engraving_video.mp4" type="video/mp4"></source>
+                        </video>
                     </div>
 
 
@@ -302,11 +305,10 @@ export default function firetech(props) {
                             </div>
                         </div>
                         <div className='col-12 text-center'>
-                            <div className='d-flex flex-row flex-sm-column justify-content-center align-items-center'>   
+                            <div className='mw-100 px-3'>   
                                 <img alt="" src='/assets/images/iso-logo-1.png' height={120} className='mw-100 w-auto mx-4 mb-3' />
                                 <img alt="" src='/assets/images/iso-logo-2.png' height={130} className='mw-100 w-auto mx-4 mb-3' />
                                 <img alt="" src='/assets/images/iso-logo-3.png' height={130} className='mw-100 w-auto mx-4 mb-3' />
-        
                             </div>
                         </div>
                     </div>

@@ -241,17 +241,17 @@ function Footer(props) {
                                     <div className="pages-link">
                                         <ul>
                                             <li>
-                                                <Link href="">
+                                                <Link href="/product/pump-components">
                                                     Pump Components
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="">
+                                                <Link href="/product/valve-components">
                                                     Valve Components
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="">
+                                                <Link href="/product/fire-equipments">
                                                     Fire Equipment
                                                 </Link>
                                             </li>
@@ -263,12 +263,12 @@ function Footer(props) {
 
                                         <ul>
                                             <li>
-                                                <Link href="">
+                                                <Link href="/product/hardware">
                                                     Hardware
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="">
+                                                <Link href="/product/general-engineering">
                                                     General Engineering
                                                 </Link>
                                             </li>
@@ -276,7 +276,9 @@ function Footer(props) {
                                     </div>
                                 </div>
                                 <div className="col-12 mt-3">
-                                    <img src='/assets/images/ft-img.png' className="img-fluid" />
+                                    <Link href="/product#products-id">
+                                        <img src='/assets/images/ft-img.png' className="img-fluid" />
+                                    </Link>
                                 </div>
                             </div>
                         </div>

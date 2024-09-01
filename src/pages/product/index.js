@@ -77,7 +77,7 @@ function index(props) {
                         <div className="col-12 py-2">
                             <div className="gradiant-txt qaulity-txt">
                                 <div className="d-flex align-items-center mb-3">
-                                    <h2 className="mb-0">Our   <span>Products</span></h2>
+                                    <h2 className="mb-0" id="products-id">Our   <span>Products</span></h2>
                                     <div className="ms-auto">
                                         <Link href="/" className="btn-1 d-block">
                                             Explore More

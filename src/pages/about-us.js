@@ -154,7 +154,7 @@ export default function aboutus(props) {
                                         />
                                         <div className="glass-effect text-center">
                                             <h2 className='text-uppercase'>Core Value</h2>
-                                            <p>We prioritize quality, innovation, and customer satisfaction, driven by integrity and a commitment to sustainable practices in all aspects of our business.</p>
+                                            <p>We prioritize quality & customer satisfaction, driven by integrity & a commitment to sustainable practices in all aspects of our business.</p>
                                         </div>
                                     </div>
                                 </div>

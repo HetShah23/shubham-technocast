@@ -241,17 +241,17 @@ function Footer(props) {
                                     <div className="pages-link">
                                         <ul>
                                             <li>
-                                                <Link href="">
+                                                <Link href="#firetech-products">
                                                     Hydrant Valves
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="">
+                                                <Link href="#firetech-products">
                                                     Couplings & Hose
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="">
+                                                <Link href="#firetech-products">
                                                     Nozzles
                                                 </Link>
                                             </li>
@@ -263,17 +263,17 @@ function Footer(props) {
 
                                         <ul>
                                             <li>
-                                                <Link href="">
+                                                <Link href="#firetech-products">
                                                     Hose Reels & Cabinet
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="">
+                                                <Link href="#firetech-products">
                                                     Inlets
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="">
+                                                <Link href="#firetech-products">
                                                     Fire Monitors
                                                 </Link>
                                             </li>
