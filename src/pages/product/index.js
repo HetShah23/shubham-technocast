@@ -78,14 +78,14 @@ function index(props) {
                             <div className="gradiant-txt qaulity-txt">
                                 <div className="d-flex align-items-center mb-3">
                                     <h2 className="mb-0" id="products-id">Our   <span>Products</span></h2>
-                                    <div className="ms-auto">
+                                    {/* <div className="ms-auto">
                                         <Link href="/" className="btn-1 d-block">
                                             Explore More
                                             <svg width="24" className='ms-2' height="15" viewBox="0 0 24 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M15.7477 2.19513C15.6372 2.09214 15.5486 1.96794 15.4871 1.82994C15.4256 1.69194 15.3925 1.54297 15.3898 1.39192C15.3872 1.24086 15.415 1.09082 15.4716 0.950735C15.5281 0.810653 15.6124 0.683403 15.7192 0.576574C15.826 0.469746 15.9533 0.38553 16.0933 0.328948C16.2334 0.272366 16.3835 0.24458 16.5345 0.247245C16.6856 0.24991 16.8345 0.282973 16.9725 0.344461C17.1105 0.405948 17.2347 0.494602 17.3377 0.605132L23.3377 6.60513C23.5484 6.81607 23.6667 7.10201 23.6667 7.40013C23.6667 7.69826 23.5484 7.98419 23.3377 8.19513L17.3377 14.1951C17.2347 14.3057 17.1105 14.3943 16.9725 14.4558C16.8345 14.5173 16.6856 14.5504 16.5345 14.553C16.3835 14.5557 16.2334 14.5279 16.0933 14.4713C15.9533 14.4147 15.826 14.3305 15.7192 14.2237C15.6124 14.1169 15.5281 13.9896 15.4716 13.8495C15.415 13.7094 15.3872 13.5594 15.3898 13.4083C15.3925 13.2573 15.4256 13.1083 15.4871 12.9703C15.5486 12.8323 15.6372 12.7081 15.7477 12.6051L19.8277 8.52513L1.69273 8.52513C1.39436 8.52513 1.10821 8.4066 0.897236 8.19563C0.686258 7.98465 0.567733 7.6985 0.567733 7.40013C0.567733 7.10176 0.686258 6.81561 0.897236 6.60464C1.10822 6.39366 1.39437 6.27513 1.69273 6.27513L19.8277 6.27513L15.7477 2.19513Z" fill="white" />
                                             </svg>
                                         </Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <p>Shubham Technocast is proud to offer a wide range of high-quality products, catering to various industries. Our expertise and advanced manufacturing capabilities ensure that each product meets the highest standards of excellence.</p>
                             </div>
@@ -95,13 +95,13 @@ function index(props) {
                                 <div className="col-md-4 col-6 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
-                                            src={'/assets/images/product-8.png'}
+                                            src={'/assets/images/product-8.jpg'}
                                             width={456}
                                             height={550}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid image-animation-zoom'
+                                            className='mw-100 image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/pump-components'} className='d-flex align-items-center'>
@@ -118,13 +118,13 @@ function index(props) {
                                 <div className="col-md-4 col-6 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
-                                            src={'/assets/images/product-7.png'}
+                                            src={'/assets/images/product-7.jpg'}
                                             width={456}
                                             height={550}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid image-animation-zoom'
+                                            className='mw-100 image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/valve-components'} className='d-flex align-items-center'>
@@ -142,13 +142,13 @@ function index(props) {
                                 <div className="col-md-4 col-6 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
-                                            src={'/assets/images/product-6.png'}
+                                            src={'/assets/images/product-6.jpg'}
                                             width={456}
                                             height={550}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid image-animation-zoom'
+                                            className='mw-100 image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/fire-equipments'} className='d-flex align-items-center'>
@@ -172,7 +172,7 @@ function index(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid image-animation-zoom'
+                                            className='mw-100 image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/hardware'} className='d-flex align-items-center'>
@@ -195,7 +195,7 @@ function index(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid image-animation-zoom'
+                                            className='mw-100 image-animation-zoom'
                                         />
                                         <div className="glass-effect ">
                                             <Link href={'/product/general-engineering'} className='d-flex align-items-center'>

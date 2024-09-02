@@ -60,7 +60,7 @@ function qaulity(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='mw-100'
                                         />
                                         <div className="glass-effect">
                                             <h2>Chemical Analysis</h2>
@@ -114,7 +114,7 @@ function qaulity(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className='mw-100'
                                         />
                                         <div className="glass-effect">
                                             <h2>Machining Shop</h2>
@@ -168,44 +168,41 @@ function qaulity(props) {
                         </div>
                         <div className="col-12 py-2">
                             <div className="row">
-                                <div className="col-lg-4 col-6 mb-3">
+                                <div className="col-lg-4 col-md-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <img
                                             src="https://res.cloudinary.com/deeytogqr/image/upload/v1725215134/iStock-1278661229_xxvoj4.jpg"
                                             height={300}
-                                            quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='mw-100'
+                                            className='mw-100 w-100'
                                         />
                                         <div className="bottom-white-img">
                                             <h2>Dimension Checking</h2>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-6 mb-3">
+                                <div className="col-lg-4 col-md-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <img
                                             src="https://res.cloudinary.com/deeytogqr/image/upload/v1725216295/74c4866d-449d-4312-b78a-9cd122890f2c.png"
                                             width={695}
                                             height={300}
-                                            quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='mw-100'
+                                            className='mw-100 w-100'
                                         />
                                         <div className="bottom-white-img">
                                             <h2>Spectro Machine</h2>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-6 mb-3">
+                                <div className="col-lg-4 col-md-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <img
                                             src="https://res.cloudinary.com/deeytogqr/image/upload/v1725216497/Screenshot_2024-08-23_at_12.00.55_AM_qgkywv.png"
                                             width={695}
                                             height={300}
-                                            quality={100}
                                             alt="logo"
                                             loading='lazy'
                                             className='mw-100'
@@ -215,7 +212,7 @@ function qaulity(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-6 mb-3">
+                                <div className="col-lg-4 col-md-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <img
                                             src="https://res.cloudinary.com/deeytogqr/image/upload/v1725216488/Screenshot_2024-08-23_at_12.01.04_AM_yujwej.png"
@@ -231,7 +228,7 @@ function qaulity(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-6 mb-3">
+                                <div className="col-lg-4 col-md-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <img
                                             src="https://res.cloudinary.com/deeytogqr/image/upload/v1725217191/quality-2_nuy9jw.jpg"
@@ -247,7 +244,7 @@ function qaulity(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-6 mb-3">
+                                <div className="col-lg-4 col-md-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
                                             src={'/assets/images/quality-10.png'}
