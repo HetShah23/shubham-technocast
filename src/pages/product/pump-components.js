@@ -99,12 +99,12 @@ export default function pumpcomponents(props) {
                         </div>
                         <div className="col-lg-6 text-lg-end text-center">
                             <Image
-                                src={'/assets/images/pump-1.png'}
+                                src={'/assets/images/product-8.jpg'}
                                 width={450}
                                 height={450}
                                 quality={100}
                                 alt="logo"
-                                className='img-fluid'
+                                className='mw-100 border border-4 border-white'
                             />
                         </div>
                     </div>

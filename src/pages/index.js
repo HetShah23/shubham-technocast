@@ -98,7 +98,7 @@ export default function Home() {
 				<section className="common-space">
 					<div className="container">
 						<div className='row'>
-							<div className='col-lg-8 col-md-6 mb-lg-0 mb-3 text-lg-start'>
+							<div className='col-lg-8 col-md-6 col-12 mb-lg-0 mb-3 text-lg-start'>
 								<button className="btn-1 text-uppercase" disabled>About</button>
 								<div className="gradiant-txt qaulity-txt mt-3">
 									<div className="mb-3">
@@ -127,7 +127,7 @@ export default function Home() {
 									</Tabs>
 								</div>
 							</div>
-							<div className='col-lg-4 col-md-6 mb-lg-0 mb-3 text-lg-center text-center'>
+							<div className='col-lg-4 col-md-6 col-12 mb-lg-0 mb-3 text-lg-center text-center'>
 								<img
 									src={'/assets/images/infra-2.png'}
 									alt="logo"

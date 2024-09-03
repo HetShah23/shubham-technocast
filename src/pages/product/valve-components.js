@@ -210,12 +210,12 @@ export default function valvecomponents(props) {
                         </div>
                         <div className="col-lg-6 text-lg-end text-center">
                             <Image
-                                src={'/assets/images/pump-1.png'}
+                                src={'/assets/images/product-7.jpg'}
                                 width={450}
                                 height={450}
                                 quality={100}
                                 alt="logo"
-                                className='img-fluid'
+                                className='mw-100 border border-4 border-white'
                             />
                         </div>
                     </div>
@@ -286,7 +286,6 @@ export default function valvecomponents(props) {
                         <div className='col-lg-6 mb-3 text-lg-center text-center'>
                             <img
                                 src={'/assets/images/gallery-2.png'}
-                                quality={100}
                                 alt="logo"
                                 className='img-fluid h-auto w-100 object-fit-cover'
                             />

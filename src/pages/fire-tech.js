@@ -63,7 +63,7 @@ export default function firetech(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3 p-3">
+                        <div className="col-lg-4 col-md-6 col-12 mb-3 p-3">
                             <div className="image-div-hoverable h-100 w-100">
                                 <img
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724181999/DSCF6966_alsiyh.jpg'}
@@ -77,7 +77,7 @@ export default function firetech(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3 p-3">
+                        <div className="col-lg-4 col-md-6 col-12 mb-3 p-3">
                             <div className="image-div-hoverable h-100 w-100">
                                 <img
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724181993/DSCF6981_ap4th7.jpg'}
@@ -91,7 +91,7 @@ export default function firetech(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3 p-3">
+                        <div className="col-lg-4 col-md-6 col-12 mb-3 p-3">
                             <div className="image-div-hoverable h-100 w-100">
                                 <img
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724181992/DSCF6962_wgi6iq.jpg'}
@@ -105,7 +105,7 @@ export default function firetech(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3 p-3">
+                        <div className="col-lg-4 col-md-6 col-12 mb-3 p-3">
                             <div className="image-div-hoverable h-100 w-100">
                                 <img
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724183292/IMG_7765_rgadmp.jpg'}
@@ -119,7 +119,7 @@ export default function firetech(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3 p-3">
+                        <div className="col-lg-4 col-md-6 col-12 mb-3 p-3">
                             <div className="image-div-hoverable h-100 w-100">
                                 <img
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724182002/DSCF6992_jfzsf6.jpg'}
@@ -133,7 +133,7 @@ export default function firetech(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-6 mb-3 p-3">
+                        <div className="col-lg-4 col-md-6 col-12 mb-3 p-3">
                             <div className="image-div-hoverable h-100 w-100">
                                 <img
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724183537/Fire-Water-Monitor-1200x1200_ggcoog.jpg'}

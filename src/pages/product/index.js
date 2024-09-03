@@ -92,12 +92,12 @@ function index(props) {
                         </div>
                         <div className="col-12">
                             <div className="row">
-                                <div className="col-md-4 col-6 mb-3">
+                                <div className="col-md-4 col-sm-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
                                             src={'/assets/images/product-8.jpg'}
                                             width={456}
-                                            height={550}
+                                            height={450}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
@@ -115,12 +115,12 @@ function index(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4 col-6 mb-3">
+                                <div className="col-md-4 col-sm-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
                                             src={'/assets/images/product-7.jpg'}
                                             width={456}
-                                            height={550}
+                                            height={450}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
@@ -139,12 +139,12 @@ function index(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4 col-6 mb-3">
+                                <div className="col-md-4 col-sm-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
                                             src={'/assets/images/product-6.jpg'}
                                             width={456}
-                                            height={550}
+                                            height={450}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
@@ -163,12 +163,12 @@ function index(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4 col-6 mb-3">
+                                <div className="col-md-4 col-sm-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
                                             src={'/assets/images/product-5.png'}
                                             width={456}
-                                            height={550}
+                                            height={450}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
@@ -186,12 +186,12 @@ function index(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4 col-6 mb-3">
+                                <div className="col-md-4 col-sm-6 col-12 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
                                             src={'/assets/images/product-2.png'}
                                             width={456}
-                                            height={550}
+                                            height={450}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
