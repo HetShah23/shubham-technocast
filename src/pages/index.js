@@ -131,7 +131,7 @@ export default function Home() {
 								<img
 									src={'/assets/images/infra-2.png'}
 									alt="logo"
-									className='mw-100 h-100 object-fit-cover'
+									className='mw-100 mh-100 h-100 object-fit-cover'
 								/>
 							</div>
 						</div>
