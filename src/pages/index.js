@@ -6,9 +6,24 @@ import { Tab, Tabs } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { useRef, useLayoutEffect, useState } from "react";
 
 export default function Home() {
+
+	const targetRef = useRef();
+  	const [dimensions, setDimensions] = useState({ width:0, height: 0 });
+
+	useLayoutEffect(() => {
+		if (targetRef.current) {
+			setDimensions({
+				width: targetRef.current.offsetWidth,
+				height: targetRef.current.offsetHeight
+			});
+		}
+	}, []);
+
+	console.log(dimensions)
+
 	const settings = {
 		dots: false,
 		infinite: true,
@@ -98,7 +113,7 @@ export default function Home() {
 				<section className="common-space">
 					<div className="container">
 						<div className='row'>
-							<div className='col-lg-8 col-md-6 col-12 mb-lg-0 mb-3 text-lg-start'>
+							<div ref={targetRef} className='col-lg-8 col-md-6 mb-lg-0 mb-3 text-lg-start'>
 								<button className="btn-1 text-uppercase" disabled>About</button>
 								<div className="gradiant-txt qaulity-txt mt-3">
 									<div className="mb-3">
@@ -127,11 +142,12 @@ export default function Home() {
 									</Tabs>
 								</div>
 							</div>
-							<div className='col-lg-4 col-md-6 col-12 mb-lg-0 mb-3 text-lg-center text-center'>
+							<div className='col-lg-4 h-auto col-md-6 mb-lg-0 mb-3 text-lg-center text-center'>
 								<img
 									src={'/assets/images/infra-2.png'}
 									alt="logo"
-									className='mw-100 mh-100 h-100 object-fit-cover'
+									height={ dimensions.height !== 0 ? dimensions.height : "auto"}
+									className='mw-100 object-fit-cover'
 								/>
 							</div>
 						</div>

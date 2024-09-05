@@ -69,7 +69,8 @@ export default function firetech(props) {
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724181999/DSCF6966_alsiyh.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='mw-100 h-100'
+                                    height="400px"
+                                    className='mw-100 w-100'
                                 />
                                 <div className="bottom-white-img-firetech bottom-white-img">
                                     <h2 className='text-uppercase'>Hydrant Valves</h2>
@@ -83,7 +84,8 @@ export default function firetech(props) {
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724181993/DSCF6981_ap4th7.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='mw-100 h-100'
+                                    height="400px"
+                                    className='mw-100 w-100'
                                 />
                                 <div className="bottom-white-img-firetech bottom-white-img">
                                     <h2>COUPLINGS & HOSE</h2>
@@ -97,7 +99,8 @@ export default function firetech(props) {
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724181992/DSCF6962_wgi6iq.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='mw-100 h-100'
+                                    height="400px"
+                                    className='mw-100 w-100'
                                 />
                                 <div className="bottom-white-img-firetech bottom-white-img">
                                     <h2>NOZZLES</h2>
@@ -111,7 +114,8 @@ export default function firetech(props) {
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724183292/IMG_7765_rgadmp.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='mw-100 h-100'
+                                    height="400px"
+                                    className='mw-100 w-100'
                                 />
                                 <div className="bottom-white-img-firetech bottom-white-img">
                                     <h2>HOSE REELS AND CABINET</h2>
@@ -125,7 +129,8 @@ export default function firetech(props) {
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724182002/DSCF6992_jfzsf6.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='mw-100 h-100'
+                                    height="400px"
+                                    className='mw-100 w-100'
                                 />
                                 <div className="bottom-white-img-firetech bottom-white-img">
                                     <h2>INLETS</h2>
@@ -139,7 +144,8 @@ export default function firetech(props) {
                                     src={'https://res.cloudinary.com/deeytogqr/image/upload/v1724183537/Fire-Water-Monitor-1200x1200_ggcoog.jpg'}
                                     alt="logo"
                                     loading='lazy'
-                                    className='mw-100 h-100'
+                                    height="400px"
+                                    className='mw-100 w-100'
                                 />
                                 <div className="bottom-white-img-firetech bottom-white-img">
                                     <h2>FIRE MONITORS</h2>
