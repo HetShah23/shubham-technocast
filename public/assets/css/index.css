@@ -902,6 +902,10 @@ header {
 	transform: translateX(-50%);
 }
 
+.index-about-img {
+	object-fit: cover;
+	max-width: 100%;
+}
 
 /* -------------------media query -------------------- */
 @media (min-width: 1200px) and (max-width: 1439px) {
@@ -1041,5 +1045,11 @@ header {
 	.text-side::before,
 	.text-side::after {
 		font-size: 80px
+	}
+}
+
+@media (max-width: 767px) {
+	.index-about-img {
+		height: auto !important;
 	}
 }

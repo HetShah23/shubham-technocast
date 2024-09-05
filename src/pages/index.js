@@ -22,8 +22,6 @@ export default function Home() {
 		}
 	}, []);
 
-	console.log(dimensions)
-
 	const settings = {
 		dots: false,
 		infinite: true,
@@ -147,7 +145,7 @@ export default function Home() {
 									src={'/assets/images/infra-2.png'}
 									alt="logo"
 									height={ dimensions.height !== 0 ? dimensions.height : "auto"}
-									className='mw-100 object-fit-cover'
+									className='index-about-img'
 								/>
 							</div>
 						</div>
