@@ -11,7 +11,7 @@ export default function aboutus(props) {
                     <div className="row h-100 align-items-end">
                         <div className="col-xl-12 mx-auto">
                             <div className="top-header-txt d-sm-flex align-items-end text-sm-start text-center">
-                                <h1 className="text-white mb-sm-3 mb-4">Leaders in The Casting Industry  <br /> Since 2014</h1>
+                                <h1 className="text-white mb-sm-3 mb-4">Leaders in The Casting Industry  <br /> <span className='gradiant-txt-light'>Since 2014</span></h1>
                                 <div className='cust-contact ms-auto'>
                                     <Link href="/contact-us" className='cust-contact-btn'>
                                         Contact Us

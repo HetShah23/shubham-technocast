@@ -9,8 +9,8 @@ function career(props) {
                     <div className="row h-100 mt-md-0 mt-5 align-items-lg-center">
                         <div className="col-xl-8 col-lg-10 mx-auto">
                             <div className="top-header-txt text-center">
-                                <h1 className="text-white">Join Our Team</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+                                <h1 className="text-white text-uppercase">Join Our Team</h1>
+                                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p> */}
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ function career(props) {
                                 <div className="row">
                                     <div className="col-12">
                                         <div className="bottom-line-txt">
-                                            <span>Lorem ipsum is simple dummy</span>
+                                            {/* <span>Lorem ipsum is simple dummy</span> */}
                                         </div>
                                     </div>
                                     <div className="col-12 py-2">
@@ -84,10 +84,10 @@ function career(props) {
                                                                 </div>
                                                             </li>
                                                         </ul>
-                                                        <div className="mt-auto">
+                                                        {/* <div className="mt-auto">
 
                                                             <button className="btn-1 d-inline">Apply Today</button>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -141,10 +141,10 @@ function career(props) {
                                                                 </div>
                                                             </li>
                                                         </ul>
-                                                        <div className="mt-auto">
+                                                        {/* <div className="mt-auto">
 
                                                             <button className="btn-1">Apply Today</button>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -166,7 +166,7 @@ function career(props) {
                                 <div className="row">
                                     <div className="col-12">
                                         <div className="bottom-line-txt">
-                                            <span>Lorem ipsum is simple dummy</span>
+                                            <span>Let's Work Together</span>
                                         </div>
                                     </div>
                                     <div className="col-12 py-2">
@@ -192,12 +192,8 @@ function career(props) {
                                                 <label className="label-txt">Phone</label>
                                                 <input type="tel" className="form-control cust-input" placeholder="Enter your phone number" />
                                             </div>
-                                            <div className="col-md-6 form-group mb-3">
+                                            <div className="col-12 form-group mb-3">
                                                 <label className="label-txt">Address</label>
-                                                <input type="text" className="form-control cust-input" placeholder="Enter your address" />
-                                            </div>
-                                            <div className="col-md-6 form-group mb-3">
-                                                <label className="label-txt">Address Line 2</label>
                                                 <input type="text" className="form-control cust-input" placeholder="Enter your address" />
                                             </div>
                                             <div className="col-md-6 form-group mb-3">
@@ -218,23 +214,10 @@ function career(props) {
                                                 </div>
                                             </div>
                                             <div className="col-md-6 form-group mb-3">
-                                                <label className="label-txt">Marital Status</label>
-                                                <div className="d-flex align-items-center bg-gray-from">
-                                                    <div className="cust-radio-btn">
-                                                        <input type="radio" name="marital" id="Married" checked />
-                                                        <label htmlFor="Married" className='cust-radio'>
-                                                            <bdi>Married</bdi>
-                                                        </label>
-                                                    </div>
-                                                    <div className="cust-radio-btn ms-2">
-                                                        <input type="radio" name="marital" id="Single" />
-                                                        <label htmlFor="Single" className='cust-radio'>
-                                                            <bdi>Single</bdi>
-                                                        </label>
-                                                    </div>
-                                                </div>
+                                                <label className="label-txt">Current Position</label>
+                                                <input type="text" className="form-control cust-input" placeholder="" />
                                             </div>
-                                            <div className="col-md-12 form-group mb-3">
+                                            {/* <div className="col-md-12 form-group mb-3">
                                                 <label className="label-txt">Upload Your Resume</label>
                                                 <div className="cust-file-upload">
                                                     <input type="file" id="upload-file" className="d-none" />
@@ -255,14 +238,14 @@ function career(props) {
                                                     </label>
                                                 </div>
 
-                                            </div>
-                                            <div className="col-md-12">
+                                            </div> */}
+                                            {/* <div className="col-md-12">
                                                 <label className="checkcontainer">
                                                     I declare that this information offered by me is true and correct. A false statement or dishonest answer to any question may be grounds for my termination of employment or cancellation of sub contracted agreement.
                                                     <input type="checkbox" className='d-none' />
                                                     <span className="checkmark"></span>
                                                 </label>
-                                            </div>
+                                            </div> */}
 
                                             <div className="col-12 text-center">
                                                 <button className="btn-1">submit</button>

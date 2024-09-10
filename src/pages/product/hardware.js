@@ -59,7 +59,7 @@ export default function hardware(props) {
                         </div>
                         <div className="col-lg-6 text-lg-end text-center">
                             <Image
-                                src={'/assets/images/product-2.png'}
+                                src={'/assets/images/product-5.png'}
                                 width={450}
                                 height={450}
                                 quality={100}
@@ -81,7 +81,7 @@ export default function hardware(props) {
                         <div className="col-12 py-2">
                             <div className="gradiant-txt qaulity-txt">
                                 <div className="d-flex align-items-center mb-3">
-                                <h2 className="mb-0"><span>General </span>Engineering</h2>
+                                <h2 className="mb-0"><span>Hardware </span></h2>
                                 </div>
                                 <p>Built to withstand harsh conditions, our fire equipments provide robust and dependable access to water for emergency firefighting operations.</p>
                             </div>

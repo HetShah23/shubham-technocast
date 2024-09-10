@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 function contactus(props) {
     const router = useRouter();
 
-    console.log(router);
+    // console.log(router);
 
     return (
         <Layout>
@@ -16,7 +16,7 @@ function contactus(props) {
                         <div className="col-xl-8 col-lg-10 mx-auto">
                             <div className="top-header-txt text-center">
                                 <h1 className="text-white">We Would Love to Chat About Your Project.</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+                                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p> */}
                             </div>
                         </div>
                     </div>
@@ -49,10 +49,8 @@ function contactus(props) {
                                                 <input type="email" className="form-control cust-input" placeholder="Enter your email" />
                                             </div>
                                             <div className="col-12 form-group mb-3">
-                                                <label className="label-txt">Country</label>
-                                                <select className="form-control cust-input form-select">
-                                                    <option>India</option>
-                                                </select>
+                                                <label className="label-txt">Company Name</label>
+                                                <input type="text" className="form-control cust-input" placeholder="Enter your company name" />
                                             </div>
                                             <div className="col-12 form-group mb-3">
                                                 <label className="label-txt">Phone</label>
