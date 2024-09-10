@@ -37,11 +37,11 @@ function career(props) {
                                             <div className="col-md-6">
                                                 <div className="white-box gray-bg career-box h-100">
                                                     <div className="small-title d-flex flex-column h-100">
-                                                        <span>Caster</span>
-                                                        <p className="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                        <h5>Job Duties/Responsibilities</h5>
+                                                        <span>Area Sales Manager</span>
+                                                        {/* <p className="mb-3"><b>For Fire Fighting Division</b></p> */}
+                                                        <h5 className='mt-2'>For Fire Fighting Division</h5>
                                                         <ul className="mb-3">
-                                                            <li>
+                                                            <li className='mt-2'>
                                                                 <div className="d-flex align-items-center">
                                                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                         <rect y="7.5" width="10" height="10" transform="rotate(-45 0 7.5)" fill="url(#paint0_linear_7_1268)" />
@@ -52,7 +52,7 @@ function career(props) {
                                                                             </linearGradient>
                                                                         </defs>
                                                                     </svg>
-                                                                    <p className="ms-2">Pouring of molten material to produce quality castings</p>
+                                                                    <p className="ms-2"><b>Location:</b> Maharashtra, Telangana, Karnataka, Tamil Nadu</p>
                                                                 </div>
                                                             </li>
                                                             <li className='mt-2'>
@@ -66,7 +66,7 @@ function career(props) {
                                                                             </linearGradient>
                                                                         </defs>
                                                                     </svg>
-                                                                    <p className="ms-2">Visually inspecting each casting for imperfections</p>
+                                                                    <p className="ms-2"><b>Exprience:</b> 2-5 years in Fire & Safety Industry</p>
                                                                 </div>
                                                             </li>
                                                             <li className='mt-2'>
@@ -80,21 +80,7 @@ function career(props) {
                                                                             </linearGradient>
                                                                         </defs>
                                                                     </svg>
-                                                                    <p className="ms-2">Report defects or issues to supervisor if required</p>
-                                                                </div>
-                                                            </li>
-                                                            <li className='mt-2'>
-                                                                <div className="d-flex align-items-center">
-                                                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                        <rect y="7.5" width="10" height="10" transform="rotate(-45 0 7.5)" fill="url(#paint0_linear_7_1268)" />
-                                                                        <defs>
-                                                                            <linearGradient id="paint0_linear_7_1268" x1="2.24552e-08" y1="7.38889" x2="11.156" y2="8.9098" gradientUnits="userSpaceOnUse">
-                                                                                <stop stopColor="#2A519A" />
-                                                                                <stop offset="1" stopColor="#154090" />
-                                                                            </linearGradient>
-                                                                        </defs>
-                                                                    </svg>
-                                                                    <p className="ms-2">Work as a caster or helper as needed</p>
+                                                                    <p className="ms-2"><b>Job Type:</b> Full Time</p>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -108,11 +94,11 @@ function career(props) {
                                             <div className="col-md-6">
                                                 <div className="white-box gray-bg career-box h-100">
                                                     <div className="small-title d-flex flex-column h-100">
-                                                        <span>Grinder</span>
-                                                        <p className="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                        <h5>Job Duties/Responsibilities</h5>
+                                                        <span>Marketing Manager</span>
+                                                        {/* <p className="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
+                                                        <h5 className='mt-2'>For Investment Casting Division</h5>
                                                         <ul className="mb-3">
-                                                            <li>
+                                                            <li className='mt-2'>
                                                                 <div className="d-flex align-items-center">
                                                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                         <rect y="7.5" width="10" height="10" transform="rotate(-45 0 7.5)" fill="url(#paint0_linear_7_1268)" />
@@ -123,7 +109,7 @@ function career(props) {
                                                                             </linearGradient>
                                                                         </defs>
                                                                     </svg>
-                                                                    <p className="ms-2">Show up to work on time</p>
+                                                                    <p className="ms-2"><b>Location:</b> Metoda GIDC, Rajkot</p>
                                                                 </div>
                                                             </li>
                                                             <li className='mt-2'>
@@ -137,7 +123,7 @@ function career(props) {
                                                                             </linearGradient>
                                                                         </defs>
                                                                     </svg>
-                                                                    <p className="ms-2">Perform duties as required</p>
+                                                                    <p className="ms-2"><b>Exprience:</b> 2-5 years in Investment Casting Industry</p>
                                                                 </div>
                                                             </li>
                                                             <li className='mt-2'>
@@ -151,7 +137,7 @@ function career(props) {
                                                                             </linearGradient>
                                                                         </defs>
                                                                     </svg>
-                                                                    <p className="ms-2">Be willing to learn and improve skills to increase pay and career path</p>
+                                                                    <p className="ms-2"><b>Job Type:</b> Full Time</p>
                                                                 </div>
                                                             </li>
                                                         </ul>

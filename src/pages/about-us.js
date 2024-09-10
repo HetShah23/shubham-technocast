@@ -110,51 +110,49 @@ export default function aboutus(props) {
                                 <div className="col-md-4 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
-                                            src={'/assets/images/market-up-1.png'}
+                                            src={'/assets/images/market-up-1.jpg'}
                                             width={695}
                                             height={458}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
+                                            className=''
                                         />
-                                        <div className="glass-effect text-center">
-                                            <h2 className='text-uppercase'>Mission</h2>
-                                            <p>To develop long-term business relations with its customer & poised to be Global Investment casting manufacturer with steady growth</p>
+                                        <div className="glass-effect h-100 text-center align-content-center">
+                                            <h2 className='text-uppercase mb-5 fw-bold fs-3'>Mission</h2>
+                                            <p className='px-5 pb-2 fs-5'>To develop long-term business relations with its customer & poised to be Global Investment casting manufacturer with steady growth</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
-                                            src={'/assets/images/market-up-2.png'}
+                                            src={'/assets/images/market-up-2.jpg'}
                                             width={695}
                                             height={458}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
                                         />
-                                        <div className="glass-effect text-center">
-                                            <h2 className='text-uppercase'>Vision</h2>
-                                            <p>We shall strive to be leaders in this business by offering products of a world class quality, and through constant technoloqical innovation.</p>
+                                        <div className="glass-effect h-100 text-center align-content-center">
+                                            <h2 className='text-uppercase mb-5 fw-bold fs-3'>Vision</h2>
+                                            <p className='px-5 pb-2 fs-5'>We shall strive to be leaders in this business by offering products of a world class quality, and through constant technoloqical innovation.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
                                     <div className="image-div-hoverable">
                                         <Image
-                                            src={'/assets/images/market-up-3.png'}
+                                            src={'/assets/images/market-up-3.avif'}
                                             width={695}
                                             height={458}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
                                         />
-                                        <div className="glass-effect text-center">
-                                            <h2 className='text-uppercase'>Core Value</h2>
-                                            <p>We prioritize quality & customer satisfaction, driven by integrity & a commitment to sustainable practices in all aspects of our business.</p>
+                                        <div className="glass-effect h-100 text-center align-content-center">
+                                            <h2 className='text-uppercase mb-5 fw-bold fs-3'>Core Value</h2>
+                                            <p className='px-5 pb-2 fs-5'>We prioritize quality & customer satisfaction, driven by integrity & a commitment to sustainable practices in all aspects of our business.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -163,7 +161,7 @@ export default function aboutus(props) {
 
                         <div className="col-12 pt-5">
                             <div className="common-title">
-                                <h2 className="text-center">Markets Served</h2>
+                                <h2 className="text-center text-uppercase fw-bold fs-2">Markets Served</h2>
                             </div>
                         </div>
                         <div className="col-12 mt-3">
@@ -177,62 +175,57 @@ export default function aboutus(props) {
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
                                         />
                                         <div className="glass-effect text-center">
-                                            <h2>Investment Casting Services</h2>
-                                            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                            <h2 className='text-uppercase fs-5'>Investment Casting Services</h2>
+                                            {/* <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 mb-4">
                                     <div className="image-div-hoverable">
                                         <Image
-                                            src={'/assets/images/market-2.png'}
+                                            src={'/assets/images/home-img-4.jpeg'}
                                             width={695}
                                             height={458}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
                                         />
                                         <div className="glass-effect text-center">
-                                            <h2>Investment Casting Services</h2>
-                                            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                            <h2 className='text-uppercase fs-5'>Casting Mold Services</h2>
+                                            {/* <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 mb-4">
                                     <div className="image-div-hoverable">
                                         <Image
-                                            src={'/assets/images/market-3.png'}
+                                            src={'/assets/images/home-img-3.webp'}
                                             width={695}
                                             height={458}
                                             quality={100}
                                             alt="logo"
                                             loading='lazy'
-                                            className='img-fluid'
                                         />
                                         <div className="glass-effect text-center">
-                                            <h2>Investment Casting Services</h2>
-                                            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                            <h2 className='text-uppercase fs-5'>Casting Machining Services</h2>
+                                            {/* <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 mb-4">
                                     <div className="image-div-hoverable">
                                         <Image
-                                            src={'/assets/images/market-4.png'}
+                                            src={'/assets/images/firetech-cover.jpg'}
                                             width={695}
                                             height={458}
                                             quality={100}
                                             alt="logo"
-                                            loading='lazy'
-                                            className='img-fluid'
                                         />
                                         <div className="glass-effect text-center">
-                                            <h2>Investment Casting Services</h2>
-                                            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                            <h2 className='text-uppercase fs-5'>Fire & Safety</h2>
+                                            {/* <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
                                         </div>
                                     </div>
                                 </div>

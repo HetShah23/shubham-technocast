@@ -882,38 +882,54 @@ export default function Home() {
 					<div className="container">
 						<div className='row'>
 							<div className='col-lg-6 mb-3 text-lg-start'>
-								<button className="btn-1" disabled>Lorem ipsum</button>
+								<button className="btn-1" disabled>We Cast Solutions</button>
 								<div className="gradiant-txt qaulity-txt mt-3">
 									<div className="mb-3">
-										<h2 className="mb-0 fw-bold">We Serve to Meet Your <br /><span>Casting Need  </span></h2>
+										<h2 className="mb-0 fw-bold">Our Services For Your<br /><span>Casting Needs</span></h2>
 									</div>
 									<p>
-										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+										We offer a complete range of casting solutions to meet your industrial needs. <b>Casting Mould Making Service</b> ensures precision and durability with custom mould designs crafted using advanced technology. With <b>Investment Casting Services,</b> we specialize in producing intricate, high-precision components in over 100+ alloy options, ensuring exceptional quality and minimal material waste. Additionally, <b>Casting Machining Service</b> delivers ready-to-use components through CNC machining and tight quality control, providing flawless, high-precision parts with fast turnaround times.
 									</p>
-									<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 								</div>
 							</div>
 							<div className='col-lg-6 mb-3 text-lg-center text-center'>
 								<div className="image-div-hoverable">
 									<Image
+										src={'/assets/images/home-img-4.jpeg'}
+										width={400}
+										height={400}
+										quality={100}
+										alt="logo"
+										loading='lazy'
+										className='w-100 image-animation-zoom'
+									/>
+									<div className="glass-effect text-center">
+										<h2 className="text-uppercase fs-5">Casting Mold Services</h2>
+										{/* <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
+									</div>
+								</div>
+							</div>
+							<div className='col-sm-6 mb-3 '>
+								<div className="image-div-hoverable">
+									<Image
 										src={'/assets/images/home-img-2.png'}
 										width={500}
-										height={300}
+										height={400}
 										quality={100}
 										alt="logo"
 										loading='lazy'
-										className='img-fluid w-100 image-animation-zoom'
+										className='w-100 image-animation-zoom'
 									/>
 									<div className="glass-effect text-center">
-										<h2>Investment Casting Services</h2>
-										<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+										<h2 className="text-uppercase fs-5">Investment Casting Services</h2>
+										{/* <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
 									</div>
 								</div>
 							</div>
 							<div className='col-sm-6 mb-3'>
 								<div className="image-div-hoverable">
 									<Image
-										src={'/assets/images/home-img-3.png'}
+										src={'/assets/images/home-img-3.webp'}
 										width={400}
 										height={400}
 										quality={100}
@@ -922,28 +938,11 @@ export default function Home() {
 										className='w-100 image-animation-zoom'
 									/>
 									<div className="glass-effect text-center">
-										<h2>Casting Machining Services</h2>
-										<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+										<h2 className="text-uppercase fs-5">Casting Machining Services</h2>
+										{/* <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
 									</div>
 								</div>
-							</div>
-							<div className='col-sm-6 mb-3'>
-								<div className="image-div-hoverable">
-									<Image
-										src={'/assets/images/home-img-4.png'}
-										width={400}
-										height={400}
-										quality={100}
-										alt="logo"
-										loading='lazy'
-										className='w-100 image-animation-zoom'
-									/>
-									<div className="glass-effect text-center">
-										<h2>Mold Castings Services</h2>
-										<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-									</div>
-								</div>
-							</div>
+							</div>						
 						</div>
 					</div>
 				</section>
