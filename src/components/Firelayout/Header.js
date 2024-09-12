@@ -6,33 +6,33 @@ import React, { useEffect } from 'react';
 function Header(props) {
     const router = useRouter();
 
-    useEffect(() => {
-        const yourNavigation = document.querySelector('.header-fixed');
-        const stickyDiv = 'header-sticky';
-        const yourHeader = yourNavigation.clientHeight;
+    // useEffect(() => {
+    //     const yourNavigation = document.querySelector('.header-fixed');
+    //     const stickyDiv = 'header-sticky';
+    //     const yourHeader = yourNavigation.clientHeight;
 
-        const handleScroll = () => {
-            if (window.scrollY > yourHeader) {
-                yourNavigation.classList.add(stickyDiv);
-            } else {
-                yourNavigation.classList.remove(stickyDiv);
-            }
-        };
+    //     const handleScroll = () => {
+    //         if (window.scrollY > yourHeader) {
+    //             yourNavigation.classList.add(stickyDiv);
+    //         } else {
+    //             yourNavigation.classList.remove(stickyDiv);
+    //         }
+    //     };
 
-        window.addEventListener('scroll', handleScroll);
+    //     window.addEventListener('scroll', handleScroll);
 
-        // Clean up the event listener when the component unmounts
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    //     // Clean up the event listener when the component unmounts
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
 
     const humbergeropen = () => {
         document.getElementById('hamburger-icn').classList.toggle('is-active')
     }
 
     return (
-        <header className='header-fixed'>
+        <header className='header-fixed header-sticky'>
             <div className='position-relative'>
 
                 <div className='container'>

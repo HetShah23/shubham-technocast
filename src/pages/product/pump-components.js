@@ -175,7 +175,6 @@ export default function pumpcomponents(props) {
                         <div className='col-lg-6 mb-3 text-lg-center text-center'>
                             <img
                                 src={'/assets/images/gallery-2.png'}
-                                quality={100}
                                 alt="logo"
                                 className='img-fluid h-auto w-100 object-fit-cover'
                             />
