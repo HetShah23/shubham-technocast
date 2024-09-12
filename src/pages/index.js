@@ -7,6 +7,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useRef, useLayoutEffect, useState } from "react";
+import Counter from "@/components/Tools/Counter";
+import { motion } from "framer-motion";
 
 export default function Home() {
 
@@ -21,6 +23,26 @@ export default function Home() {
 			});
 		}
 	}, []);
+
+	const container = {
+		hidden: { opacity: 1, scale: 0 },
+		visible: {
+		  opacity: 1,
+		  scale: 1,
+		  transition: {
+			delayChildren: 0.3,
+			staggerChildren: 0.2
+		  }
+		}
+	};
+	  
+	const item = {
+		hidden: { y: 20, opacity: 0 },
+		visible: {
+		  y: 0,
+		  opacity: 1
+		}
+	};
 
 	const settings = {
 		dots: false,
@@ -174,8 +196,14 @@ export default function Home() {
 												<div className="row">
 													<div className="col-md-6 mb-3">
 														<div className="white-box gray-bg h-100">
-															<ul>
-																<li className="d-flex">
+															<motion.ul
+																className="container"
+																variants={container}
+																initial="hidden"
+																whileInView="visible"
+																viewport={{ once: true }}
+															>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -188,8 +216,22 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Comprehensive Manufacturing Capabilities</span> <br/>Our facilities include in-house CNC machining, induction hardening, surface hardening, electroplating, and polishing.</p>
-																</li>
-																<li className="d-flex">
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
+																	<div className="me-2">
+																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
+																			<defs>
+																				<linearGradient id="paint0_linear_877_11" x1="0.166672" y1="0.426251" x2="24.3379" y2="3.72155" gradientUnits="userSpaceOnUse">
+																					<stop stopColor="#2A519A" />
+																					<stop offset="1" stopColor="#154090" />
+																				</linearGradient>
+																			</defs>
+																		</svg>
+																	</div>
+																	<p><span className="txt-theme-color fw-bold">Comprehensive Manufacturing Capabilities</span> <br/>Our facilities include in-house CNC machining, induction hardening, surface hardening, electroplating, and polishing.</p>
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -202,8 +244,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Client-Centric Approach</span> <br/>We prioritize client satisfaction by offering high-quality standard and customized products tailored to our clients' needs.</p>
-																</li>
-																<li className="d-flex">
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -216,14 +258,20 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Experienced and Talented Team</span> <br/>Our team of professionals is highly skilled and experienced, ensuring the delivery of a wide range of high-quality products.</p>
-																</li>
-															</ul>
+																</motion.li>
+															</motion.ul>
 														</div>
 													</div>
 													<div className="col-md-6 mb-3">
 														<div className="white-box gray-bg h-100">
-															<ul>
-																<li className="d-flex">
+															<motion.ul
+																className="container"
+																variants={container}
+																initial="hidden"
+																whileInView="visible"
+																viewport={{ once: true }}
+															>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -236,8 +284,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">High Volume Production</span> <br/>We are capable of supplying large volumes of fully machined, ready-to-assemble parts for the automotive industry and other sectors.</p>
-																</li>
-																<li className="d-flex">
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -250,8 +298,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Quality Assurance</span> <br/>We adhere to stringent quality control measures, ensuring every product meets the highest standards of excellence.</p>
-																</li>
-															</ul>
+																</motion.li>
+															</motion.ul>
 														</div>
 													</div>
 												</div>
@@ -272,8 +320,14 @@ export default function Home() {
 												<div className="row">
 													<div className="col-md-6 mb-3">
 														<div className="white-box gray-bg h-100">
-															<ul>
-																<li className="d-flex">
+															<motion.ul
+																className="container"
+																variants={container}
+																initial="hidden"
+																whileInView="visible"
+																viewport={{ once: true }}
+															>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -286,8 +340,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Manufacturing Process</span> <br/>Lost wax</p>
-																</li>
-																<li className="d-flex">
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -300,8 +354,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Simulation Software</span> <br/>Softcast</p>
-																</li>
-																<li className="d-flex">
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -314,8 +368,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Type of Furnace</span> <br/>Medium frequency induction furnace (Inductotherm Make)</p>
-																</li>
-																<li className="d-flex">
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -328,8 +382,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Weight Range</span> <br/>Few grams to 100 Kg/Pc.</p>
-																</li>
-																<li className="d-flex">
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -342,14 +396,20 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Monthly Capacity</span> <br/>60 Tons</p>
-																</li>
-															</ul>
+																</motion.li>
+															</motion.ul>
 														</div>
 													</div>
 													<div className="col-md-6 mb-3">
 														<div className="white-box gray-bg h-100">
-															<ul>
-																<li className="d-flex">
+															<motion.ul
+																className="container"
+																variants={container}
+																initial="hidden"
+																whileInView="visible"
+																viewport={{ once: true }}
+															>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -362,8 +422,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Grades Manufactured</span> <br/>CS, LAS, SS, Duplex, Super Duplex, Heat Resistant, Customi</p>
-																</li>
-																<li className="d-flex">
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -376,8 +436,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">NDT Facilities</span> <br/>In house UT/MPT/DPT/RT (Ir - 192 & Co - 60)</p>
-																</li>
-																<li className="d-flex">
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -390,8 +450,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Testing Facilities</span> <br/>In house chemical & mechanical testing lab</p>
-																</li>
-																<li className="d-flex">
+																</motion.li>
+																<motion.li className="item d-flex" variants={item}>
 																	<div className="me-2">
 																		<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																			<path fillRule="evenodd" clipRule="evenodd" d="M21.8333 11.5003C21.8333 17.4834 16.9831 22.3337 11 22.3337C5.01692 22.3337 0.166672 17.4834 0.166672 11.5003C0.166672 5.51724 5.01692 0.666992 11 0.666992C16.9831 0.666992 21.8333 5.51724 21.8333 11.5003ZM15.3662 8.21747C15.6835 8.53477 15.6835 9.04921 15.3662 9.36652L9.94953 14.7832C9.63223 15.1005 9.11778 15.1005 8.80048 14.7832L6.63381 12.6165C6.31651 12.2992 6.31651 11.7848 6.63381 11.4675C6.95111 11.1502 7.46556 11.1502 7.78286 11.4675L9.375 13.0596L11.7961 10.6385L14.2171 8.21747C14.5344 7.90017 15.0489 7.90017 15.3662 8.21747Z" fill="url(#paint0_linear_877_11)" />
@@ -404,8 +464,8 @@ export default function Home() {
 																		</svg>
 																	</div>
 																	<p><span className="txt-theme-color fw-bold">Machine Shop</span> <br/>In house VMC, TC, HMC, Boring & VCT Facilities</p>
-																</li>
-															</ul>
+																</motion.li>
+															</motion.ul>
 														</div>
 													</div>
 												</div>
@@ -413,7 +473,7 @@ export default function Home() {
 										</div>
 									</div>
 									<div className='col-md-4 mb-md-0 mb-3'>
-										<img src={'/assets/images/choose-3.png'} className='h-100 mw-100 object-fit-cover' />
+										<img alt="" src={'/assets/images/choose-3.png'} className='h-100 mw-100 object-fit-cover' />
 									</div>
 								</div>
 							</div>
@@ -829,6 +889,7 @@ export default function Home() {
 									</svg>
 									<div className='ms-3'>
 										<h1 className="text-white fw-bold">850 +</h1>
+										{/* <Counter number={850} /> */}
 										<h3 className='mb-0'>Casting Capacity (Tons)</h3>
 									</div>
 								</div>

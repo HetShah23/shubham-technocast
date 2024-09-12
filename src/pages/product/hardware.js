@@ -5,29 +5,54 @@ import React, { useState } from 'react';
 
 const images = [
     {
-        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1723927484/001_su9lzq.jpg",
-        name: "pump-1",
+        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1726052140/ss-316-grade-investment-casting-500x500_aumxj7.jpg",
+        name: "hardware-1",
         class_size: "col-lg-8 col-12 mb-3"
     },
     {
-        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1723927482/fire-fighting-equipment-casting-500x500_lomshi.jpg",
-        name: "pump-2",
+        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1726052141/four-way-spider-with-fin-500x500_o45ffo.jpg",
+        name: "hardware-2",
         class_size: "col-lg-4 col-12 mb-3"
     },
     {
-        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1723927487/21565610PFT-222_by3fhc.png",
-        name: "pump-3",
-        class_size: "col-lg-3 col-6 mb-3"
+        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1726052141/spider-fitting-500x500_ddukw9.jpg",
+        name: "hardware-4",
+        class_size: "col-lg-4 col-12 mb-3"
     },
     {
-        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1723927481/Fire_Fighting_Parts_py0qye.jpg",
-        name: "pump-4",
-        class_size: "col-lg-3 col-6 mb-3"
+        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1726052141/large-500x500_fbigg2.jpg",
+        name: "hardware-4",
+        class_size: "col-lg-4 col-12 mb-3"
     },
     {
-        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1723927480/59e35fb9fb863f10e842eee5_xsnrlf.jpg",
-        name: "pump-5",
-        class_size: "col-lg-6 col-md-12 mb-3"
+        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1726052141/three-way-spider-fitting-500x500_jxfoxh.jpg",
+        name: "hardware-5",
+        class_size: "col-lg-4 col-12 mb-3"
+    },
+    {
+        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1726052140/Hardware-and-Space-Frame2_unkrh2.jpg",
+        name: "hardware-4",
+        class_size: "col-lg-6 col-12 mb-3"
+    },
+    {
+        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1726052140/investment-castings-500x500_cwqoqz.jpg",
+        name: "hardware-4",
+        class_size: "col-lg-3 col-12 mb-3"
+    },
+    {
+        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1726052139/7_rzdlgl.jpg",
+        name: "hardware-5",
+        class_size: "col-lg-3 col-12 mb-3"
+    },
+    {
+        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1726052139/Glass_Canopy_Fitting_kc83va.jpg",
+        name: "hardware-4",
+        class_size: "col-lg-4 col-12 mb-3"
+    },
+    {
+        src: "https://res.cloudinary.com/deeytogqr/image/upload/v1726052141/door-handle-500x500_vip8sd.jpg",
+        name: "hardware-4",
+        class_size: "col-lg-8 col-12 mb-3"
     },
 ]
 
@@ -81,16 +106,18 @@ export default function hardware(props) {
                         <div className="col-12 py-2">
                             <div className="gradiant-txt qaulity-txt">
                                 <div className="d-flex align-items-center mb-3">
-                                <h2 className="mb-0"><span>Hardware </span></h2>
+                                <h2 className="mb-0">High-Quality Industrial <span>Hardware </span></h2>
                                 </div>
-                                <p>Built to withstand harsh conditions, our fire equipments provide robust and dependable access to water for emergency firefighting operations.</p>
+                                <p>Expertly designed hardware components crafted for endurance, ensuring superior protection and performance in critical applications.</p>
                             </div>
                         </div>
                         <div className="col-12">
                             <div className="row">
-                                <div className="col-md-12">
-                                    
-                                </div>
+                                {images.map(img => 
+                                    <div key={index} className={img.class_size} style={{height: "400px"}}>
+                                        <img loading='lazy' src={img.src} className='img-fluid w-100 h-100 object-fit-cover' alt={`valve-${index}`} />
+                                    </div>
+                                )}
                             </div>
                         </div>
                     </div>

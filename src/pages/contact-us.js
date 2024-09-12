@@ -6,8 +6,6 @@ import { useRouter } from 'next/router';
 function contactus(props) {
     const router = useRouter();
 
-    // console.log(router);
-
     return (
         <Layout>
             <section className="bg-image bg-contact">
