@@ -816,7 +816,7 @@ export default function Home() {
 									</div>
 									<div className="col-md-4 col-sm-6 mb-3">
 										<div className="white-box p-0 home-prod">
-											<Link href={'/product/hardware'} className="d-flex align-items-center h-100">
+											<Link href={'/product/general-engineering'} className="d-flex align-items-center h-100">
 
 												<div className="img-div d-flex flex-column h-100 justify-content-end">
 													<img alt="" className="img-fluid" src="/assets/images/prod-home-5.png" />
@@ -834,7 +834,7 @@ export default function Home() {
 									</div>
 									<div className="col-md-4 col-sm-6 mb-3">
 										<div className="white-box p-0 home-prod">
-											<Link href={'/product/general-engineering'} className="d-flex align-items-center h-100">
+											<Link href={'/product/hardware'} className="d-flex align-items-center h-100">
 												<div className="img-div d-flex flex-column h-100 justify-content-end">
 													<img alt="" className="img-fluid" src="/assets/images/prod-home-6.png " />
 												</div>

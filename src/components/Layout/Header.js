@@ -139,7 +139,7 @@ function Header(props) {
                                         {/* <Link href="/" className="border-top border-bottom py-2">
                                             Download Brochure
                                         </Link> */}
-                                        <div type="button" dataToggle="modal" dataTarget="#brochureForm" className="border-top border-bottom py-2 cursor-pointer">
+                                        <div type="button" dataToggle="modal" dataTarget="#brochureForm" className="text-white border-top border-bottom py-2 cursor-pointer">
                                             Download Brochure
                                         </div>
                                     </div>
