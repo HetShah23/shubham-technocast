@@ -8,9 +8,9 @@ import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
-const ClientLogoSlider = ({logos}) => {
+const ClientLogoSlider = ({logos, whitebox, height}) => {
     const [isMobile, setIsMobile] = useState(false);
-
+    console.log()
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768);
@@ -26,14 +26,14 @@ const ClientLogoSlider = ({logos}) => {
 
     return (
         <div>
-            {isMobile ? (
+            {isMobile && logos.length > 10 ? (
                 <Swiper
-                    slidesPerView={2}
+                    slidesPerView={1}
                     spaceBetween={10}
                     navigation
                     pagination={{ clickable: true }}
                     scrollbar={{ draggable: true }}
-                    autoplay={{ delay: 3000 }}
+                    autoplay={{ delay: 1500 }}
                     breakpoints={{
                         640: {
                             slidesPerView: 2,
@@ -48,7 +48,7 @@ const ClientLogoSlider = ({logos}) => {
                 >
                     {logos.map((logo, index) => (
                         <SwiperSlide key={index} className="" onClick={() => handleClick(index)}>
-                            <div className="white-box p-0 h-100 d-flex align-items-center justify-content-center">
+                            <div className={`${whitebox === true ? "white-box" : ""} p-0 h-100 d-flex align-items-center justify-content-center`}>
                                 <div>
                                     <img src={logo} className="img-fluid" alt={`Client Logo ${index + 1}`} />
                                 </div>
@@ -60,9 +60,9 @@ const ClientLogoSlider = ({logos}) => {
                 <div className="row customer-slider">
                     {logos.map((logo, index) => (
                         <div key={index} className="col-xl-2 col-lg-3 col-md-4 col-6 mb-3">
-                            <div className="white-box p-0 h-100 d-flex align-items-center justify-content-center">
+                            <div className={`${whitebox === true ? "white-box" : "m-3"} p-0 h-100 d-flex align-items-center justify-content-center`}>
                                 <div>
-                                    <img src={logo} className="img-fluid" alt={`Client Logo ${index + 1}`} />
+                                    <img src={logo} className="p-2 mw-100 object-fit-contain" height={height ?? "auto"} alt={`Client Logo ${index + 1}`} />
                                 </div>
                             </div>
                         </div>

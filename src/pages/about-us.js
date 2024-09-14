@@ -1,9 +1,19 @@
+import ClientLogoSlider from '@/components/ClientLogoSlider';
 import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
 export default function aboutus(props) {
+
+    const firms_logo = [
+        "/assets/images/shubam_buildicon.png",
+        "/assets/images/shubham_enterprise.png",
+        "/assets/images/somyatouch_laminate.png",
+        "/assets/images/famous_vitrified.png",
+        "/assets/images/galam_tubes.png",
+    ]
+
     return (
         <Layout>
             <section className="bg-image bg-about no-margin">
@@ -45,6 +55,22 @@ export default function aboutus(props) {
                                 <p>Shubham Technocast, founded in 2014 under the visionary leadership of Shubham Group is a pioneering force in India's investment casting industry. With a state-of-the-art 65,000 sq. ft. production facility in Rajkot, Gujarat, the company specializes in producing over 6,000 precision investment castings for industries such as oil and gas, chemical processing, automotive, aerospace, and defense.</p>
                                 <p>Renowned for its commitment to quality, precision, and innovation, Shubham Technocast remains a trusted partner for clients worldwide, delivering intricate components with unmatched accuracy and reliability.</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="common-space">
+                <div className="container">
+                    <div className='row our-client-box'>
+                        <div className='col-md-12 text-center mb-3'>
+                            <div className="gradiant-txt qaulity-txt mt-3">
+                                <div className="mb-3">
+                                    <h2 className="mb-0 fw-bold text-uppercase">Our Expanding <span>Horizons</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-12">
+                            <ClientLogoSlider logos={firms_logo} height={100} />
                         </div>
                     </div>
                 </div>

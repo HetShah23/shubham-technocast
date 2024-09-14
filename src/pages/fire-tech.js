@@ -29,6 +29,8 @@ export default function firetech(props) {
         "/assets/images/iso-logo-1.png",
         "/assets/images/iso-logo-2.png",
         "/assets/images/iso-logo-3.png",
+        "/assets/images/iaf.png",
+        "/assets/images/nabcb.png",
     ]
 
     return (
@@ -298,7 +300,7 @@ export default function firetech(props) {
             </section>
             <section className="common-space" id="firetech-quality">
                 <div className="container ">
-                    <div className='row'>
+                    <div className='row justify-content-center'>
                         <div className='col-md-12 text-center mb-3'>
                             <div className="gradiant-txt qaulity-txt mt-3">
                                 <div className="mb-3">
@@ -307,12 +309,13 @@ export default function firetech(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 text-center'>
-                            <div className='mw-100 px-3'>   
+                        <div className='col-12'>
+                            {/* <div className='mw-100 px-3'>   
                                 <img alt="" src='/assets/images/iso-logo-1.png' height={120} className='mw-100 w-auto mx-4 mb-3' />
                                 <img alt="" src='/assets/images/iso-logo-2.png' height={130} className='mw-100 w-auto mx-4 mb-3' />
                                 <img alt="" src='/assets/images/iso-logo-3.png' height={130} className='mw-100 w-auto mx-4 mb-3' />
-                            </div>
+                            </div> */}
+                            <ClientLogoSlider logos={mark_logos} height={100} />
                         </div>
                     </div>
                 </div>
@@ -393,7 +396,7 @@ export default function firetech(props) {
                             </div>
                         </div>
                         <div className="col-md-12 pb-3">
-                            <ClientLogoSlider logos={customers_logo} />
+                            <ClientLogoSlider whitebox={true} logos={customers_logo} />
                         </div>
                         {/* <div className='col-md-12'>
                             <div className="row flex-nowrap overflow-x-hidden customer-slider">

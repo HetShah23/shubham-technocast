@@ -28,12 +28,12 @@ function contactus(props) {
                                 <div className="row">
                                     <div className="col-12">
                                         <div className="bottom-line-txt">
-                                            <span>Contact Us</span>
+                                            <span>We’re Here to Help You!</span>
                                         </div>
                                     </div>
                                     <div className="col-12 py-2">
                                         <div className="gradiant-txt">
-                                            <h2>Get in touch with <span>shubham technocast</span></h2>
+                                            <h2>Elevate Your Business with <span>shubham technocast</span></h2>
                                         </div>
                                     </div>
                                     <div className="col-12">

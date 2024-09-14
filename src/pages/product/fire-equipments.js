@@ -7,27 +7,27 @@ const images = [
     {
         src: "https://res.cloudinary.com/deeytogqr/image/upload/v1723927484/001_su9lzq.jpg",
         name: "pump-1",
-        class_size: "col-lg-sm-8 col-12 mb-3"
+        class_size: "col-lg-7 col-12 mb-3"
     },
     {
         src: "https://res.cloudinary.com/deeytogqr/image/upload/v1723927482/fire-fighting-equipment-casting-500x500_lomshi.jpg",
         name: "pump-2",
-        class_size: "col-lg-sm-4 col-12 mb-3"
+        class_size: "col-lg-5 col-12 mb-3"
     },
     {
         src: "https://res.cloudinary.com/deeytogqr/image/upload/v1723927487/21565610PFT-222_by3fhc.png",
         name: "pump-3",
-        class_size: "col-lg-sm-3 col-6 mb-3"
+        class_size: "col-lg-4 col-6 mb-3"
     },
     {
         src: "https://res.cloudinary.com/deeytogqr/image/upload/v1723927481/Fire_Fighting_Parts_py0qye.jpg",
         name: "pump-4",
-        class_size: "col-lg-sm-3 col-6 mb-3"
+        class_size: "col-lg-4 col-6 mb-3"
     },
     {
         src: "https://res.cloudinary.com/deeytogqr/image/upload/v1723927480/59e35fb9fb863f10e842eee5_xsnrlf.jpg",
         name: "pump-5",
-        class_size: "col-lg-sm-6 col-md-12 mb-3"
+        class_size: "col-lg-4 col-md-12 mb-3"
     },
 ]
 
@@ -50,14 +50,14 @@ export default function fireequipments(props) {
             <section className="bg-image bg-pump-componet no-margin h-auto">
                 <div className="container h-100 ">
                     <div className="row h-100 align-items-center common-space-all">
-                        <div className="col-lg-sm-6 text-lg-start text-center mb-lg-0 mb-3">
+                        <div className="col-lg-6 text-lg-start text-center mb-lg-0 mb-3">
                             <div className="common-title">
                                 <h1 className="text-uppercase">Fire Equipments</h1>
                                 {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
                                 <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
                             </div>
                         </div>
-                        <div className="col-lg-sm-6 text-lg-end text-center">
+                        <div className="col-lg-6 text-lg-end text-center">
                             <Image
                                 src={'/assets/images/product-6.jpg'}
                                 width={450}

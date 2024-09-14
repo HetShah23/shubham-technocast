@@ -139,7 +139,7 @@ function Header(props) {
                                         {/* <Link href="/" className="border-top border-bottom py-2">
                                             Download Brochure
                                         </Link> */}
-                                        <div type="button" dataToggle="modal" dataTarget="#brochureForm" className="text-white border-top border-bottom py-2 cursor-pointer">
+                                        <div type="button" data-toggle="modal" data-target="#brochureForm" className="text-white border-top border-bottom py-2 cursor-pointer">
                                             Download Brochure
                                         </div>
                                     </div>
@@ -149,20 +149,20 @@ function Header(props) {
                     </div>
                 </div>
             </header>
-            <div className="modal fade" id="brochureForm" tabindex="-1" role="dialog" ariaLabelledby="brochureFormLabel" ariaHidden="true">
+            <div className="modal fade" id="brochureForm" tabIndex="-1" role="dialog" aria-labelledby="brochureFormLabel" aria-hidden="true">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
                             <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" className="close" dataDismiss="modal" ariaLabel="Close">
-                            <span ariaHidden="true">&times;</span>
+                            <button type="button" className="close" datadismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div className="modal-body">
                             ...
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" dataDismiss="modal">Close</button>
+                            <button type="button" className="btn btn-secondary" datadismiss="modal">Close</button>
                             <button type="button" className="btn btn-primary">Save changes</button>
                         </div>
                     </div>

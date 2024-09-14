@@ -6,16 +6,18 @@ import { Tab, Tabs } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useRef, useLayoutEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import Counter from "@/components/Tools/Counter";
 import { motion } from "framer-motion";
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 export default function Home() {
 
 	const targetRef = useRef();
   	const [dimensions, setDimensions] = useState({ width:0, height: 0 });
-
-	useLayoutEffect(() => {
+	
+	useEffect(() => {
 		if (targetRef.current) {
 			setDimensions({
 				width: targetRef.current.offsetWidth,
@@ -191,7 +193,7 @@ export default function Home() {
 									<div className="col-md-8 mb-3">
 										<div className="gray-bg h-100 pt-3 px-3">
 											<h6 className="txt-theme-color fw-bold text-uppercase fs-5">Excellence in Manufacturing & Client Satisfaction</h6>
-											<p>We are committed to delivering exceptional manufacturing solutions to meet the diverse needs of our clients. Our state-of-the-art facilities, skilled workforce, and unwavering dedication to quality set us apart in the industry.</p>
+											<p>We take pride in offering cutting-edge manufacturing solutions tailored to meet the unique challenges of our clients. Our advanced facilities, skilled workforce, and commitment to precision empower us to deliver high-quality products that stand out in the industry.</p>
 											<div className="col-12">
 												<div className="row">
 													<div className="col-md-6 mb-3">
@@ -888,8 +890,15 @@ export default function Home() {
 										<path d="M68.2246 36.939V42.9541" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
 									</svg>
 									<div className='ms-3'>
-										<h1 className="text-white fw-bold">850 +</h1>
-										{/* <Counter number={850} /> */}
+										<h1 className="text-white fw-bold">
+											<CountUp end={850}>
+												{({ countUpRef, start }) => (
+													<VisibilitySensor onChange={start} delayedCall>
+														<span ref={countUpRef} />
+													</VisibilitySensor>
+												)}	
+											</CountUp> +
+										</h1>
 										<h3 className='mb-0'>Casting Capacity (Tons)</h3>
 									</div>
 								</div>
@@ -904,7 +913,15 @@ export default function Home() {
 										<path d="M70.1656 43.282C70.1656 44.9827 68.4384 46.3612 66.3078 46.3612C64.1772 46.3612 62.45 44.9827 62.45 43.282M55.8952 29.548H76.7203M66.3078 24.9961V17.9648M17.1727 39.5127L17.55 43.282M17.55 43.282L20.592 44.9203C21.8128 45.5778 23.0695 46.1547 24.0844 46.8702M17.55 43.282L13.6922 47.5331M10.2119 39.5127L9.83453 43.282L13.6922 47.5331M19.2125 62.9848H1.17188V50.5409C1.17188 47.45 4.07156 46.3858 6.79234 44.9205L9.83453 43.2822M13.6922 47.5331V61.813M24.1048 29.548H3.27969M13.6922 24.9961V17.9648M19.2127 57.187H1.17188M1.17188 52.4995H19.2127M40.0002 77.0472V45.3892L45.575 49.4273L50.4709 44.0795M56.1002 54.8433V52.4995M56.1002 59.5308V57.187M73.7003 28.2567C73.7003 24.1908 70.3736 20.8641 66.3078 20.8641C62.242 20.8641 58.9152 24.1908 58.9152 28.2567V32.9966C58.9152 37.0625 62.2419 40.3892 66.3078 40.3892C70.3736 40.3892 73.7003 37.0625 73.7003 32.9966V28.2567ZM6.29969 28.2567C6.29969 24.1908 9.62641 20.8641 13.6922 20.8641C17.758 20.8641 21.0848 24.1908 21.0848 28.2567V32.9966C21.0848 37.0625 17.7581 40.3892 13.6922 40.3892C9.62641 40.3892 6.29969 37.0625 6.29969 32.9966V28.2567Z" stroke="white" strokeWidth="2" strokeMiterlimit="22.9256" />
 									</svg>
 									<div className='ms-3'>
-										<h1 className="text-white fw-bold">200 +</h1>
+										<h1 className="text-white fw-bold">
+											<CountUp end={200}>
+												{({ countUpRef, start }) => (
+													<VisibilitySensor onChange={start} delayedCall>
+														<span ref={countUpRef} />
+													</VisibilitySensor>
+												)}	
+											</CountUp> +
+										</h1>
 										<h3 className='mb-0'>No. of Employees</h3>
 									</div>
 								</div>
@@ -931,7 +948,15 @@ export default function Home() {
 										<path d="M70.4839 12.7742C70.4839 14.0213 69.4729 15.0322 68.2258 15.0322C66.9788 15.0322 65.9678 14.0213 65.9678 12.7742C65.9678 11.527 66.9788 10.5161 68.2258 10.5161C69.4729 10.5161 70.4839 11.527 70.4839 12.7742Z" stroke="white" strokeWidth="2" strokeMiterlimit="10" />
 									</svg>
 									<div className='ms-3'>
-										<h1 className="text-white fw-bold">30 +</h1>
+										<h1 className="text-white fw-bold">
+											<CountUp end={30}>
+												{({ countUpRef, start }) => (
+													<VisibilitySensor onChange={start} delayedCall>
+														<span ref={countUpRef} />
+													</VisibilitySensor>
+												)}	
+											</CountUp> +
+										</h1>
 										<h3 className='mb-0'>Export Country</h3>
 									</div>
 								</div>
