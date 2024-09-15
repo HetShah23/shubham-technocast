@@ -7,6 +7,7 @@ import React from 'react';
 export default function aboutus(props) {
 
     const firms_logo = [
+        "/assets/images/shubham_firetech.png",
         "/assets/images/shubam_buildicon.png",
         "/assets/images/shubham_enterprise.png",
         "/assets/images/somyatouch_laminate.png",

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
+// import Brochure from "../../../public/"
 
 function Header(props) {
     const router = useRouter();
@@ -139,9 +140,10 @@ function Header(props) {
                                         {/* <Link href="/" className="border-top border-bottom py-2">
                                             Download Brochure
                                         </Link> */}
-                                        <div type="button" data-toggle="modal" data-target="#brochureForm" className="text-white border-top border-bottom py-2 cursor-pointer">
+
+                                        {/* <div type="button" data-toggle="modal" data-target="#brochureForm" className="text-white border-top border-bottom py-2 cursor-pointer">
                                             Download Brochure
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -149,7 +151,7 @@ function Header(props) {
                     </div>
                 </div>
             </header>
-            <div className="modal fade" id="brochureForm" tabIndex="-1" role="dialog" aria-labelledby="brochureFormLabel" aria-hidden="true">
+            {/* <div className="modal fade" id="brochureForm" tabIndex="-1" role="dialog" aria-labelledby="brochureFormLabel" aria-hidden="true">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -167,7 +169,7 @@ function Header(props) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     );
 }
