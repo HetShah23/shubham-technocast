@@ -108,9 +108,9 @@ function Header(props) {
                                                 </Link>
                                             </li>
                                             <li className="d-block d-lg-none">
-                                                <div  data-toggle="modal" data-target="#brochureForm" className="text-white border-top border-bottom py-2">
+                                                {/* <div  data-toggle="modal" data-target="#brochureForm" className="text-white border-top border-bottom py-2">
                                                     Download Brochure
-                                                </div>
+                                                </div> */}
                                             </li>
                                         </ul>
                                         <div className="hamburger d-lg-none d-block" id="hamburger-icn" onClick={() => humbergeropen()}>

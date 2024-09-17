@@ -1,10 +1,28 @@
 import Layout from '@/components/Layout/Layout';
 import Link from 'next/link';
-import React from 'react';
+import React, { useCallback, useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import { useForm } from "react-hook-form"; 
 
 function contactus(props) {
     const router = useRouter();
+    
+    const [title, setTitle] =  useState(<h2>Elevate Your Business with <span>shubham technocast</span></h2>);
+
+    useEffect(() => {
+		const fireTech = <h2>Strengthen Your Safety Solutions with <span>Shubham Firetech</span></h2>
+	}, []);
+
+    const { 
+        register, 
+        handleSubmit, 
+        getValues, 
+        formState: { errors }, 
+      } = useForm(); 
+
+    const onSubmit = useCallback(() => { 
+        console.log(getValues()); 
+    }, [getValues]); 
 
     return (
         <Layout>
@@ -33,33 +51,57 @@ function contactus(props) {
                                     </div>
                                     <div className="col-12 py-2">
                                         <div className="gradiant-txt">
-                                            <h2>Elevate Your Business with <span>shubham technocast</span></h2>
+                                            {title}
                                         </div>
                                     </div>
                                     <div className="col-12">
-                                        <form className="row">
+                                        <form onSubmit={handleSubmit(onSubmit)} className="row">
                                             <div className="col-12 form-group mb-3">
-                                                <label className="label-txt">Name</label>
-                                                <input type="text" className="form-control cust-input" placeholder="Enter your name" />
+                                                <label htmlFor="name" className="label-txt">Name</label>
+                                                <input 
+                                                    type="text" 
+                                                    className="form-control cust-input" 
+                                                    {...register("name", { required: "Please Enter Your Name" })}
+                                                />
+                                                <div className="error-message">{errors.name?.message}</div> 
                                             </div>
                                             <div className="col-12 form-group mb-3">
-                                                <label className="label-txt">Email</label>
-                                                <input type="email" className="form-control cust-input" placeholder="Enter your email" />
+                                                <label htmlFor="email" className="label-txt">Email</label>
+                                                <input 
+                                                    type="email" 
+                                                    className="form-control cust-input"
+                                                    {...register("email", { required: "Please Enter Your Email" })} 
+                                                />
+                                                <div className="error-message">{errors.email?.message}</div> 
                                             </div>
                                             <div className="col-12 form-group mb-3">
-                                                <label className="label-txt">Company Name</label>
-                                                <input type="text" className="form-control cust-input" placeholder="Enter your company name" />
+                                                <label htmlFor="companyname" className="label-txt">Company Name</label>
+                                                <input 
+                                                    type="text" 
+                                                    className="form-control cust-input" 
+                                                    {...register("companyname", { required: "Please Enter Name of Your Company" })}  
+                                                />
+                                                <div className="error-message">{errors.companyname?.message}</div> 
                                             </div>
                                             <div className="col-12 form-group mb-3">
-                                                <label className="label-txt">Phone</label>
-                                                <input type="tel" className="form-control cust-input" placeholder="Enter your phone number" />
+                                                <label htmlFor='phoneno' className="label-txt">Phone</label>
+                                                <input 
+                                                    type="tel" 
+                                                    className="form-control cust-input" 
+                                                    {...register("phoneno", { required: "Please Enter Your Phone Number" })}  
+                                                />
+                                                <div className="error-message">{errors.phoneno?.message}</div> 
                                             </div>
                                             <div className="col-12 form-group mb-3">
-                                                <label className="label-txt">Comments</label>
-                                                <textarea className="form-control cust-input" placeholder="Write here"></textarea>
+                                                <label htmlFor='comments' className="label-txt">Comments</label>
+                                                <textarea 
+                                                    className="form-control cust-input" 
+                                                    placeholder="Write here"
+                                                    {...register("comments")} 
+                                                ></textarea>
                                             </div>
                                             <div className="col-12 text-center">
-                                                <button className="btn-1">Inquire</button>
+                                                <button type="submit" className="btn-1">Inquire</button>
                                             </div>
                                         </form>
                                     </div>

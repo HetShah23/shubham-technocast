@@ -904,6 +904,30 @@ header {
 	max-width: 100%;
 }
 
+.error-message {
+	color: #d52c27;
+}
+
+.loader-dateset-main {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(255 255 255 / 80%);
+	z-index: 99999;
+}
+
+.loader-dateset-main img {
+	position: relative;
+	z-index: 1056;
+	max-width: 100px;
+}
+
 /* -------------------media query -------------------- */
 @media (min-width: 1200px) and (max-width: 1439px) {
 	.common-space {
