@@ -116,11 +116,11 @@ function Header(props) {
                                                 Contact us
                                             </Link>
                                         </li>
-                                        {/* <li className="d-block d-lg-none">
-                                            <Link href="/" className="border-top border-bottom py-2">
-                                                Download Brochure
+                                        <li className="d-block d-lg-none">
+                                            <Link href="https://shubhamtechnocast.com/assets/files/Firetech_Catalogue.pdf" rel="noopener noreferrer" target="_blank" className="border-top border-bottom py-2">
+                                                Firetech Brochure
                                             </Link>
-                                        </li> */}
+                                        </li>
                                     </ul>
                                     <div className="hamburger d-lg-none d-block" id="hamburger-icn" onClick={() => humbergeropen()}>
                                         <span className="line"></span>
@@ -146,9 +146,9 @@ function Header(props) {
                                         </div>
                                     </div> */}
 
-                                    {/* <Link href="/" className="border-top border-bottom py-2">
-                                        Download Brochure
-                                    </Link> */}
+                                    <Link href="https://shubhamtechnocast.com/assets/files/Firetech_Catalogue.pdf" rel="noopener noreferrer" target="_blank" className="border-top border-bottom py-2">
+                                        Firetech Brochure
+                                    </Link>
                                 </div>
                             </div>
                         </div>

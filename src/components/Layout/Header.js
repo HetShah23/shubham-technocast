@@ -109,7 +109,7 @@ function Header(props) {
                                             </li>
                                             <li className="d-block d-lg-none">
                                                 <Link href="https://shubhamtechnocast.com/assets/files/Shubham_Technocast_Catalogue.pdf" className="border-top border-bottom py-2" rel="noopener noreferrer" target="_blank">
-                                                    Download Brochure
+                                                    Technocast Brochure
                                                 </Link>
                                             </li>
                                         </ul>
@@ -138,11 +138,11 @@ function Header(props) {
                                         </div> */}
 
                                         <Link href="https://shubhamtechnocast.com/assets/files/Shubham_Technocast_Catalogue.pdf" className="border-top border-bottom py-2" rel="noopener noreferrer" target="_blank">
-                                            Download Brochure
+                                            Technocast Brochure
                                         </Link>
 
                                         {/* <div type="button" data-toggle="modal" data-target="#brochureForm" className="text-white border-top border-bottom py-2 cursor-pointer">
-                                            Download Brochure
+                                            Brochure
                                         </div> */}
                                     </div>
                                 </div>
