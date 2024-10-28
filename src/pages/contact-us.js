@@ -228,7 +228,7 @@ function contactus(props) {
                                                         </Link>
                                                     </li>
                                                     <li className="me-2">
-                                                        <Link href='' rel="noopener noreferrer" target="_blank">
+                                                        <Link href='https://www.instagram.com/shubhamtechnocast.firetech/' rel="noopener noreferrer" target="_blank">
 
                                                             <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <rect width="60" height="60" rx="30" fill="white" />

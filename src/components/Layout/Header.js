@@ -108,9 +108,9 @@ function Header(props) {
                                                 </Link>
                                             </li>
                                             <li className="d-block d-lg-none">
-                                                {/* <div  data-toggle="modal" data-target="#brochureForm" className="text-white border-top border-bottom py-2">
+                                                <Link href="https://shubhamtechnocast.com/assets/files/Shubham_Technocast_Catalogue.pdf" className="border-top border-bottom py-2" rel="noopener noreferrer" target="_blank">
                                                     Download Brochure
-                                                </div> */}
+                                                </Link>
                                             </li>
                                         </ul>
                                         <div className="hamburger d-lg-none d-block" id="hamburger-icn" onClick={() => humbergeropen()}>
@@ -137,9 +137,9 @@ function Header(props) {
                                             </div>
                                         </div> */}
 
-                                        {/* <Link href="/" className="border-top border-bottom py-2">
+                                        <Link href="https://shubhamtechnocast.com/assets/files/Shubham_Technocast_Catalogue.pdf" className="border-top border-bottom py-2" rel="noopener noreferrer" target="_blank">
                                             Download Brochure
-                                        </Link> */}
+                                        </Link>
 
                                         {/* <div type="button" data-toggle="modal" data-target="#brochureForm" className="text-white border-top border-bottom py-2 cursor-pointer">
                                             Download Brochure
