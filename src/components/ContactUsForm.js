@@ -13,8 +13,10 @@ function ContactUsForm({show_comments=true, btn_ctx="Inquire"}) {
     const technocast_brochre = "https://shubhamtechnocast.com/assets/files/Shubham_Technocast_Catalogue.pdf";
 
     useEffect(() => {
-        if(pathname === "/") { 
-            set_title(<h2>Elevate Your Business with <span>shubham technocast</span></h2>);
+        if(pathname === "/contact-us/"){
+            set_title(<h2>Elevate Your Business with <span>Shubham Group</span></h2>);
+        } else if(!pathname.includes("fire")) { 
+            set_title(<h2>Get in Touch with <span>Shubham Technocast</span></h2>);
         } else if(pathname.includes("fire")) {
             set_title(<h2>Strengthen Your Safety Solutions with <br/><span>Shubham Firetech</span></h2>);
         }
@@ -35,6 +37,14 @@ function ContactUsForm({show_comments=true, btn_ctx="Inquire"}) {
         set_loader(true);
         const form_data = getValues();
         if(btn_ctx === "Download") form_data.comments = "Catalogue Download";
+
+        if(pathname === "/contact-us/"){
+            form_data.for = "General Inquiry";
+        } else if(!pathname.includes("fire")) { 
+            form_data.for = "Technocast Inquiry";
+        } else if(pathname.includes("fire")) {
+            form_data.for = "Firetech Inquiry";
+        }
 
         const api_data = {
             sender_email: "dev.shubhamtechnocast@gmail.com",
