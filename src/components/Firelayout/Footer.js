@@ -39,9 +39,9 @@ function Footer(props) {
                                         </svg>
                                         <div className='d-flex'>
 
-                                            <Link href={'tel:+91 94265 28500'}>+91 94265 28500</Link>
+                                            <Link href={'tel:+91 9714028500'}>+91 9714028500</Link>
                                             <span className='px-2'>|</span>
-                                            <Link href={'tel:+91 89050 96769'}>+91 89050 96769</Link>
+                                            <Link href={'tel:+91 8238200042'}>+91 8238200042</Link>
                                         </div>
 
                                     </li>
@@ -50,7 +50,7 @@ function Footer(props) {
                                             <path d="M1 11.0001C1 6.60031 1 4.40042 2.36684 3.03358C3.73367 1.66675 5.93356 1.66675 10.3333 1.66675H15C19.3998 1.66675 21.5997 1.66675 22.9665 3.03358C24.3333 4.40042 24.3333 6.60031 24.3333 11.0001C24.3333 15.3999 24.3333 17.5997 22.9665 18.9666C21.5997 20.3334 19.3998 20.3334 15 20.3334H10.3333C5.93356 20.3334 3.73367 20.3334 2.36684 18.9666C1 17.5997 1 15.3999 1 11.0001Z" stroke="white" strokeWidth="1.5" />
                                             <path d="M5.6665 6.33325L8.18522 8.43218C10.328 10.2178 11.3993 11.1106 12.6665 11.1106C13.9337 11.1106 15.005 10.2178 17.1478 8.43218L19.6665 6.33325" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
                                         </svg>
-                                        <Link href={'mailto:info@shubhamtechnocast.com'}>info@shubhamtechnocast.com</Link>
+                                        <Link href={'mailto:ho@shubhamtechnocast.com'}>ho@shubhamtechnocast.com</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -312,9 +312,9 @@ function Footer(props) {
                                             <p className="mb-0">PHONE:</p>
                                             <div className='d-flex'>
 
-                                                <Link href={'tel:+91 94265 28500'}>+91 94265 28500</Link>
+                                                <Link href={'tel:+91 9714028500'}>+91 9714028500</Link>
                                                 <span className='px-2'>|</span>
-                                                <Link href={'tel:+91 89050 96769'}>+91 89050 96769</Link>
+                                                <Link href={'tel:+91 8238200042'}>+91 8238200042</Link>
                                             </div>
                                         </div>
 
@@ -326,7 +326,7 @@ function Footer(props) {
                                         </svg>
                                         <div>
                                             <p className="mb-0">E-MAIL:</p>
-                                            <Link href={'mailto:info@shubhamtechnocast.com'}>info@shubhamtechnocast.com</Link><br/>
+                                            <Link href={'mailto:ho@shubhamtechnocast.com'}>ho@shubhamtechnocast.com</Link><br/>
                                             <Link href={'mailto:bhavya@shubhamtechnocast.com'}>bhavya@shubhamtechnocast.com</Link><br/>
                                             <Link href={'mailto:vishal@shubhamtechnocast.com'}>vishal@shubhamtechnocast.com</Link><br/>
                                             <Link href={'mailto:malay@shubhamtechnocast.com'}>malay@shubhamtechnocast.com</Link>    

@@ -23,6 +23,10 @@ export default function firetech(props) {
         '/assets/images/client-logo-13.png',
         '/assets/images/client-logo-14.png',
         '/assets/images/client-logo-15.png',
+        '/assets/images/client-logo-16.png',
+        '/assets/images/client-logo-17.jpg',
+        '/assets/images/client-logo-18.png',
+        '/assets/images/client-logo-19.jpg',
     ];
 
     const mark_logos = [

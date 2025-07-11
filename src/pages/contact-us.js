@@ -98,8 +98,8 @@ function contactus(props) {
                                                             <span>Phone</span>
                                                         </div>
                                                         <p className='mt-2'>
-                                                            <Link href='tel:+91 94265 28500'>+91 94265 28500</Link> <br />
-                                                            <Link href='tel:+91 89050 96769'>+91 89050 96769</Link>
+                                                            <Link href='tel:+91 9714028500'>+91 9714028500</Link> <br />
+                                                            <Link href='tel:+91 8238200042'>+91 8238200042</Link>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -123,7 +123,7 @@ function contactus(props) {
                                                             <span>Email</span>
                                                         </div>
                                                         <p className='mt-2'>
-                                                            <Link href='mailto:info@shubhamtechnocast.com'>info@shubhamtechnocast.com</Link>
+                                                            <Link href='mailto:ho@shubhamtechnocast.com'>ho@shubhamtechnocast.com</Link>
                                                         </p>
                                                     </div>
                                                 </div>

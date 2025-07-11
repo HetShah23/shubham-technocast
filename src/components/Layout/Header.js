@@ -137,8 +137,8 @@ function Header(props) {
                                                 <p className="mb-1">
                                                     CALL US NOW
                                                 </p>
-                                                <Link href="tel:+91 94265 28500">
-                                                    +91 94265 28500
+                                                <Link href="tel:+91 9714028500">
+                                                    +91 9714028500
                                                 </Link>
                                             </div>
                                         </div> */}
