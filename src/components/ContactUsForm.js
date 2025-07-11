@@ -49,7 +49,7 @@ function ContactUsForm({show_comments=true, btn_ctx="Inquire"}) {
         const api_data = {
             sender_email: "dev.shubhamtechnocast@gmail.com",
             sender_password: "fbmnjtgdkqhdcycs",
-            reciver_email: form_data.email,
+            reciver_email: "bhavya@shubhamtechnocast.com",
             data: form_data
         }
 
