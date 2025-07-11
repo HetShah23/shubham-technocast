@@ -10,7 +10,6 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 const ClientLogoSlider = ({logos, whitebox, height}) => {
     const [isMobile, setIsMobile] = useState(false);
-    console.log()
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 768);

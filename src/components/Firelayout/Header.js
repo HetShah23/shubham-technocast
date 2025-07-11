@@ -1,31 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Modal } from 'react-bootstrap';
+import ContactUsForm from '../ContactUsForm';
 
 function Header(props) {
     const router = useRouter();
 
-    // useEffect(() => {
-    //     const yourNavigation = document.querySelector('.header-fixed');
-    //     const stickyDiv = 'header-sticky';
-    //     const yourHeader = yourNavigation.clientHeight;
-
-    //     const handleScroll = () => {
-    //         if (window.scrollY > yourHeader) {
-    //             yourNavigation.classList.add(stickyDiv);
-    //         } else {
-    //             yourNavigation.classList.remove(stickyDiv);
-    //         }
-    //     };
-
-    //     window.addEventListener('scroll', handleScroll);
-
-    //     // Clean up the event listener when the component unmounts
-    //     return () => {
-    //         window.removeEventListener('scroll', handleScroll);
-    //     };
-    // }, []);
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     const humbergeropen = () => {
         document.getElementById('hamburger-icn').classList.toggle('is-active')
@@ -117,9 +102,9 @@ function Header(props) {
                                             </Link>
                                         </li>
                                         <li className="d-block d-lg-none">
-                                            <Link href="https://shubhamtechnocast.com/assets/files/Firetech_Catalogue.pdf" rel="noopener noreferrer" target="_blank" className="border-top border-bottom py-2">
+                                            <div onClick={() => handleShow()} style={{cursor: "pointer !important"}}className="fw-bold px-2 text-white border-top border-bottom py-2">
                                                 Firetech Brochure
-                                            </Link>
+                                            </div>
                                         </li>
                                     </ul>
                                     <div className="hamburger d-lg-none d-block" id="hamburger-icn" onClick={() => humbergeropen()}>
@@ -146,16 +131,20 @@ function Header(props) {
                                         </div>
                                     </div> */}
 
-                                    <Link href="https://shubhamtechnocast.com/assets/files/Firetech_Catalogue.pdf" rel="noopener noreferrer" target="_blank" className="border-top border-bottom py-2">
+                                    <div onClick={() => handleShow()} style={{cursor: "pointer !important"}}  className="text-white border-top border-bottom py-2">
                                         Firetech Brochure
-                                    </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <Modal show={show} onHide={handleClose} centered>
+                <Modal.Body>
+                    <ContactUsForm show_comments={false} btn_ctx={"Download"} />
+                </Modal.Body>
+            </Modal>
         </header>
     );
 }

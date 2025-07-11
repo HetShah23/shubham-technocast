@@ -1,11 +1,17 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
-// import Brochure from "../../../public/"
+import React, { useEffect, useState } from 'react';
+import { Button, Modal } from 'react-bootstrap';
+import ContactUsForm from '../ContactUsForm';
 
 function Header(props) {
+
     const router = useRouter();
+
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     useEffect(() => {
         const yourNavigation = document.querySelector('.header-fixed');
@@ -108,9 +114,9 @@ function Header(props) {
                                                 </Link>
                                             </li>
                                             <li className="d-block d-lg-none">
-                                                <Link href="https://shubhamtechnocast.com/assets/files/Shubham_Technocast_Catalogue.pdf" className="border-top border-bottom py-2" rel="noopener noreferrer" target="_blank">
+                                                <div onClick={() => handleShow()} style={{cursor: "pointer !important"}} className="border-top border-bottom py-2 px-2 fw-bold text-white" rel="noopener noreferrer" target="_blank">
                                                     Technocast Brochure
-                                                </Link>
+                                                </div>
                                             </li>
                                         </ul>
                                         <div className="hamburger d-lg-none d-block" id="hamburger-icn" onClick={() => humbergeropen()}>
@@ -137,9 +143,9 @@ function Header(props) {
                                             </div>
                                         </div> */}
 
-                                        <Link href="https://shubhamtechnocast.com/assets/files/Shubham_Technocast_Catalogue.pdf" className="border-top border-bottom py-2" rel="noopener noreferrer" target="_blank">
+                                        <div onClick={() => handleShow()} style={{cursor: "pointer !important"}} className="border-top border-bottom py-2 text-white">
                                             Technocast Brochure
-                                        </Link>
+                                        </div>
 
                                         {/* <div type="button" data-toggle="modal" data-target="#brochureForm" className="text-white border-top border-bottom py-2 cursor-pointer">
                                             Brochure
@@ -151,25 +157,11 @@ function Header(props) {
                     </div>
                 </div>
             </header>
-            {/* <div className="modal fade" id="brochureForm" tabIndex="-1" role="dialog" aria-labelledby="brochureFormLabel" aria-hidden="true">
-                <div className="modal-dialog" role="document">
-                    <div className="modal-content">
-                        <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" className="close" datadismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div className="modal-body">
-                            ...
-                        </div>
-                        <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" datadismiss="modal">Close</button>
-                            <button type="button" className="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
+            <Modal show={show} onHide={handleClose} centered>
+                <Modal.Body>
+                    <ContactUsForm show_comments={false} btn_ctx={"Download"} />
+                </Modal.Body>
+            </Modal>
         </>
     );
 }
