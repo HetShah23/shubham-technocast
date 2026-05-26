@@ -277,7 +277,7 @@ function Footer(props) {
                                 </div>
                                 <div className="col-12 mt-3">
                                     <Link href="/product#products-id">
-                                        <img src='/assets/images/ft-img.png' className="img-fluid" />
+                                        <img src='/assets/images/ft-img.png' alt="Industrial" className="img-fluid" />
                                     </Link>
                                 </div>
                             </div>
