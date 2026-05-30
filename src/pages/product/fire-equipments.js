@@ -2,6 +2,7 @@ import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Head from 'next/head';
 
 const images = [
     {
@@ -47,12 +48,17 @@ export default function fireequipments(props) {
 
     return (
         <Layout>
+            <Head>
+                <title>Fire Equipment Components Manufacturer India Parts</title>
+                <meta name="keywords" content="fire fighting equipment components manufacturer india, fire equipment casting components, industrial fire equipment components, fire hydrant components manufacturer india, fire safety equipment components, fire fighting system parts, fire protection equipment parts, Meta fire equipment components, investment casting fire equipment parts, custom fire equipment casting parts" />
+				<meta name="description" content="Reliable fire equipment components built with precision casting for safety and performance. Trusted quality for every need. Get your custom quote today!" />
+            </Head>
             <section className="bg-image bg-pump-componet no-margin h-auto">
                 <div className="container h-100 ">
                     <div className="row h-100 align-items-center common-space-all">
                         <div className="col-lg-6 text-lg-start text-center mb-lg-0 mb-3">
                             <div className="common-title">
-                                <h1 className="text-uppercase">Fire Equipments</h1>
+                                <h1 className="text-uppercase">Fire Equipment Components Manufacturer in India</h1>
                                 {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
                                 <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
                             </div>
@@ -81,7 +87,7 @@ export default function fireequipments(props) {
                         <div className="col-12 py-2">
                             <div className="gradiant-txt qaulity-txt">
                                 <div className="d-flex align-items-center mb-3">
-                                <h2 className="mb-0"><span>Reliable </span>Fire Equipments</h2>
+                                <h2 className="mb-0"><span>Fire Fighting </span>Equipment Components</h2>
                                 </div>
                                 <p>Built to withstand harsh conditions, our fire equipments provide robust and dependable access to water for emergency firefighting operations.</p>
                             </div>
@@ -110,7 +116,7 @@ export default function fireequipments(props) {
                         <div className='col-md-12'>
                             <div className='bg-theme p-4'>
                                 <div className='common-title text-center'>
-                                    <h2>Shubham Technocast specializes in precision casting, while our sister company, Shubham Firetech, is dedicated to safeguarding lives and property with top-tier fire safety solutions.</h2>
+                                    <h2>Shubham Technocast specializes in precision casting of fire equipment components, while our sister company, Shubham Firetech, delivers reliable fire safety solutions.</h2>
                                     <Link className='btn-2 my-3 cursor-pointer font-bold' href={'/fire-tech'}>
                                         Learn More 
                                         <svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 11L6 6L1 1" stroke="#154090" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
