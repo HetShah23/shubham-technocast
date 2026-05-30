@@ -2,6 +2,8 @@ import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Head from 'next/head';
+
 
 const images = [
     {
@@ -198,12 +200,17 @@ export default function valvecomponents(props) {
 
     return (
         <Layout>
+            <Head>
+                <title>Valve Components Manufacturer India | Casting Parts</title>
+                <meta name="keywords" content="valve components manufacturer india, valve casting components, stainless steel valve components, investment casting valve parts, precision valve components, custom valve casting part, metal valve components, valve body casting, Industrial valve parts supplier" />
+				<meta name="description" content="Find durable valve components made with precision casting for industrial use. Built for strength and reliability. Request your custom quote today!" />
+            </Head>
             <section className="bg-image bg-pump-componet no-margin h-auto">
                 <div className="container h-100 ">
                     <div className="row h-100 align-items-center common-space-all">
                         <div className="col-lg-6 text-lg-start text-center mb-lg-0 mb-3">
                             <div className="common-title">
-                                <h1 className="text-uppercase">Valve Components</h1>
+                                <h1 className="text-uppercase">Valve Components Manufacturer in India</h1>
                                 {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
                                 <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
                             </div>
@@ -232,9 +239,9 @@ export default function valvecomponents(props) {
                         <div className="col-12 py-2">
                             <div className="gradiant-txt qaulity-txt">
                                 <div className="d-flex align-items-center mb-3">
-                                    <h2 className="mb-0"><span>Precision-Cast </span>Valve Bodies</h2>
+                                    <h2 className="mb-0"><span>Precision </span>Valve Body Casting</h2>
                                 </div>
-                                <p>Precision-cast valve discs designed to regulate flow with unmatched accuracy and reliability, ensuring optimal system performance.</p>
+                                <p>Valve Components are precision-engineered parts used in gate valves, globe valves, ball valves, butterfly valves, check valves, and other industrial flow control systems. Manufactured through the investment casting process, these components offer excellent dimensional accuracy, corrosion resistance, pressure-bearing strength, and reliable performance in demanding industrial environments. The category includes valve bodies, bonnets, discs, seats, yokes, glands, and other precision valve components designed to ensure efficient flow regulation and long service life. As a leading valve components manufacturer India, we produce high-quality valve casting components, stainless steel valve components, investment casting valve parts, custom valve casting parts, and metal valve components using advanced manufacturing, CNC machining, and stringent quality inspection processes to meet OEM and industrial application requirements.</p>
                             </div>
                         </div>
                         <div className="col-12">
@@ -261,7 +268,7 @@ export default function valvecomponents(props) {
                         <div className='col-md-12'>
                             <div className='bg-theme p-4'>
                                 <div className='common-title text-center'>
-                                    <h2>Want to order high precision valve component? Let's discuss your custom requirements.</h2>
+                                    <h2>Request a Quote for Precision Valve Components Today</h2>
                                     <Link className='btn-2 my-3' href={'/'}>
                                         Contact Us Now
                                     </Link>

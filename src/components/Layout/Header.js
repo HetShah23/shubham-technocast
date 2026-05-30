@@ -113,6 +113,11 @@ function Header(props) {
                                                     Contact us
                                                 </Link>
                                             </li>
+                                            <li>
+                                                <Link href={'/fire-tech'} className={router.pathname == '/contact-us' ? 'active' : ''}>
+                                                    Fire Tech
+                                                </Link>
+                                            </li>
                                             <li className="d-block d-lg-none">
                                                 <div onClick={() => handleShow()} style={{cursor: "pointer !important"}} className="border-top border-bottom py-2 px-2 fw-bold text-white" rel="noopener noreferrer" target="_blank">
                                                     Technocast Brochure

@@ -2,6 +2,7 @@ import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import Head from 'next/head';
 
 function index(props) {
 
@@ -35,7 +36,23 @@ function index(props) {
 
     return (
         <Layout>
+            <Head>
+                <title>Precision Investment Casting Products India | Components</title>
+                <meta name="keywords" content="precision investment casting india, stainless steel investment casting india, investment casting supplier in india, Custom investment casting parts indi, pump components manufacturer india, valve components manufacturer india, fire fighting equipment casting, casting manufacturer in rajkot, industrial hardware casting india, general engineering casting parts" />
+				<meta name="description" content="Explore precision investment casting components in India, including stainless steel parts for pump, valve, and industrial uses. Request a quote today!" />
+            </Head>
             <section className="bg-image bg-product">
+                <div className="container h-100 ">
+                    <div className="row h-100 align-items-center common-space-all">
+                        <div className="col-lg-10 text-lg-start text-center mb-lg-0 mb-3">
+                            <div className="common-title">
+                                <h1 className="text-uppercase align-right">Precision Investment Casting Components in India - Shubham Technocast </h1>
+                                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section className="top-circle-bg common-space bg-theme">
                 <div className="container">
@@ -106,7 +123,7 @@ function index(props) {
                         <div className="col-12 py-2">
                             <div className="gradiant-txt qaulity-txt">
                                 <div className="d-flex align-items-center mb-3">
-                                    <h2 className="mb-0" id="products-id">Our   <span>Products</span></h2>
+                                    <h2 className="mb-0" id="products-id">Our Precision <span>Investment Casting Products</span></h2>
                                     {/* <div className="ms-auto">
                                         <Link href="/" className="btn-1 d-block">
                                             Explore More
@@ -116,7 +133,7 @@ function index(props) {
                                         </Link>
                                     </div> */}
                                 </div>
-                                <p>Shubham Technocast is proud to offer a wide range of high-quality products, catering to various industries. Our expertise and advanced manufacturing capabilities ensure that each product meets the highest standards of excellence.</p>
+                                <p>Explore our comprehensive range of precision-engineered investment casting products designed for demanding industrial applications. As a trusted provider of precision investment casting India solutions, we manufacture high-quality components for pumps, valves, fire protection systems, industrial hardware, and general engineering industries. Our expertise in stainless steel investment casting India enables us to produce complex and dimensionally accurate components with excellent surface finish, strength, and corrosion resistance. As a reliable investment casting supplier in India and casting manufacturer in Rajkot, we deliver custom investment casting parts India tailored to specific application requirements, including pump components, valve components, fire fighting equipment castings, industrial hardware castings, and general engineering casting parts for OEMs and industrial customers worldwide.</p>
                             </div>
                         </div>
                         <div className="col-12">
@@ -152,6 +169,24 @@ function index(props) {
                         </div>
 
 
+                    </div>
+                </div>
+            </section>
+
+            <section className="common-space">
+                <div className="container">
+                    <div className='row'>
+                        <div className='col-md-12'>
+                            <div className='bg-theme p-4'>
+                                <div className='common-title text-center'>
+                                    <h2>Need Custom Investment Casting Components for Your Application?</h2>
+                                    <p>From concept and prototyping to machining and production, we manufacture custom investment cast components tailored to your exact specifications. Whether you require pump parts, valve components, fire fighting equipment castings, industrial hardware castings, or specialized engineering components, our team can deliver precision, quality, and consistency for your project.</p>
+                                    <Link className='btn-2 my-3' href={'/contact-us'}>
+                                        Request a Custom Casting Component
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

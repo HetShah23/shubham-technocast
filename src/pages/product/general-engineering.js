@@ -2,6 +2,7 @@ import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Head from 'next/head';
 
 const images = [
     {
@@ -122,12 +123,17 @@ export default function generalengineering() {
 
     return (
         <Layout>
+            <Head>
+                <title>General Engineering Components Manufacturer India Parts</title>
+                <meta name="keywords" content="general engineering components manufacturer india, engineering components manufacture, precision engineering components, industrial engineering component, general engineering casting parts, Custom engineering component, metal engineering components, precision metal parts manufacturer, industrial casting components india" />
+				<meta name="description" content="Durable general engineering components made with precision casting for industrial use. Built for strength and accuracy. Request your custom quote today!" />
+            </Head>
             <section className="bg-image bg-pump-componet no-margin h-auto">
                 <div className="container h-100 ">
                     <div className="row h-100 align-items-center common-space-all">
                         <div className="col-lg-6 text-lg-start text-center mb-lg-0 mb-3">
                             <div className="common-title">
-                                <h1 className="text-uppercase">General Engineering</h1>
+                                <h1 className="text-uppercase">General Engineering Components Manufacturer in India</h1>
                                 {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
                                 <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
                             </div>
@@ -156,9 +162,9 @@ export default function generalengineering() {
                         <div className="col-12 py-2">
                             <div className="gradiant-txt qaulity-txt">
                                 <div className="d-flex align-items-center mb-3">
-                                <h2 className="mb-0">Precision <span>Engineering </span>Solutions</h2>
+                                <h2 className="mb-0">Precision Engineering Components</h2>
                                 </div>
-                                <p>Expertly crafted engineering components, designed to ensure optimal functionality and long-term performance across various sectors.</p>
+                                <p>General engineering components are essential precision parts used across multiple industrial sectors to support machinery performance, structural functionality, and mechanical operations. These precision engineering components include gears, valve bodies, forks, locking rings, brackets, housings, machine parts, and other industrial engineering components designed for strength, dimensional accuracy, and long-term durability. Widely used in automotive, machinery, manufacturing, heavy equipment, pumps, and industrial systems, these metal engineering components are built to withstand demanding operational conditions while maintaining reliable performance. Manufactured using advanced investment casting processes, general engineering casting parts offer superior surface finish, complex geometry capabilities, and consistent quality, making them ideal for custom engineering component requirements and precision industrial applications. As a trusted source for industrial casting components India, we deliver high-performance precision metal parts engineered for OEM and industrial needs.</p>
                             </div>
                         </div>
                         <div className="col-12">
@@ -173,7 +179,23 @@ export default function generalengineering() {
                     </div>
                 </div>
             </section>
-
+            <section className="common-space">
+                <div className="container">
+                    <div className='row'>
+                        <div className='col-md-12'>
+                            <div className='bg-theme p-4'>
+                                <div className='common-title text-center'>
+                                    <h2>General Engineering Components Manufacturer in India – Get a Custom Quote.</h2>
+                                    <Link className='btn-2 my-3 cursor-pointer font-bold' href={'/contact-us'}>
+                                        Get a Quote 
+                                        <svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 11L6 6L1 1" stroke="#154090" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </Layout>
     );
 }

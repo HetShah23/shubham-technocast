@@ -89,7 +89,9 @@ export default function fireequipments(props) {
                                 <div className="d-flex align-items-center mb-3">
                                 <h2 className="mb-0"><span>Fire Fighting </span>Equipment Components</h2>
                                 </div>
-                                <p>Built to withstand harsh conditions, our fire equipments provide robust and dependable access to water for emergency firefighting operations.</p>
+                                <p>
+                                    Fire fighting equipment components are critical parts used in fire protection and suppression systems to ensure efficient water flow, pressure control, and rapid emergency response. These precision-engineered components include fire hydrant fittings, valve bodies, couplings, adapters, connectors, nozzles, and other fire fighting system parts designed for durability and high performance in demanding environments. Widely used in industrial, commercial, and municipal fire safety systems, these fire equipment casting components offer superior strength, corrosion resistance, and dimensional accuracy for long-lasting reliability. Manufactured through advanced investment casting processes, our industrial fire equipment components are ideal for fire hydrant systems, pipelines, and custom fire protection equipment parts requiring precision and dependable performance.
+                                </p>
                             </div>
                         </div>
                         <div className="col-12">

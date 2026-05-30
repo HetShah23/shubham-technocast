@@ -2,16 +2,22 @@ import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import Head from 'next/head';
 
 function qaulity(props) {
     return (
         <Layout>
+            <Head>
+                <title>Investment Casting Quality Control & Inspection India</title>
+                <meta name="keywords" content="investment casting quality control, investment casting quality assurance, metal casting quality standards, quality control in casting process, precision casting quality, casting defect inspection, Non destructive testing castin, casting quality testing methods, ISO standards for casting industry" />
+				<meta name="description" content="Ensure top investment casting quality with strict inspection and testing standards. Reliable precision, trusted results. Get in touch with our team today!" />
+            </Head>
             <section className="bg-image bg-quality no-margin">
                 <div className="container h-100">
                     <div className="row h-100 align-items-end">
                         <div className="col-xl-12 mx-auto">
                             <div className="top-header-txt d-sm-flex align-items-end text-sm-start text-center">
-                                <h1 className="text-white mb-sm-3 mb-4 text-uppercase">Quality Control & Inspection <br /> of Equipment</h1>
+                                <h1 className="text-white mb-sm-3 mb-4 pb-5 text-uppercase">Investment Casting Quality Control & Inspection</h1>
                                 <div className='cust-contact ms-auto'>
                                     <Link href="/contact-us" className='cust-contact-btn'>
                                         Contact Us
@@ -37,15 +43,24 @@ function qaulity(props) {
                         </div>
                         <div className="col-12 py-2">
                             <div className="gradiant-txt qaulity-txt">
-                                <h2>Quality  <span>Assurance</span></h2>
+                                <h2>Casting <span>Quality  </span></h2>
                                 <p>
-                                    SHUBHAM TECHNOCAST takes quality as our Enterprise life,and numerous quality practices have been set up to control the quality of the castings and machining. We are consistently do whatever we can do to insure our customers receive the parts they want. Based on the recognition that rigid quality control is paramount to our customers, we take quality as our self-esteem. Well organized equipment and knowledgeable employees are the keys to our outstanding record of quality.
+                                    At Shubham Technocast, quality is integrated into every stage of the manufacturing process, from raw material selection to final dispatch. Our comprehensive investment casting quality control system ensures that every component meets customer specifications for dimensional accuracy, material composition, mechanical properties, and overall performance. By following strict investment casting quality assurance procedures and internationally recognized metal casting quality standards, we deliver reliable and consistent products for critical industrial applications.
                                 </p>
                                 <p>
-                                    The strict internal standards in SHUBHAM TECHNOCAST require us to proceed strict testing and quality control procedures, beginning from the design stages all the way through final inspection. SHUBHAM TECHNOCAST is always willing to take additional steps in testing and quality control procedures so as to match or even beyond the most exacting customer requirements.
+                                    Our quality process begins with raw material verification through advanced chemical testing using spectrometers and carbon analyzers to ensure the correct material composition. During production, every stage of the quality control in casting process is closely monitored to maintain consistency and prevent defects before they occur.
                                 </p>
                                 <p>
-                                    With fully-equipped materials testing laboratory and spectrometers, hardness and tensile testing machines, our colleagues could proceed the testing totally according to your unique strict requirements. We utilize NDT facility for in-house magnetic particle testing and liquid penetrant testing. Additionally, we can offer other test service with fully certified X-ray flaw testing and ultrasonic flaw testing vendors in our area from the third-party.
+                                    To achieve superior precision casting quality, we utilize advanced machining and inspection capabilities, including CNC Turning, CNC Milling, VTL (Vertical Turning Lathe), VMC (Vertical Machining Center), and Radial Drilling machines. These technologies enable us to manufacture complex components with tight tolerances and high dimensional accuracy.
+                                </p>
+                                <p>
+                                    Our dedicated inspection laboratory is equipped with modern testing and measuring instruments to perform comprehensive casting quality testing methods. Each component undergoes detailed dimensional inspection using precision measuring equipment and CMM (Coordinate Measuring Machine) systems to verify conformity with engineering drawings and customer specifications.
+                                </p>
+                                <p>
+                                    As part of our commitment to casting defect inspection, we also perform Non-Destructive Testing (NDT) methods, including Liquid Penetrant Testing (PT) and Magnetic Particle Testing (MT), to identify surface and near-surface defects without damaging the component. Additional NDT services such as Ultrasonic Testing (UT) and Radiographic Testing (RT) can be arranged through certified third-party laboratories when required by customer specifications.
+                                </p>
+                                <p>
+                                    Our quality management practices are aligned with recognized ISO standards for casting industry, ensuring traceability, process consistency, and continuous improvement across all manufacturing operations. Through rigorous inspection, advanced testing capabilities, and a customer-focused approach, we ensure that every investment casting delivered by Shubham Technocast meets the highest standards of quality, reliability, and performance.
                                 </p>
                             </div>
                         </div>
@@ -63,7 +78,7 @@ function qaulity(props) {
                                             className='mw-100'
                                         />
                                         <div className="glass-effect">
-                                            <h2>Chemical Analysis</h2>
+                                            <h2>Chemical Testing</h2>
                                             <ul>
                                                 <li>
                                                     <div className="d-flex align-items-center">
@@ -117,7 +132,7 @@ function qaulity(props) {
                                             className='mw-100'
                                         />
                                         <div className="glass-effect">
-                                            <h2>Machining Shop</h2>
+                                            <h2>Casting Machining</h2>
                                             <ul>
                                                 <li>
                                                     <div className="d-flex align-items-center">
@@ -178,7 +193,7 @@ function qaulity(props) {
                                             className='mw-100 w-100'
                                         />
                                         <div className="bottom-white-img">
-                                            <h2>Dimension Checking</h2>
+                                            <h2>Dimensional Inspection</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -193,7 +208,7 @@ function qaulity(props) {
                                             className='mw-100 w-100'
                                         />
                                         <div className="bottom-white-img">
-                                            <h2>Spectro Machine</h2>
+                                            <h2>Spectro Testing</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -208,7 +223,7 @@ function qaulity(props) {
                                             className='mw-100'
                                         />
                                         <div className="bottom-white-img">
-                                            <h2>Carbon Sulfur Analyzer</h2>
+                                            <h2>Carbon Testing</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -224,7 +239,7 @@ function qaulity(props) {
                                             className='mw-100'
                                         />
                                         <div className="bottom-white-img">
-                                            <h2>Hardness Tester</h2>
+                                            <h2>Hardness Testing</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -263,6 +278,24 @@ function qaulity(props) {
                             </div>
                         </div>
 
+                    </div>
+                </div>
+            </section>
+
+            <section className="common-space">
+                <div className="container">
+                    <div className='row'>
+                        <div className='col-md-12'>
+                            <div className='bg-theme p-4'>
+                                <div className='common-title text-center'>
+                                    <h2>Need High-Quality Investment Cast Components with Certified Quality Assurance?</h2>
+                                    <p>Partner with a manufacturer committed to rigorous testing, precision inspection, and industry-standard quality control processes. From material verification to final dimensional and performance testing, we ensure every casting meets your exact requirements.</p>
+                                    <Link className='btn-2 my-3' href={'/contact-us'}>
+                                        Discuss Your Quality Requirements
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

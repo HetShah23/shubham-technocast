@@ -2,6 +2,7 @@ import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Head from 'next/head';
 
 const images = [
     {
@@ -87,12 +88,17 @@ export default function pumpcomponents(props) {
 
     return (
         <Layout>
+            <Head>
+                <title>Pump Components Manufacturer in India | Casting Parts</title>
+                <meta name="keywords" content="Pump components manufacturer india, Industrial pump parts manufacturer, Stainless steel pump components, Investment casting pump parts, precision pump components , custom pump casting parts , Metal pump components, pump impeller casting , pump housing casting" />
+				<meta name="description" content="Explore durable pump components made with precision casting for industrial use. Built for performance and reliability. Get a custom quote today!" />
+            </Head>
             <section className="bg-image bg-pump-componet no-margin h-auto">
                 <div className="container h-100 ">
                     <div className="row h-100 align-items-center common-space-all">
                         <div className="col-lg-6 text-lg-start text-center mb-lg-0 mb-3">
                             <div className="common-title">
-                                <h1 className="text-uppercase">Pump Components</h1>
+                                <h1 className="text-uppercase">Pump Components Manufacturer in India</h1>
                                 {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
                                 <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
                             </div>
@@ -121,9 +127,9 @@ export default function pumpcomponents(props) {
                         <div className="col-12 py-2">
                             <div className="gradiant-txt qaulity-txt">
                                 <div className="d-flex align-items-center mb-3">
-                                    <h2 className="mb-0"><span>High-Precision</span> Pump Casings</h2>
+                                    <h2 className="mb-0"><span>High Precision</span> Pump Components</h2>
                                 </div>
-                                <p>Durable and precisely engineered pump casings designed to protect internal components and ensure long-lasting performance.</p>
+                                <p>Pump Components are critical parts used in centrifugal pumps, process pumps, chemical pumps, water treatment systems, and industrial fluid handling equipment. Manufactured through the investment casting process, these components provide excellent dimensional accuracy, corrosion resistance, strength, and long-term reliability in demanding operating environments. The category includes impellers, pump housings, casings, diffusers, wear rings, covers, and other precision pump components designed for efficient fluid flow and optimal pump performance. As a trusted Pump Components Manufacturer India, we produce high-quality stainless steel pump components, investment casting pump parts, custom pump casting parts, and metal pump components with stringent quality control, advanced machining, and inspection capabilities to meet OEM and industrial requirements.</p>
                             </div>
                         </div>
                         <div className="col-12">
@@ -150,8 +156,8 @@ export default function pumpcomponents(props) {
                         <div className='col-md-12'>
                             <div className='bg-theme p-4'>
                                 <div className='common-title text-center'>
-                                    <h2>If you’re interested in ordering a Pump Components or if you have additional questions, we will be happy to talk to you.</h2>
-                                    <Link className='btn-2 my-3' href={'/'}>
+                                    <h2>Connect with Us for Custom Pump Components Solutions.</h2>
+                                    <Link className='btn-2 my-3' href={'/contact-us'}>
                                         Contact Us Now
                                     </Link>
                                 </div>

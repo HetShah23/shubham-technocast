@@ -2,6 +2,7 @@ import Layout from '@/components/Layout/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Head from 'next/head';
 
 const images = [
     {
@@ -72,12 +73,17 @@ export default function hardware(props) {
 
     return (
         <Layout>
+            <Head>
+                <title>Industrial Hardware Components Manufacturer India Parts</title>
+                <meta name="keywords" content="industrial hardware components manufacturer india, hardware casting components, stainless steel hardware components, investment casting hardware parts, precision hardware components, custom hardware casting parts, engineering hardware components, industrial metal hardware parts, hardware components supplier india, Industrial hardware parts manufacturer" />
+				<meta name="description" content="High quality industrial hardware components made with precision casting for strength and durability. Built to perform in every application. Get a quote today!" />
+            </Head>
             <section className="bg-image bg-pump-componet no-margin h-auto">
                 <div className="container h-100 ">
                     <div className="row h-100 align-items-center common-space-all">
                         <div className="col-lg-6 text-lg-start text-center mb-lg-0 mb-3">
                             <div className="common-title">
-                                <h1 className="text-uppercase">Hardware</h1>
+                                <h1 className="text-uppercase">Industrial Hardware Components Manufacturer in India</h1>
                                 {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
                                 <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> */}
                             </div>
@@ -106,9 +112,9 @@ export default function hardware(props) {
                         <div className="col-12 py-2">
                             <div className="gradiant-txt qaulity-txt">
                                 <div className="d-flex align-items-center mb-3">
-                                <h2 className="mb-0">High-Quality Industrial <span>Hardware </span></h2>
+                                <h2 className="mb-0">High-Quality Industrial <span>Hardware </span> Components </h2>
                                 </div>
-                                <p>Expertly designed hardware components crafted for endurance, ensuring superior protection and performance in critical applications.</p>
+                                <p>Industrial Hardware Components are precision-engineered metal parts manufactured through the investment casting process for applications requiring strength, durability, and dimensional accuracy. These components are widely used in construction, architectural fittings, machinery, material handling systems, and general industrial equipment. Designed to deliver reliable performance and long service life, they offer excellent surface finish, corrosion resistance, and design flexibility. As a trusted general engineering components manufacturer India, we produce high-quality precision engineering components, custom engineering components, general engineering casting parts, and metal engineering components backed by advanced investment casting, CNC machining, and stringent quality control processes. Our capabilities ensure consistent quality for OEMs seeking dependable precision metal parts manufacturer solutions and industrial casting components India.</p>
                             </div>
                         </div>
                         <div className="col-12">
@@ -123,7 +129,24 @@ export default function hardware(props) {
                     </div>
                 </div>
             </section>
-
+            <section className="common-space">
+                <div className="container">
+                    <div className='row'>
+                        <div className='col-md-12'>
+                            <div className='bg-theme p-4'>
+                                <div className='common-title text-center'>
+                                    <h2>Looking for a Reliable General Engineering Components Manufacturer in India?</h2>
+                                    <p>From custom engineering components to general engineering casting parts, we deliver precision-manufactured solutions tailored to your application and performance requirements.</p>
+                                    <Link className='btn-2 my-3 cursor-pointer font-bold' href={'/contact-us'}>
+                                        Get a Quote for Engineering Components 
+                                        <svg width="7" height="12" className="ms-3" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 11L6 6L1 1" stroke="#154090" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </Layout>
     );
 }
